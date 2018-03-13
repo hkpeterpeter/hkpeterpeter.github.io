@@ -1,0 +1,14 @@
+# Ignore system/lib related files
+
+.DS_Store
+yarn.lock
+
+# npm libaries
+node_modules/
+
+
+# public should be re-generated
+public/
+
+# IDE settings
+.idea/

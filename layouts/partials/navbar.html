@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light ">
+    {{ with $.Site.Data.navbar }}
+    <a class="navbar-brand " href="/"><i class="{{.icon}}"></i> {{ .text }}</a>
+    {{ end }}
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        {{ with $.Site.Data.navbar.menu }}
+        <ul class="navbar-nav mr-auto">
+            {{ range . }}
+            <li class="nav-item">
+                <a class="nav-link" {{if .ext}} target="_blank" {{end}} href="{{.url}}">
+                    {{ with .icon }}
+                    <i class="{{.}}"></i>&nbsp;
+                    {{ end }}
+                    {{ with .name }}
+                    <span
+                            class="d-inline d-sm-none d-lg-inline">{{.}}</span><span
+                        class="sr-only">{{.}}</span>
+                    {{ end }}
+                </a>
+            </li>
+
+            {{end}}
+        </ul>
+        {{ end }}
+
+
+    </div>
+
+</nav>

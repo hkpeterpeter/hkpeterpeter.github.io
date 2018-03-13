@@ -1,0 +1,13 @@
+baseURL = "http://example.org"
+languageCode = "en-us"
+title = "Peter's website"
+
+[params]
+    author = "Peter Chung"
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ block "title" . }}
+        {{ .Site.Title }}
+    {{end}}</title>
+
+    {{ partial "share_css" . }}
+
+    {{ block "css" . }}
+    {{ end }}
+</head>
+<body>
+
+    {{ partial "navbar" . }}
+
+    {{ block "main" . }}
+    {{ end }}
+
+    {{ block "footer" . }}
+    {{ end }}
+
+
+    {{ partial "share_js" . }}
+
+</body>
+</html>

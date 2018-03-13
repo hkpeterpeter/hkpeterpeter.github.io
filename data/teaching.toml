@@ -1,0 +1,70 @@
+educator_title = "Roles"
+academic_title = "Academic Qualifications"
+award_title = "Awards"
+
+[[educator]]
+title = "Advisor"
+group = "HKUST Tech Club"
+url = "//hkusttech.github.io/"
+year = "2018-"
+
+[[educator]]
+title = "STEM Course Instructor"
+group = "Academy For Bright Future Young Engineers"
+url = "//abfye.ust.hk/"
+year = "2017"
+
+[[educator]]
+title = "Advisor"
+group = "Student Innovation for Global Health Technology"
+url = "//sight.ust.hk/"
+year = "2015-16"
+
+[[educator]]
+title = "Advisor"
+group = "CSE Entrepreneurship Club"
+url = "//e-club.cse.ust.hk"
+year = "2014-16"
+
+[[educator]]
+title = "Advisor"
+group = "CSE One"
+url = "//one.cse.ust.hk"
+year = "2014-16"
+
+[[educator]]
+title = "Academic Counsellor"
+group = "Department of CSE, HKUST"
+url = "//www.cse.ust.hk/"
+year = "2013-14"
+
+[[educator]]
+title = "Advisor"
+group = "E2I, School of Engineering, HKUST"
+url = "//e2i.ust.hk/ug/advising/"
+year = "2013-14"
+
+[[academic]]
+level = "Msc"
+degree = "Information Technology in Education"
+university = "HKU"
+special = "E-learning specialism"
+year = "2011"
+
+[[academic]]
+level = "MPhil"
+degree = "Computer Science and Engineering"
+university = "HKUST"
+year = "2008"
+
+[[academic]]
+level = "BEng"
+degree = "Computer Science (Information Engineering)"
+university = "HKUST"
+special = "First Class Honors"
+year = "2006"
+
+[[awards]]
+title = "Professor Samuel Chanson Best Teaching Assistant"
+group = "HKUST"
+year = "2008"

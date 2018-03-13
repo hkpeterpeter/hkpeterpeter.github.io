@@ -1,0 +1,329 @@
+# === COMP1001
+
+[[course]]
+id = "COMP1001"
+title = "Exploring Multimedia and Internet Computing"
+reports = ["COMP1001_LA1_Fall1617.pdf"]
+tags = ["COMP1001", "COMP101"]
+
+good_comments = ["""TA prepared very interesting and useful materials for the labs. The materials
+were ready for students to learn from without any problems.
+TA is always friendly answering questions and providing help. Feedback is up to date and accurate
+"""
+,"Friendly - Very familiar with the content. Made excellent content and instructions for each lab"
+,"He always answers questions that we don't understand and helps us. He replies to emails quite fast and efficiently"
+,"Very well answered and presented upon my questions! Very kind and able to solve all sorts of problem!"
+,
+]
+
+bad_comments = ["Present how some of the lab activities can be useful in real life"
+,"Try to help students actively instead of asking them to find alternative solution"
+,"Interaction and increase attractiveness of lab course"
+,
+]
+
+
+# === COMP1022P
+
+[[course]]
+id = "COMP1022P"
+tags = ["COMP1022P"]
+title = " Introduction to Computing in Java"
+
+reports = ["COMP1022P_LA1_Fall1314.pdf", "COMP1022P_LA1C_Fall1112.pdf", "COMP1022P_LA1D_Fall1112.pdf",
+"COMP1022P_LA2A_Fall1112.pdf", "COMP1022P_LA3_Fall1314.pdf"]
+
+good_comments = [
+"Perfect tutor ever",
+"Teach by heart",
+"Really helpful in learning",
+"The TA was able to guide us through the lab work thoroughly",
+"If I have questions about my lab work or assignments, he will answer my question within a short time interval.",
+"TA would help students who do not know how to do the lab section.",
+"The TA really listens to us and answers our question, at the same time giving rooms for us to figure out the solutions.",
+"He always helps me to do the lab, explain to my questions clearly",
+"Easy to communicate. Good at solving problems",
+"Very kind and helpful. He also has a deep knowledge about the course.",
+"Very nice and friendly. Good in English.",
+]
+
+bad_comments = [
+"During the lab he would aid students with the first part, but the second part we are on our own to solve the issue.",
+"Have more TAs, sometimes students have to wait for a long time to ask questions or ask for checking of Labs",
+"""He can prepare more and more examples for lab work or assignments. It is because this is the first time that
+ we learn to write codes. While some codes are difficult to understand and we need a lot of examples.
+ And we are not sure whether the codes written by us are right or not.""",
+"Teach more basic concepts",
+]
+
+# === COMP1029C
+
+[[course_bridging]]
+id = "COMP1029C"
+tags = ["COMP1029C"]
+title = "C Programming Bridging Course"
+
+reports = ["COMP1029C_LA1_Summer1617.pdf","COMP1029C_LA1_Winter1617.pdf"]
+good_comments = [
+"Quick response to emails",
+]
+
+bad_comments = [
+"Please check the emails in a more detailed way",
+]
+
+# === COMP1029J
+
+[[course_bridging]]
+id = "COMP1029J"
+tags = ["COMP1029J"]
+title = "Java Programming Bridging Course"
+reports = ["COMP1029J_LA1_Winter1617.pdf"]
+good_comments = [
+"Explain things clearly",
+"I can see that the TA has very solid knowledge about Java",
+]
+bad_comments = [
+"The videos could be shorter if possible",
+]
+
+# === COMP1029P
+[[course_bridging]]
+id = "COMP1029P"
+tags = ["COMP1029P"]
+title = "Python Programming Bridging Course"
+reports = ["COMP1029P_LA1_Summer1617.pdf","COMP1029P_LA1_Winter1718.pdf"]
+good_comments = [
+"patient"
+,"responded"
+,"Efficient initially. Thanks for that."
+,"Good Feedback"
+,"He did grading of the assignments"
+]
+
+bad_comments = [
+"Be more responsive, hopefully."
+,"His reply to questions relating to course logistic is very impatient."
+]
+
+# === COMP2011
+[[course]]
+id = "COMP2011"
+title = "Introduction to Object-oriented Programming"
+tags = ["COMP2011","COMP104","COMP1004"]
+reports = [
+"COMP104_LA1C_Fall0708.pdf",
+"COMP104_T1C_Fall0708.pdf",
+"COMP104_LA2A_Fall0809.pdf",
+"COMP104_LA2C_Fall0809.pdf",
+"COMP104_T2A_Fall0809.pdf",
+"COMP104_T2C_Fall0809.pdf",
+"COMP104_LA1B_Fall0910.pdf",
+"COMP104_LA1C_Fall0910.pdf",
+"COMP104_LA2C_Fall0910.pdf",
+"COMP104_LA3D_Fall0910.pdf",
+"COMP104_T1A_Fall0910.pdf",
+"COMP104_T2C_Fall0910.pdf",
+"COMP104_LA1A_Fall1011.pdf",
+"COMP104_LA1C_Fall1011.pdf",
+"COMP104_T1A_Fall1011.pdf",
+"COMP104_T1C_Fall1011.pdf",
+"COMP1004_LA1A_Fall1112.pdf",
+"COMP1004_LA1B_Fall1112.pdf",
+]
+good_comments = [
+"Peter is very devoted into his work that he is always approachable even on Sundays"
+,"Explain things in an organised and detailed way"
+,"He was good because he actually explained what was taught in lectures, step by step, instead of just doing examples on computer"
+,"Can explain things well and help me understand difficult concept"
+,"Attentive and patient to spend his personal time for us to ask him questions"
+,"He can answer questions not limited to tutorials, but also in assignments, labs and lecture notes."
+,"Friendly in talking"
+,"Nice and helpful"
+,"Energetic"
+,"Responsible"
+,"Good knowledge in programming"
+]
+bad_comments = [
+"Please write larger when using the whiteboards, and please use darker pens",
+"More tricky questions should be given",
+"Be more helpful about exams",
+"He can explain or encourage more to the students who can't catch up with the progress",
+"The pronounciation can be improved",
+]
+
+# === COMP2012
+[[course]]
+id = "COMP2012"
+tags = ["COMP2012", "COMP152", "COMP171"]
+title = "Object-Oriented Programming and Data Structures"
+reports = [
+"COMP171_T2B_Spring0809.pdf",
+"COMP171_T3C_Spring0809.pdf",
+"COMP152_L2A_Spring0910.pdf",
+"COMP2012_LA5_Spring1112.pdf",
+"COMP2012_LA6_Spring1112.pdf",
+"COMP2012_LA1_Fall1314.pdf",
+"COMP2012_LA1A_Spring1314.pdf",
+"COMP2012_LA1B_Spring1314.pdf",
+"COMP2012_LA1_Spring1415.pdf",
+"COMP2012_LA3_Spring1415.pdf",
+"COMP2012_LA5_Spring1415.pdf",
+]
+good_comments = [
+"Response to email questions very quickly",
+"The TA who introduces the lab content is very well-prepared.",
+"Very nice and willing to solve the question raised by student",
+"He wants to help us thoroughly until we are able to understand",
+"He is patient and kind, so I am not hesitate to ask him questions",
+"He can explain the course material well",
+"He is nice",
+]
+bad_comments = [
+"The grade of the programming assignment should be released before the next programming assignment",
+"Wonder that if the assignments can be returned as soon as possible",
+]
+
+# === COMP2611
+[[course]]
+id = "COMP2611"
+tags = ["COMP2611"]
+title = "Computer Organization"
+reports = [
+"COMP2611_LA1_Fall1718.pdf",
+"COMP2611_LA2_Fall1718.pdf",
+"COMP2611_T2_Fall1718.pdf",
+]
+good_comments = [
+"Pronounce clearly and explain programming language conceptual",
+"""He is very good that he gives me a lot more insights on the mips programming.",
+Also, he demonstrates greatly in teaching!!!""",
+"good explanation",
+"responsible and talent",
+"energetic",
+"Bright",
+]
+bad_comments = [
+"more preparation",
+"prepare more for the explanation",
+"speak loudly…Haha",
+"More knowledge on this area",
+]
+
+# === COMP3111
+[[course]]
+id = "COMP3111"
+tags = ["COMP3111","COMP3111H","COMP211","COMP211H"]
+title = "Software Engineering"
+reports = [
+"COMP211_LA1B_Spring0910.pdf",
+"COMP211_LA2B_Spring0910.pdf",
+"COMP211_T1B_Spring0910.pdf",
+"COMP211_T2B_Spring0910.pdf",
+"COMP211_LA1B_Fall1011.pdf",
+"COMP211_T1B_Fall1011.pdf",
+"COMP3111_LA1_Spring1314.pdf",
+"COMP3111_LA2_Spring1314.pdf",
+"COMP3111_T1_Spring1314.pdf",
+"COMP3111_T2_Spring1314.pdf",
+"COMP3111_T3_Spring1314.pdf",
+"COMP3111_T1_Fall1415.pdf",
+"COMP3111_T2_Fall1415.pdf",
+"COMP3111_T3_Fall1415.pdf",
+"COMP3111H_T1_Fall1415.pdf",
+"COMP3111_LA1_Fall1516.pdf",
+"COMP3111_LA2_Fall1516.pdf",
+"COMP3111_LA3_Fall1516.pdf",
+"COMP3111_T1_Fall1516.pdf",
+"COMP3111_T2_Fall1516.pdf",
+"COMP3111_T3_Fall1516.pdf",
+"COMP3111H_LA1_Fall1516.pdf",
+"COMP3111H_T1_Fall1516.pdf",
+"COMP3111_LA1_Fall1617.pdf",
+"COMP3111_LA2_Fall1617.pdf",
+"COMP3111_LA3_Fall1617.pdf",
+"COMP3111_LA4_Fall1617.pdf",
+"COMP3111H_LA1_Fall1617.pdf",
+"COMP3111_LA1_Spring1617.pdf",
+"COMP3111_LA2_Spring1617.pdf",
+"COMP3111_LA3_Spring1617.pdf",
+]
+good_comments = [
+"""Peter is one of the best persons I have met in my life. Very friendly TA with solid background
+of his field. Very interesting way of teaching with clear accent.""",
+"Already the best TA in HKUST",
+"Go over tutorial notes with great details",
+"Extremely familiar with the tutorial materials",
+"Clear explanation of course materials and possesses adequate knowledge",
+"Easy to reach",
+"Very good in guiding us to complete the exercises and preparing for the exam",
+"Very funny and helpful",
+"Very direct and to-the-point",
+"Good interaction with students",
+"Make the students feel his interest in software engineering",
+"Attentive with students giving feedbacks",
+"He was very friendly",
+"Nice. Would share some of his own experience to improve our learning",
+]
+bad_comments = [
+"too often to ask O.K.?",
+"""For the project demo, he kept distracting us while we were doing and figuring out the procedures of the demo,
+which may seem interacting with students to him, but distracting and annoying to us""",
+"The attitude of teaching could be better. (1999)",
+"Should be more information for the materials",
+"Re-align the mismatch between the posted grading criteria and the actual grading scenario",
+"Seems like he favors students who speak Cantonese...",
+"He should at least have some knowledge about the course material",
+"The explanation about the requirements of the project is not clear enough. TA is not experienced enough in the related area.",
+"Get himself to know the subject better so that he can help solving actual problems instead of just lab problems.",
+"The TA should improve his ability related with this course. When we ask questions about asp.net MVC, he knew as little as us!",
+]
+
+# === COMP3511
+[[course]]
+id = "COMP3511"
+tags = ["COMP3511"]
+title = "Operating Systems"
+reports = [
+"COMP3511_LA1_Fall1718.pdf",
+"COMP3511_LA2_Fall1718.pdf",
+"COMP3511_LA3_Fall1718.pdf",
+"COMP3511_LA4_Fall1718.pdf",
+"COMP3511_LA5_Fall1718.pdf",
+
+]
+good_comments = [
+"At least he explain the lab material rather than reading the lab materials which are what other TA did",
+"Go to class on time. Speak loudly and clearly. Check if we have done each step correctly.",
+"The concept is very clear in the tutorial section. He will answer questions outsides the tutorial.",
+"He was easy to reach out to and explained things clearly.",
+"He gave very detailed explanation during lab.",
+"Very detailed explanation of the solution process.",
+"Helpful.",
+"He try to explain what we have asked in easy way",
+]
+bad_comments = [
+"Be more responsive!",
+"The speed could be a bit faster.",
+]
+
+# === COMP4511
+[[course]]
+id = "COMP4511"
+tags = ["COMP4511"]
+title = "System and Kernel Programming in Linux"
+reports = [
+  "COMP4511_LA1_Spring1516.pdf",
+  "COMP4511_LA1_Spring1617.pdf",
+  "COMP4511_LA2_Spring1617.pdf",
+]
+good_comments = [
+"Peter tried to be helpful.",
+"He answers my email questions extremely fast. Also he explains everything extremely clear.",
+"Helpful TA. Easy to understand lab materials.",
+"Nothing. He's good.",
+]
+bad_comments = [
+"He grades assignment too slowely",
+"Peter shall try to learn more about the course, and prepare better lab/assignments",
+]
