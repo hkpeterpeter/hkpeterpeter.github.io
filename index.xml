@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peter&#39;s website</title>
-    <link>http://example.org/</link>
+    <link>https://hkpeterpeter.github.io/</link>
     <description>Recent content on Peter&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Mar 2018 11:58:20 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hkpeterpeter.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alumni</title>
-      <link>http://example.org/alumni/</link>
+      <link>https://hkpeterpeter.github.io/alumni/</link>
       <pubDate>Sun, 11 Mar 2018 11:58:20 +0800</pubDate>
       
-      <guid>http://example.org/alumni/</guid>
+      <guid>https://hkpeterpeter.github.io/alumni/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hackathon</title>
-      <link>http://example.org/hackathon/</link>
+      <link>https://hkpeterpeter.github.io/hackathon/</link>
       <pubDate>Sun, 11 Mar 2018 11:58:20 +0800</pubDate>
       
-      <guid>http://example.org/hackathon/</guid>
+      <guid>https://hkpeterpeter.github.io/hackathon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>http://example.org/teaching/</link>
+      <link>https://hkpeterpeter.github.io/teaching/</link>
       <pubDate>Sun, 11 Mar 2018 11:58:20 +0800</pubDate>
       
-      <guid>http://example.org/teaching/</guid>
+      <guid>https://hkpeterpeter.github.io/teaching/</guid>
       <description></description>
     </item>
     
