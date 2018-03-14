@@ -1,6 +1,8 @@
 #timeline-wrapper {
     /*box-sizing: border-box;*/
-    background-color: rgba(170,236,255,0.3);
+    /*background-color: rgba(170,236,255,0.3);*/
+    background-image: url("pattern.png");
+    background-repeat: repeat;
 }
 
 /* The actual timeline (the vertical ruler) */
