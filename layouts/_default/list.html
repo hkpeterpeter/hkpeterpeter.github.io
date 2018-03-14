@@ -25,35 +25,52 @@
         <div class="col-9 p-3">
 
             {{ $paginator := .Paginate (where .Data.Pages "Type" "article") }}
+
+            <nav aria-label="Article Navigation Control">
+                <ul class="pagination justify-content-center">
+                    {{ partial "pagination" . }}
+                </ul>
+            </nav>
+
             {{ range $paginator.Pages }}
 
 
                 <div class="card p-3 mb-2">
+
+                    {{ if .Params.banner }}
+                        {{ $img_path := printf "%s%s" .RelPermalink .Params.banner }}
+                        <img src="{{$img_path}}" class="p-3 img-fluid" >
+                    {{ end }}
+
+
                 <h3>{{.Title}}</h3>
                 <p class="small"><i class="far fa-calendar-alt"></i>
                     {{ .Date.Format "January 2, 2006" }}</p>
 
-                <p >{{ .Summary }}</p>
+                <p class="small">{{ .Summary }}</p>
 
-                    <a href="{{ .Permalink }}" ><button type="button" class="btn btn-outline-primary">Continue Reading
+
+
+                    <a href="{{ .RelPermalink }}" ><button type="button" class="btn btn-outline-primary">Continue Reading
                         <i class="fas fa-angle-double-right"></i>
                     </button></a>
                 </div>
 
             {{ end }}
 
+            <nav aria-label="Article Navigation Control">
+                <ul class="pagination justify-content-center">
+                  {{ partial "pagination" . }}
+                </ul>
+            </nav>
+
 
         </div>
 
-        <div class="col-3 p-2">
+        <div class="col-3 p-3">
 
+            {{ partial "sidebar.html" . }}
 
-            <a href="{{ .Permalink }}">
-                {{ if .Params.banner }}
-                <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-thumbnail" alt="thumbnail">
-
-                {{ end }}
-            </a>
         </div>
 
     </div>

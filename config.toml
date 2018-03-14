@@ -2,6 +2,8 @@ baseURL = "https://hkpeterpeter.github.io/"
 languageCode = "en-us"
 title = "Peter's website"
 disqusShortname = "peters-website"
+# Define the number of posts per page
+paginate = 3
 
 [params]
 author = "Peter Chung"

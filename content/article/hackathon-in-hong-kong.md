@@ -2,7 +2,7 @@
 title: "Hackathon in Hong Kong (Sep 2016)"
 date: 2016-10-04T19:05:31+08:00
 draft: false
-tags: ["Hackathon"]
+tags: ["Hackathon","Hong Kong"]
 banner: "banner.jpg"
 post_url: "https://www.linkedin.com/pulse/hackathon-hong-kong-sep-2016-peter-chung/"
 ---

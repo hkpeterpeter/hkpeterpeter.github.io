@@ -2,7 +2,7 @@
 title: "JeJu Hackathon at South Korea (Day 1)"
 date: 2016-10-22T19:05:31+08:00
 draft: false
-tags: ["Hackathon"]
+tags: ["Hackathon","JeJu","TravelTech"]
 banner: "banner.jpg"
 post_url: "https://www.linkedin.com/pulse/jeju-hackathon-south-korea-day-1-peter-chung/"
 ---
