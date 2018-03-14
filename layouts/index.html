@@ -14,48 +14,51 @@
 <div class="container">
     <div class="row h-100">
 
-
         <div class="col-12 col-md-12 col-lg-3 p-2 text-center text-sm-left">
 
-            <!-- // card -->
             <div class="card">
+
                 <div class="text-center">
                     {{ with .Site.Data.homepage }}
-                    <img id="profile-image" class="card-img-top rounded-circle img-thumbnail p-2 mt-2"
+                    <img id="profile-image" class="card-img-top rounded-circle img-thumbnail mt-2"
                          src="{{.profile_url}}" alt="Profile Image">
                     {{ end }}
                 </div>
 
-
                 <div class="card-body text-center">
-                    <h5 class="card-title">{{ with .Site.Params.author }} {{.}} {{ end }}</h5>
-
-                    {{ with .Site.Data.homepage.social }}
-                    <div>
-                        {{ range . }}
-                        <a target="_blank" href="{{.url}}"><i class="{{.icon}}"></i></a>
-                        {{ end }}
-                    </div>
+                    <h4 class="card-title">{{ with .Site.Params.author }} {{.}} {{ end }}</h4>
+                    {{ with .Site.Data.homepage.office }}
+                    <p class="small">
+                        {{.job}} <br>
+                        <a {{if .ext}}target="_blank"{{end}} href="{{.url}}">
+                        {{ .room }} <em>{{.sub}}</em></a></p>
                     {{ end }}
+
+                    <p>
+                    {{ with .Site.Data.homepage.social }}
+                        {{ range . }}
+                            {{ if .url }}
+                               <a {{if .ext}}target="_blank" {{end}} href="{{.url}}"><i class="{{.icon}}"></i></a>
+                            {{ end }}
+                        {{ end }}
+
+                    {{ end }}
+                    </p>
 
                     {{ with .Site.Data.homepage.tags }}
                         {{ range . }}
-                    <span class="badge badge-success"> {{.}}</span>
+                        <span class="badge badge-success"> {{.}}</span>
                         {{ end }}
                     {{ end }}
 
-
                 </div>
-
             </div>
 
 
         </div>
 
         <div class="col-12 col-lg-9 p-2">
-
             {{ partial "slideshow.html" . }}
-
         </div>
 
         <div class="row text-center w-100">
@@ -64,9 +67,8 @@
 
                 <h1><i class="fas fa-trophy"></i>
                     {{ len .Site.Data.hackathon.awards }}</h1>
-                <h3>Prizes</h3> <p>from Hackathon</p>
-
-
+                <h3>Prizes</h3>
+                <p class="small">from Hackathon</p>
 
 
             </div>
@@ -74,54 +76,34 @@
             <div class=" p-3 col-6 col-lg-3">
                 <h1><i class="fab fa-hire-a-helper"></i>
                     {{len .Site.Data.hack_timeline.events}}</h1>
-                <h3>Hackathons</h3> <p>organized/participated</p>
-
+                <h3>Hackathons</h3>
+                <p class="small">organized / joined</p>
             </div>
+
             <div class=" p-3 col-6 col-lg-3">
-
-
                 <h1><i class="fas fa-graduation-cap"></i>
                     {{ len .Site.Data.alum_timeline.events }}</h1>
-                <h3>Alumni Events </h3>
-                <p>organized/participated</p>
-
+                <h3>Alumni Events</h3>
+                <p class="small">organized / joined</p>
 
             </div>
+
             <div class=" p-3 col-6 col-lg-3">
-
-                {{ $.Scratch.Set "report_count"  0 }}
-                    {{ with .Site.Data.evaluation }}
-                        {{ range .course }}
-                            {{ if .reports }}
-                            {{  $.Scratch.Add "report_count" (len .reports) }}
-                            {{ end }}
-                        {{ end }}
-                            {{ range .course_bridging }}
-                            {{ if .reports }}
-                            {{  $.Scratch.Add "report_count" (len .reports) }}
-                        {{ end}}
-                    {{ end }}
-                {{ end }}
-
                 <h1><i class="fas fa-book"></i>
-                    {{$.Scratch.Get "report_count"}}</h1>
-                <h3>TA Evaluation </h3>
-                <p>reports received</p>
+                    {{ partial "evaluation_report_count.html" . }}</h1>
+                <h3>TA Evaluation</h3>
+                <p class="small">reports received</p>
             </div>
 
 
-
-        </div>
-
-
-        <div class="col-12">
-            <div class="p-2 mb-2">
-                <p style="font-size:small;">
+            <div class="col-12 text-left mb-2">
+                <p class="small p-2">
                     {{ with .Site.Data.homepage.description }}
                         {{.}}
                     {{ end }}
                 </p>
             </div>
+
         </div>
 
 
@@ -130,6 +112,6 @@
 {{ end }}
 
 {{ define "footer" }}
-    {{ partial "footer.html" . }}
+{{ partial "footer.html" . }}
 {{ end }}
 

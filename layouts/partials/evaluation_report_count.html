@@ -1,0 +1,15 @@
+{{ $.Scratch.Set "report_count" 0 }}
+    {{ with .Site.Data.evaluation }}
+        {{ range .course }}
+            {{ if .reports }}
+            {{ $.Scratch.Add "report_count" (len .reports) }}
+            {{ end }}
+        {{ end }}
+    {{ range .course_bridging }}
+        {{ if .reports }}
+         {{ $.Scratch.Add "report_count" (len .reports) }}
+        {{ end}}
+    {{ end }}
+{{ end }}
+
+{{$.Scratch.Get "report_count"}}

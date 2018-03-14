@@ -1,25 +1,25 @@
-expert_title = "Experience"
-award_title = "Awards"
+expert_title = "Hackathon Experience"
+award_title = "Hackathon Awards"
 
 [[expert]]
 keyword = "Served"
 description = "as AngelHack Hong Kong Ambassador"
-year = "Since 2016"
+year = "2016-"
 
 [[expert]]
-keyword = "Helped organize"
-description = "more than 10 Hackathon"
-year = "Since 2014"
+keyword = "Organized"
+description = "more than 10 Hackathons"
+year = "2014-"
 
 [[expert]]
 keyword = "Judged and mentored"
 description = "various Hackathon teams"
-year = "Since 2014"
+year = "2014-"
 
 [[expert]]
-keyword = "Co-founded"
+keyword = "Co-founded and organized"
 description = "hackUST"
-year = "In 2014"
+year = "2014-"
 
 
 

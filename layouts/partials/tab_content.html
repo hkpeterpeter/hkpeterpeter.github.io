@@ -2,31 +2,40 @@
     <div class="card p-3">
         <h5>{{.id}} - {{with .title}}{{.}}{{end}}
         </h5>
-        <div class="row">
-            <div class="col-12 col-lg-6" >
-                <p class="text-success"><i class="far fa-thumbs-up"></i> What was good about Peter?</p>
-                {{ if .good_comments }}
-                <ol style="font-size:small;">
-                    {{ range .good_comments }}
-                    <li>{{.}}</li>
+        <div class="row justify-content-lg-center">
+
+            <div class="col-12 col-lg-6  mb-2 p-2" >
+
+
+                    <p class="text-success"><i class="far fa-thumbs-up"></i> What was good about Peter?</p>
+                    {{ if .good_comments }}
+                    <ol class="small">
+                        {{ range .good_comments }}
+                        <li>{{.}}</li>
+                        {{ end }}
+                    </ol>
+                    {{ else }}
+                        <p>N/A</p>
                     {{ end }}
-                </ol>
-                {{ else }}
-                    <p>N/A</p>
-                {{ end }}
+
+
+
             </div>
 
-            <div class="col-12 col-lg-6">
-                <p class="text-danger"> <i class="far fa-thumbs-down"></i> How might Peter be improved? </p>
-                {{ if .bad_comments }}
-                <ol style="font-size:small;">
-                    {{ range .bad_comments}}
-                    <li>{{.}}</li>
+            <div class="col-12 col-lg-6  mb-2 p-2">
+
+                    <p class="text-danger"> <i class="far fa-thumbs-down"></i> How might Peter be improved? </p>
+                    {{ if .bad_comments }}
+                    <ol class="small">
+                        {{ range .bad_comments}}
+                        <li>{{.}}</li>
+                        {{ end }}
+                    </ol>
+                    {{ else }}
+                        <p>N/A</p>
                     {{ end }}
-                </ol>
-                {{ else }}
-                    <p>N/A</p>
-                {{ end }}
+
+
             </div>
 
 
@@ -34,14 +43,17 @@
 
         <p>
             {{ if .reports }}
-            <span class="badge badge-pill badge-light mb-1 p-2">Received {{ len .reports }} evaluation reports </span>
+           <span class="badge badge-info mb-2 p-2">
+                  {{ len .reports }} evaluation reports
+            </span>
             <br>
+
             {{ range .reports }}
             {{ $token := delimit (first 1 (split . ".")) " " }}
             {{ $display := delimit (after 1 (split $token "_")) " " }}
 
                     <a target="_blank" href="/evaluation/{{.}}">
-                        <button type="button" class="btn btn-outline-dark btn-sm">
+                        <button type="button" class="btn btn-outline-dark btn-sm mb-2">
                             <i class="far fa-file-pdf"></i>
                             {{$display}}
                         </button>

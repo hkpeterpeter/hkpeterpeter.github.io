@@ -5,7 +5,6 @@
 
 
         <div class="col-12 col-lg-6 p-2">
-
             {{ with .Site.Data.teaching }}
             <h5><i class="fas fa-lightbulb"></i>&nbsp;{{.educator_title}} </h5>
             <ul class="list-unstyled">
@@ -22,7 +21,6 @@
 
 
         <div class="col-12 col-lg-6 p-2">
-
             {{ with .Site.Data.teaching }}
             <h5><i class="fas fa-certificate"></i>&nbsp;{{.academic_title}}</h5>
             <ul class="list-unstyled">
@@ -54,31 +52,20 @@
         <div class="col-12">
 
             <div class="col-12">
+
                 <p class="bg-light p-3 text-center">
+                    <span class="h2"><i class="fas fa-book"></i>
+                        <strong>{{ partial "evaluation_report_count.html" . }}</strong> TA Evaluation </span>
+                    <br>
+                    <span class="small"> reports received</span>
+                </p>
 
-                    {{ $.Scratch.Set "report_count"  0 }}
-                    {{ with .Site.Data.evaluation }}
-                        {{ range .course }}
-                            {{ if .reports }}
-                                {{  $.Scratch.Add "report_count" (len .reports) }}
-                            {{ end }}
-                        {{ end }}
-                        {{ range .course_bridging }}
-                            {{ if .reports }}
-                                {{  $.Scratch.Add "report_count" (len .reports) }}
-                            {{ end}}
-                        {{ end }}
-                    {{ end }}
-
-
-                    <span style="font-size:x-large"><strong><i class="far fa-calendar-alt"></i>
-                        {{ $.Scratch.Get "report_count" }}</strong> teaching evalution reports received </span>
-                     </p>
             </div>
 
 
-            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation -
-                {{ with .Site.Data.evaluation}} {{ len .course }} {{ end }}Regular Courses</h5>
+            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation
+                <span class="small">
+                    {{ with .Site.Data.evaluation}} from {{ len .course }} {{ end }}regular courses</span></h5>
 
             <ul class="nav nav-pills" role="tablist">
                 {{ with .Site.Data.evaluation }}
@@ -108,8 +95,9 @@
 
 
         <div class="col-12 mt-3">
-            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation -
-                {{ with .Site.Data.evaluation}} {{ len .course_bridging }} {{ end }}Bridging Courses</h5>
+            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation
+                <span class="small">
+                    {{ with .Site.Data.evaluation}} from {{ len .course_bridging }} {{ end }}bridging courses</span></h5>
 
             <ul class="nav nav-pills" role="tablist">
                 {{ with .Site.Data.evaluation }}
