@@ -8,7 +8,7 @@
             {{ range $name, $items := .Site.Taxonomies.tags }}
 
         <a href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"
-           class="btn btn-outline-secondary btn-block mb-2 text-left" role="button" aria-pressed="true">
+           class="btn btn-sm btn-outline-secondary mb-2 text-left" role="button" aria-pressed="true">
             <i class="fas fa-tag"></i> {{ $name }}
             <span class="badge bg-secondary text-white">{{len  $items.Pages}}</span></a>
 
