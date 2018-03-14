@@ -1,0 +1,69 @@
+{{ define "css" }}
+<style>
+    .jumbotron {
+        background-image: url("{{$.Site.BaseURL}}css/pattern.png");
+        background-repeat: repeat;
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1>{{.Title}}</h1>
+        <p class="lead">{{.Content}}</p>
+    </div>
+</div>
+
+
+<div class="container mt-3">
+
+    <div class="row mb-3 w-100 p-3">
+
+        <div class="col-9 p-3">
+
+            {{ $paginator := .Paginate (where .Data.Pages "Type" "article") }}
+            {{ range $paginator.Pages }}
+
+
+                <div class="card p-3 mb-2">
+                <h3>{{.Title}}</h3>
+                <p class="small"><i class="far fa-calendar-alt"></i>
+                    {{ .Date.Format "January 2, 2006" }}</p>
+
+                <p >{{ .Summary }}</p>
+
+                    <a href="{{ .Permalink }}" ><button type="button" class="btn btn-outline-primary">Continue Reading
+                        <i class="fas fa-angle-double-right"></i>
+                    </button></a>
+                </div>
+
+            {{ end }}
+
+
+        </div>
+
+        <div class="col-3 p-2">
+
+
+            <a href="{{ .Permalink }}">
+                {{ if .Params.banner }}
+                <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-thumbnail" alt="thumbnail">
+
+                {{ end }}
+            </a>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer.html" . }}
+{{ end }}

@@ -21,3 +21,8 @@ name = "Startup"
 url = "//habhub.tech/"
 icon = "fas fa-briefcase"
 ext = "Yes"
+
+[[menu]]
+name = "Articles"
+url = "/article"
+icon = "fas fa-edit"

@@ -1,6 +1,7 @@
 baseURL = "https://hkpeterpeter.github.io/"
 languageCode = "en-us"
 title = "Peter's website"
+disqusShortname = "peters-website"
 
 [params]
 author = "Peter Chung"

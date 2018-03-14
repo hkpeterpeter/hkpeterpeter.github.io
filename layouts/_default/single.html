@@ -1,9 +1,69 @@
+{{ define "css" }}
+
+<style>
+.article_style img {
+
+padding: 0.25rem;
+background-color: #fff;
+border: 1px solid #dee2e6;
+border-radius: 0.25rem;
+max-width: 100%;
+height: auto;
+
+}
+</style>
+
+{{ end }}
+
+
 {{ define "main" }}
 
-    {{.Content}}
+
+{{ if .Params.banner }}
+<div class="text-center mt-3">
+    <img src="{{ .Params.banner}}" style="height:40vh;" class="img-fluid">
+
+    {{ if .Params.post_url }}
+
+    <div class="container text-center mt-3">
+        <a target="_blank" href="{{.Params.post_url}}">
+            <i class="fas fa-link"></i>
+            Original post at LinkedIn
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+    </div>
+</div>
+{{ end }}
+
+
+
+{{ end }}
+
+<div class="container mt-3">
+    <div class="row mb-3 w-100 p-3">
+        <div class="col-12 article_style">
+
+            {{.Content}}
+
+
+        </div>
+
+
+        {{ if .Site.DisqusShortname }}
+        <div class="col-12">
+        {{ template "_internal/disqus.html" . }}
+        </div>
+        {{end}}
+    </div>
+</div>
 
 {{ end }}
 
 {{ define "footer" }}
-{{ partial "footer.html" . }}
+
+
+    {{ partial "footer.html" . }}
+
+
 {{ end }}
