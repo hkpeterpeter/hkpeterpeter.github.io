@@ -1,5 +1,5 @@
 text = "Home"
-icon = "fab fa-product-hunt text-primary"
+icon = "fab fa-product-hunt"
 
 [[menu]]
 name = "Hackathon"

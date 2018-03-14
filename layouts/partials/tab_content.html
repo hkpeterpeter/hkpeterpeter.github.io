@@ -41,8 +41,9 @@
 
         </div>
 
-        <p>
-            {{ if .reports }}
+
+        {{ if .reports }}
+        <p class="d-none d-sm-block">
            <span class="badge badge-info mb-2 p-2">
                   {{ len .reports }} evaluation reports
             </span>
@@ -60,15 +61,18 @@
                     </a>
 
             {{ end }}
-            {{ end }}
-        </p>
-        <p>
-            {{if .tags}}
+         </p>
+        {{ end }}
+
+
+        {{if .tags}}
+            <p>
             {{ range .tags}}
             <span class="badge badge-pill badge-light">{{.}}</span>
             {{end}}
-            {{end}}
-        </p>
+            </p>
+        {{end}}
+
 
 
 </div>

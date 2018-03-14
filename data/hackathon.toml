@@ -42,16 +42,19 @@ year = "2018"
 [[awards]]
 keyword = "Top-5 in HealthTech theme"
 description = "hackUST"
+url = "//hack.ust.hk/"
 year = "2017"
 
 [[awards]]
 keyword = "AIA Award Winner"
 description = "Hack-O-Life"
+url = "http://hd.stheadline.com/news/columns/0/20161114/513252/"
 year = "2016"
 
 [[awards]]
 keyword = "Finalist"
 description = "Dreamcatchers Medtech Hackathon"
+url = "http://mthackathon.info/"
 year = "2016"
 
 [[awards]]

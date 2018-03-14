@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "Peter's website"
 
 [params]
-    author = "Peter Chung"
+author = "Peter Chung"
+keywords = "Hackathon, hackUST, Hackathon@HKUST, Datathon, Alumni, HKUST, CSE, Entrepreneur, Startup, Cyberport, SIGHT, TA, cspeter, Peter"
 
 
 
