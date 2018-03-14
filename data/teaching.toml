@@ -11,7 +11,7 @@ year = "2018-19"
 [[educator]]
 title = "STEM Course Instructor"
 group = "Academy For Bright Future Young Engineers"
-url = "//abfye.ust.hk/"
+url = "http://abfye.ust.hk/"
 year = "2017-18"
 
 [[educator]]
@@ -23,25 +23,25 @@ year = "2015-16"
 [[educator]]
 title = "Advisor"
 group = "CSE Entrepreneurship Club"
-url = "//e-club.cse.ust.hk"
+url = "http://e-club.cse.ust.hk"
 year = "2014-16"
 
 [[educator]]
 title = "Advisor"
 group = "CSE One"
-url = "//one.cse.ust.hk"
+url = "http://one.cse.ust.hk"
 year = "2014-16"
 
 [[educator]]
 title = "Academic Counsellor"
 group = "Department of CSE, HKUST"
-url = "//www.cse.ust.hk/"
+url = "http://www.cse.ust.hk/"
 year = "2013-14"
 
 [[educator]]
 title = "Advisor"
 group = "E2I, School of Engineering, HKUST"
-url = "//e2i.ust.hk/ug/advising/"
+url = "http://e2i.ust.hk/ug/advising/"
 year = "2013-14"
 
 [[academic]]
