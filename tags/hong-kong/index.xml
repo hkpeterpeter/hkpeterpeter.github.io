@@ -1,42 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Peter&#39;s website</title>
-    <link>https://hkpeterpeter.github.io/</link>
-    <description>Recent content on Peter&#39;s website</description>
+    <title>Hong Kong on Peter&#39;s website</title>
+    <link>https://hkpeterpeter.github.io/tags/hong-kong/</link>
+    <description>Recent content in Hong Kong on Peter&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Mar 2018 11:58:20 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Feb 2018 19:05:31 +0800</lastBuildDate>
     
-	<atom:link href="https://hkpeterpeter.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hkpeterpeter.github.io/tags/hong-kong/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Alumni</title>
-      <link>https://hkpeterpeter.github.io/alumni/</link>
-      <pubDate>Sun, 11 Mar 2018 11:58:20 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/alumni/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hackathon</title>
-      <link>https://hkpeterpeter.github.io/hackathon/</link>
-      <pubDate>Sun, 11 Mar 2018 11:58:20 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/hackathon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>https://hkpeterpeter.github.io/teaching/</link>
-      <pubDate>Sun, 11 Mar 2018 11:58:20 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/teaching/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Reflection of Global Legal Hackathon: LegalTech may bring new career opportunities</title>
@@ -66,36 +39,6 @@
       <description>99.99% of startups may think domain name registration as an unavoidable cost, we treat the domain registry as our startup partner. I would like to summarise how HabHub be benefited from Startup League during RISE 2017.
 To learn more, please visit https://startupleague.online/ or simply drop me a message.
 RISE is one of the major Tech conferences in Asia. Startup League has a strong relationship with RISE. In 2017, Startup League launched a supporting scheme to let startups using one of the 9 top-level domains (e.</description>
-    </item>
-    
-    <item>
-      <title>Hard to find developers? A 5-minute read for tech recruiting via corporate hackathon!</title>
-      <link>https://hkpeterpeter.github.io/article/hard-find-developers-5-minute-read-tech-recruiting/</link>
-      <pubDate>Wed, 07 Jun 2017 19:05:31 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/article/hard-find-developers-5-minute-read-tech-recruiting/</guid>
-      <description>Background I am an experienced Hackathon organizer, participant, judge, mentor, and a HealthTech startup co-founder. I am now planning with a number of experienced hackathon organizers to re-invent tech recruiting via corporate hackathon. Feel free to drop me a message if you are interested.
-The focus of this article is mainly for tech recruiting. If the main purpose is just for branding, sponsoring a hackathon should be the most cost-effective solution.</description>
-    </item>
-    
-    <item>
-      <title>JeJu Hackathon at South Korea (Day 2)</title>
-      <link>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-2/</link>
-      <pubDate>Sun, 23 Oct 2016 19:05:31 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-2/</guid>
-      <description>In Day 2, the main focus was the idea development. After some discussion, we agreed to set our goal as an application to help promote small businesses at JeJu.
-Step 1 - Idea Development As our goal was finalized, we decided to choose a team name which can exactly reflect the goal. We independently wrote names and then tried to incorporate all key ideas from the names. Finally, we combined 2 key ideas: &amp;ldquo;blog&amp;rdquo; and &amp;ldquo;story telling&amp;rdquo; as our team and application name - Blogory</description>
-    </item>
-    
-    <item>
-      <title>JeJu Hackathon at South Korea (Day 1)</title>
-      <link>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-1/</link>
-      <pubDate>Sat, 22 Oct 2016 19:05:31 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-1/</guid>
-      <description>Yes, I travelled to JeJu, South Korea. We couldn&amp;rsquo;t book a direct flight, and there were serious flight delay, we were forced to sleep at Shanghai airport. After 24 hours of travelling, we finally arrive JeJu, South Korea.
-Step 1 - On-the-group research for the Hackathon We arrived at 3pm. We immediately started the on-the-ground research because we were extremely hungry. We spotted a very nice restaurant near our competition venue.</description>
     </item>
     
     <item>
