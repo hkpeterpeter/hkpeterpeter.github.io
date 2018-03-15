@@ -2,19 +2,33 @@
 {{ if isset .Site.Taxonomies "tags" }}
 {{ if not (eq (len .Site.Taxonomies.tags) 0) }}
 
-    <h3>Tags</h3>
-    <div class="p-3">
+<h4>Tags</h4>
+<div class="p-3">
 
-            {{ range $name, $items := .Site.Taxonomies.tags }}
+        {{ range $name, $items := .Site.Taxonomies.tags }}
 
-        <a href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"
-           class="btn btn-sm btn-outline-secondary mb-2 text-left" role="button" aria-pressed="true">
-            <i class="fas fa-tag"></i> {{ $name }}
-            <span class="badge bg-secondary text-white">{{len  $items.Pages}}</span></a>
+    <a href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"
+       class="btn btn-sm btn-outline-secondary mb-2 text-left" role="button" aria-pressed="true">
+        <i class="fas fa-tag"></i> {{ $name }}
+        <span class="badge bg-secondary text-white">{{len  $items.Pages}}</span></a>
 
-            {{ end }}
+        {{ end }}
 
-    </div>
+</div>
+
 
 {{ end }}
 {{ end }}
+
+
+{{ $article := (where .Site.Pages "Type" "article") }}
+<h4>Recent articles</h4>
+<div class="p-3">
+{{ if gt (len $article) 3 }}
+    {{ range first 3 $article }}
+    <p> <a href="{{ .RelPermalink }}" >{{.Title}} </a> </p>
+    {{ end }}
+{{ end }}
+</div>
+
+

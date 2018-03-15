@@ -1,0 +1,7 @@
+
+
+{{ if gt (len .Params.tags) 0 }}
+{{ range .Params.tags }}
+<span class="badge badge-light"><i class="fas fa-tag"></i> {{ . }}</span>
+{{ end }}
+{{ end }}

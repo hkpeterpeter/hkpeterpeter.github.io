@@ -44,8 +44,14 @@
 
 
                 <h3>{{.Title}}</h3>
-                <p class="small"><i class="far fa-calendar-alt"></i>
-                    {{ .Date.Format "January 2, 2006" }}</p>
+                <span class="small"><i class="far fa-calendar-alt"></i>
+                    {{ .Date.Format "January 2, 2006" }}</span>
+
+                    {{ if isset .Params "tags" }}
+                    <span class="p-2">
+                    {{ partial "page_tags.html" . }}
+                    </span>
+                    {{end}}
 
                 <p class="small">{{ .Summary }}</p>
 
