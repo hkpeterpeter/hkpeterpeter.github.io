@@ -4,10 +4,8 @@ Demo: [https://hkpeterpeter.github.io](https://hkpeterpeter.github.io)
 
 ![Screenshot Demo](screenshot/my-website.gif)
 
-
-
 ## Setup and build steps
-<a href="https://asciinema.org/a/169792" target="_blank"><img src="https://asciinema.org/a/169792.png" height="300px" /></a>
+[![asciicast](https://asciinema.org/a/169792.png)](https://asciinema.org/a/169792)
 
 ## Reference
 
