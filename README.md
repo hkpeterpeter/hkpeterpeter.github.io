@@ -1,4 +1,4 @@
-## Personal Homepage
+[![asciicast](https://asciinema.org/a/169792.png)](https://asciinema.org/a/169792)
 
 ### Overview
 - Built using [Hugo](http://gohugo.io/) static site generator
