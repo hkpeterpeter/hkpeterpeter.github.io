@@ -4,49 +4,7 @@
     <div class="row mb-3 h-100">
 
 
-        <div class="col-12 col-lg-6 p-2">
-            {{ with .Site.Data.teaching }}
-            <h5><i class="fas fa-lightbulb"></i>&nbsp;{{.educator_title}} </h5>
-            <ul class="list-unstyled">
-                {{ range .educator }}
-                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.title}}</span>
-                    {{ if .url }}<a target="_blank" href="{{.url}}">{{.group}}</a>{{ else }} {{ .group }} {{ end }}
-                </li>
-                {{ end }}
-            </ul>
-            {{ end }}
 
-        </div>
-
-
-        <div class="col-12 col-lg-6 p-2">
-            {{ with .Site.Data.teaching }}
-            <h5><i class="fas fa-certificate"></i>&nbsp;{{.academic_title}}</h5>
-            <ul class="list-unstyled">
-                {{ range .academic }}
-                <li><span class="badge badge-pill badge-warning">{{.year}}</span>
-                    <span class="badge badge-pill badge-info">{{.level}},{{.degree}}</span>
-                    {{.university}} {{ if .special}}
-                    <small> ({{.special}})</small>
-                    {{end}}
-                </li>
-                {{ end }}
-            </ul>
-            {{ end }}
-
-            {{ with .Site.Data.teaching }}
-            <h5><i class="fas fa-trophy"></i>&nbsp;{{.award_title}} </h5>
-            <ul class="list-unstyled">
-                {{ range .awards }}
-                <li><span class="badge badge-pill badge-warning">{{.year}}</span>
-                    <span class="badge badge-pill badge-info">{{.title}}</span>
-                    {{.group}}
-                </li>
-                {{ end }}
-            </ul>
-            {{ end }}
-        </div>
 
 
         <div class="col-12">

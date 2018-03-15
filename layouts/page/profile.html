@@ -1,0 +1,206 @@
+
+{{ define "css" }}
+<style>
+    #profile-image {
+        width: 150px;
+        height: auto !important;
+    }
+    .profile-background {
+        background-image: url("{{$.Site.BaseURL}}css/pattern.png");
+        background-repeat: repeat;
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+
+
+<div class="container mt-3">
+
+    <div class="row mb-3 h-100">
+
+        <div class="col-12 col-lg-3 p-2 text-center text-sm-left">
+
+            <div class="card profile-background">
+
+                <div class="text-center">
+                    {{ with .Site.Data.homepage }}
+                    <img id="profile-image" class="card-img-top rounded-circle img-thumbnail mt-2"
+                         src="{{.profile_url}}" alt="Profile Image">
+                    {{ end }}
+                </div>
+
+                <div class="card-body text-center">
+                    <h4 class="card-title">{{ with .Site.Params.author }} {{.}} {{ end }}</h4>
+
+                    {{ with .Site.Data.homepage.office }}
+                    <p class="small">
+                        {{.job}} <br>
+                        <a {{if .ext}}target="_blank"{{end}} href="{{.url}}">
+                            {{ .room }} <em>{{.sub}}</em></a></p>
+                    {{ end }}
+
+                    <p>
+                        {{ with .Site.Data.homepage.social }}
+                        {{ range . }}
+                        {{ if .url }}
+                        <a {{if .ext}}target="_blank" {{end}} href="{{.url}}"><i class="{{.icon}}"></i></a>
+                        {{ end }}
+                        {{ end }}
+
+                        {{ end }}
+                    </p>
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-12 col-lg-9 text-left mb-2 p-2">
+
+            <p class="small">
+                {{ with .Site.Data.homepage.description }}
+                {{.}}
+                {{ end }}
+            </p>
+
+
+            {{ with .Site.Data.homepage.tags }}
+                 {{ range . }}
+               <p >
+                <span class="badge badge-success">{{.name}}</span>
+
+                   {{ with .desc }} <span class="small"> {{ . }} </span> {{end}}
+                </p>
+               {{ end }}
+
+            {{ end }}
+
+
+
+        </div>
+
+        <div class="col-12 col-lg-6">
+            {{ with .Site.Data.hackathon }}
+            <h5><i class="fas fa-trophy"></i>&nbsp;
+                {{len .awards}}
+                {{.award_title}}</h5>
+            <ul class="list-unstyled">
+                {{ range .awards }}
+                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
+                    <span class="badge badge-pill badge-info">{{.keyword}}</span>
+
+                    {{ if .url }}
+                    <a href="{{.url}}" target="_blank">{{.description}}</a>
+                    {{ else }}
+                    {{.description}}
+                    {{ end }}
+
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+
+        <div class="col-12 col-lg-6 p-2">
+            {{ with .Site.Data.hackathon }}
+            <h5><i class="fas fa-lightbulb"></i>&nbsp;{{.expert_title}} </h5>
+            <ul class="list-unstyled">
+                {{ range .expert }}
+                <li>
+                    {{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
+                    <span class="badge badge-pill badge-info">{{.keyword}}</span> {{.description}}
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
+        </div>
+
+        <div class="col-12 col-lg-6 p-2">
+            {{ with .Site.Data.teaching }}
+            <h5><i class="fas fa-lightbulb"></i>&nbsp;{{.educator_title}} </h5>
+            <ul class="list-unstyled">
+                {{ range .educator }}
+                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
+                    <span class="badge badge-pill badge-info">{{.title}}</span>
+                    {{ if .url }}<a target="_blank" href="{{.url}}">{{.group}}</a>{{ else }} {{ .group }} {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
+        </div>
+
+
+        <div class="col-12 col-lg-6 p-2">
+            {{ with .Site.Data.teaching }}
+            <h5><i class="fas fa-certificate"></i>&nbsp;{{.academic_title}}</h5>
+            <ul class="list-unstyled">
+                {{ range .academic }}
+                <li><span class="badge badge-pill badge-warning">{{.year}}</span>
+                    <span class="badge badge-pill badge-info">{{.level}},{{.degree}}</span>
+                    {{.university}} {{ if .special}}
+                    <small> ({{.special}})</small>
+                    {{end}}
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
+            {{ with .Site.Data.teaching }}
+            <h5><i class="fas fa-trophy"></i>&nbsp;{{.award_title}} </h5>
+            <ul class="list-unstyled">
+                {{ range .awards }}
+                <li><span class="badge badge-pill badge-warning">{{.year}}</span>
+                    <span class="badge badge-pill badge-info">{{.title}}</span>
+                    {{.group}}
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+
+        <div class="col-12 col-lg-6">
+            {{ with .Site.Data.csaa }}
+            <h5><i class="fas fa-graduation-cap"></i>
+                <a target="_blank" href="{{.url}}">{{.title}}</a></h5>
+            <ul class="list-unstyled">
+                {{ range .roles }}
+                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
+                    <span class="badge badge-pill badge-info">{{.title}}</span></li>
+                {{ end }}
+
+            </ul>
+            {{ end }}
+
+        </div>
+
+        <div class="col-12 col-lg-6 p-2">
+
+            {{ with .Site.Data.cseaa }}
+            <h5><i class="fas fa-graduation-cap"></i>
+                <a target="_blank" href="{{.url}}">{{.title}}</a></h5>
+            <ul class="list-unstyled">
+                {{ range .roles }}
+                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
+                    <span class="badge badge-pill badge-info">{{.title}}</span></li>
+                {{ end }}
+
+            </ul>
+            {{ end }}
+
+        </div>
+
+    </div>
+</div>
+
+{{ end }}
+
+
+{{ define "footer" }}
+{{ partial "footer.html" . }}
+{{ end }}

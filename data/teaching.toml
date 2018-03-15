@@ -1,4 +1,4 @@
-educator_title = "Roles"
+educator_title = "Teaching Roles"
 academic_title = "Academic Qualifications"
 award_title = "Awards"
 
@@ -43,6 +43,12 @@ title = "Advisor"
 group = "E2I, School of Engineering, HKUST"
 url = "http://e2i.ust.hk/ug/advising/"
 year = "2013-14"
+
+[[educator]]
+title = "Teaching Associate"
+group = "Department of CSE, HKUST"
+url = "http://www.cse.ust.hk/"
+year = "2008-18"
 
 [[academic]]
 level = "Msc"

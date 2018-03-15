@@ -32,12 +32,6 @@
 
             {{ $paginator := .Paginate (where .Data.Pages "Type" "article") }}
 
-            <nav aria-label="Article Navigation Control">
-                <ul class="pagination justify-content-center">
-                    {{ partial "pagination" . }}
-                </ul>
-            </nav>
-
             {{ range $paginator.Pages }}
 
 

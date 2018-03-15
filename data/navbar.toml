@@ -1,10 +1,11 @@
 text = "Home"
 icon = "fab fa-product-hunt"
 
+
 [[menu]]
-name = "Hackathon"
-url = "/hackathon"
-icon = "fas fa-trophy"
+name = "Profile"
+url = "/profile"
+icon = "far fa-address-card"
 
 [[menu]]
 name = "Teaching"
@@ -12,15 +13,21 @@ url = "/teaching"
 icon = "fas fa-book"
 
 [[menu]]
+name = "Hackathon"
+url = "/hackathon"
+icon = "fas fa-trophy"
+
+
+[[menu]]
 name = "Alumni"
 url = "/alumni"
 icon = "fas fa-graduation-cap"
 
-[[menu]]
-name = "Startup"
-url = "//habhub.tech/"
-icon = "fas fa-briefcase"
-ext = "Yes"
+#[[menu]]
+#name = "Startup"
+#url = "//habhub.tech/"
+#icon = "fas fa-briefcase"
+#ext = "Yes"
 
 [[menu]]
 name = "Articles"

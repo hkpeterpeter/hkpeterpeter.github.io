@@ -7,6 +7,20 @@
         width: 150px;
         height: auto !important;
     }
+    .profile-background {
+        background-image: url("{{$.Site.BaseURL}}css/pattern.png");
+        background-repeat: repeat;
+    }
+
+    .region-hover:hover {
+        animation: rotate-move 1s;
+    }
+    @keyframes rotate-move {
+        0% { transform:  rotate(0deg); }
+        50% { transform: rotate(-25deg); }
+        100% { transform: rotate(0deg); }
+    }
+
 </style>
 {{ end }}
 
@@ -16,29 +30,24 @@
 
         <div class="col-12 col-md-12 col-lg-3 p-2 text-center text-sm-left">
 
-            <div class="card">
+            <div class="card profile-background">
 
                 <div class="text-center">
                     {{ with .Site.Data.homepage }}
-                    <img id="profile-image" class="card-img-top rounded-circle img-thumbnail mt-2"
+                    <img id="profile-image" class="region-hover card-img-top rounded-circle img-thumbnail mt-2"
                          src="{{.profile_url}}" alt="Profile Image">
                     {{ end }}
                 </div>
 
                 <div class="card-body text-center">
                     <h4 class="card-title">{{ with .Site.Params.author }} {{.}} {{ end }}</h4>
-                    {{ with .Site.Data.homepage.office }}
-                    <p class="small">
-                        {{.job}} <br>
-                        <a {{if .ext}}target="_blank"{{end}} href="{{.url}}">
-                        {{ .room }} <em>{{.sub}}</em></a></p>
-                    {{ end }}
+
 
                     <p>
                     {{ with .Site.Data.homepage.social }}
                         {{ range . }}
                             {{ if .url }}
-                               <a {{if .ext}}target="_blank" {{end}} href="{{.url}}"><i class="{{.icon}}"></i></a>
+                               <a {{if .ext}}target="_blank" {{end}} href="{{.url}}"><i class="region-hover {{.icon}}"></i></a>
                             {{ end }}
                         {{ end }}
 
@@ -47,7 +56,7 @@
 
                     {{ with .Site.Data.homepage.tags }}
                         {{ range . }}
-                        <span class="badge badge-success"> {{.}}</span>
+                        <span class="badge badge-success"> {{.name}}</span>
                         {{ end }}
                     {{ end }}
 
@@ -63,9 +72,9 @@
 
         <div class="row text-center w-100">
 
-            <div class=" p-3 col-6 col-lg-3">
+            <div class="p-3 col-6 col-lg-3 ">
 
-                <h1><i class="fas fa-trophy"></i>
+                <h1><i class="region-hover fas fa-trophy"></i>
                     {{ len .Site.Data.hackathon.awards }}</h1>
                 <h3>Prizes</h3>
                 <p class="small">from Hackathon</p>
@@ -73,15 +82,15 @@
 
             </div>
 
-            <div class=" p-3 col-6 col-lg-3">
-                <h1><i class="fab fa-hire-a-helper"></i>
+            <div class="p-3 col-6 col-lg-3">
+                <h1><i class="region-hover fab fa-hire-a-helper"></i>
                     {{len .Site.Data.hack_timeline.events}}</h1>
                 <h3>Hackathons</h3>
                 <p class="small">organized / joined</p>
             </div>
 
             <div class=" p-3 col-6 col-lg-3">
-                <h1><i class="fas fa-graduation-cap"></i>
+                <h1><i class="region-hover fas fa-graduation-cap"></i>
                     {{ len .Site.Data.alum_timeline.events }}</h1>
                 <h3>Alumni Events</h3>
                 <p class="small">organized / joined</p>
@@ -89,20 +98,14 @@
             </div>
 
             <div class=" p-3 col-6 col-lg-3">
-                <h1><i class="fas fa-book"></i>
+                <h1><i class="region-hover fas fa-book"></i>
                     {{ partial "evaluation_report_count.html" . }}</h1>
                 <h3>TA Evaluation</h3>
                 <p class="small">reports received</p>
             </div>
 
 
-            <div class="col-12 text-left mb-2">
-                <p class="small p-2">
-                    {{ with .Site.Data.homepage.description }}
-                        {{.}}
-                    {{ end }}
-                </p>
-            </div>
+
 
         </div>
 
