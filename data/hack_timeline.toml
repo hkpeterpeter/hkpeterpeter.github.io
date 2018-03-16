@@ -122,6 +122,24 @@ Open source development via Git/GitHub and cloud computing technologies were inc
 """
 
 [[events]]
+order = 7
+title = "</FinTech Hackathon> co-organized by HSBC and Deloitte"
+role = "Participant"
+date = "Sep 2016"
+desc = """Developed an innovative Virtual Reality (VR) application in FinTech theme. Although we
+could not win any prize, it was a wonderful experience"""
+url = "hack_timeline/ft_hackathon_2016.jpg"
+
+[[events]]
+order = 7
+title = "Cyberport FinTech Hackathon 2016"
+role = "Judge"
+date = "Sep 2016"
+desc = "Invited by BitwiseHack and Cyberport to be one of the judges in the competition"
+url = "hack_timeline/cyberport_fintech_hack_2016.jpg"
+
+
+[[events]]
 order = 6
 title = "Dreamcatchers MedTech Hackathon 2016"
 url = "hack_timeline/dreamcatcher_hackathon_2016.jpg"
@@ -143,6 +161,7 @@ title = "Fishackathon Hong Kong 2016"
 role = "Mentor"
 date = "Apr 2016"
 desc = "Served as a technical mentor in Fishackathon at Ocean Park"
+url = "hack_timeline/fishackathon_2016.jpg"
 
 [[events]]
 order = 4
