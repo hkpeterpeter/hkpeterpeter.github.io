@@ -1,6 +1,10 @@
 expert_title = "Hackathon Experience"
 award_title = "Hackathon Awards"
 
+[[expert]]
+keyword = "Served as"
+description = "HKUST x Radica Big Datathon Project Manager"
+year = "2017-"
 
 [[expert]]
 keyword = "Served as"
