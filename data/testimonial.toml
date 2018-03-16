@@ -1,0 +1,139 @@
+[[item]]
+name = "Prof. Ying CHAU"
+title = "Director of SIGHT"
+date = "Feb 2015"
+tags = ["HKUST", "SIGHT"]
+abstract = """
+Peter has been extremely generous in giving his time for the project and for the students. Very often,
+SIGHT teams meet in the evenings and weekends for hours. I understand that his involvement with SIGHT is
+outside his university duty, and yet, the commitment and professionalism that Peter has shown are far beyond one
+would expect from a volunteer. Peter cares about students and their education. I am grateful that Peter believes
+in the vision of SIGHT and partners with us  to transform students into creative and socially responsible leaders.
+Peter is a great asset of HKUST, and I am sure that he has already and is still making tremendous contribution
+for your department.
+"""
+
+[[item]]
+name = "Prof. Wei SHYY"
+title = "Executive Vice-President & Provost, HKUST"
+date = "Feb 2015"
+tags = ["HKUST","SIGHT"]
+abstract = "Peter:  I greatly appreciate your efforts and contributions. Many thanks."
+
+[[item]]
+name = "Prof. Roger CHENG"
+title = "Associate Provost for Teaching & Learning, HKUST"
+date = "Feb 2015"
+tags = ["HKUST", "hackUST"]
+abstract = """In fact, your active engagement and involvement in the Hackathon is also very highly commendable.
+I am sure that Dept of CSE and the School of Engineering will join me to thank you for great contributions to
+student learning through many initiatives and programs
+"""
+
+[[item]]
+name = "Prof. Qiang YANG"
+title = "Chair Professor and Department Head of CSE, HKUST"
+date = "Feb 2015"
+tags = ["HKUST", "hackUST"]
+abstract = """I second Rogers’ note – thank you greatly from CSE department.  The Hackathon is part of a major
+initiative to make student more in tuned with societal needs.  We look forward to your continued collaboration
+with us in the future!"""
+
+[[item]]
+name = "Prof. Pascale FUNG"
+title = "Professor, Department of Electronic & Computer Engineering"
+date = "Mar 2015"
+tags = ["HKUST", "hackUST"]
+abstract = """It was really an eye-opening experience for me to see how well the Hackathon has been organized,
+how diverse the teams were and how creative these students are. It's amazing.
+I rank HackUST as one of the best events at UST that show cases the innovative, can-do spirit of HKUST!
+It largely outranked many of the events we professors organize.
+"""
+
+[[item]]
+name = "Mr. Donny SIU"
+title = "Associate Director of Entrepreneurship Center and Student Affairs Office, HKUST"
+date = "Sep 2016"
+tags = ["HKUST", "hackUST"]
+abstract = """Peter is a very experienced participant and organizer in hackathon activities,
+to partner with us in organizing hackathon related activities on campus. With his passion,
+experience and partnership, I am sure we will be able to work together in making hackathon a remarkable
+and successful entrepreneurial activities at HKUST.
+"""
+
+[[item]]
+name = "Prof. Rocky CHANG"
+title = "Associate Professor, Department of Computing, PolyU"
+date = "Jan 2015"
+tags = ["PolyU", "hackUST"]
+abstract = """
+Peter, although you did not say anything in the public, you are the one masterminding it [hackUST] and
+holding everything together. Your dedication and efforts are truly exemplary for all of us. Thank you for doing this for the students.
+"""
+
+[[item]]
+name = "Prof. Ray CHEUNG"
+title = "Associate Professor and Director of App Lab, CityU"
+date = "Aug 2017"
+tags = ["CityU", "hackathon"]
+abstract = """Many thanks Harry and Peter for kindly agreeing to serve as consultant for the CityU Hackathon!
+Please raise your questions here, and Harry and Peter will share their experience."""
+
+[[item]]
+name = "Sophia巩艳"
+title = "Senior Project Manager, Tencent Charity Foundation"
+date = "Apr 2015"
+tags = ["Tencent", "hackUST"]
+abstract = "Peter你好！首先祝贺活动圆满顺利结束！辛苦所有参与准备活动的学生代表们，也感谢参与活动的各专业评委！"
+
+
+[[item]]
+name = "Irene CHEUNG"
+title = "Co-founder and Executive Director, Radica Systems Limited"
+date = "Apr 2015"
+tags = ["Radica", "hackUST", "alumni"]
+abstract = """Thank you very much for organising such meaningful event! I can see it is much bigger and more successful
+this year! You have done a great job with your team that I really appreciated! Looking forward to more co-operation
+in the coming future! ~
+"""
+
+[[item]]
+name = "Prof. Shing-chi CHEUNG"
+title = "Professor and Associate Head, CSE, HKUST"
+date = "Nov 2015"
+tags = ["HKUST", "Hour of Code", "alumni"]
+abstract = """We had a good time with our alumni and their family members this afternoon.
+May I express great thanks to Qiong, Peter, Yanice, Yiu and CSEAA executive committee members."""
+ref_url = "http://one.cse.ust.hk/events/hoc2015/index.html"
+ref_url_name = "More about Hour of Code@HKUST 2015"
+
+[[item]]
+name = "Fai YEUNG"
+title = "Manager, Academy for Bright Future Engineers, HKUST"
+date = "Apr 2017"
+tags = ["HKUST", "STEM", "Chatbot"]
+abstract = "Dear Peter, Thanks for offering the Facebook chatbot workshop last Thursday. I believe the students enjoyed the workshop a lot."
+ref_url = "http://abfye.ust.hk/past_event_stem%20month_2.html"
+ref_url_name = "More about the STEM Chatbot workshop"
+
+[[item]]
+date = "Dec 2016"
+name = "Verlebie Chan"
+title = "Audience Evangelism Manager, Microsoft Hong Kong"
+tags = ["Microsoft", "Hackathon"]
+abstract = """Dear Peter, We would like to invite you to be our <ImagineHack> 2017 Organizing Committee Leader.
+              As the leader, we would like you to guide the group of student committee through the entire organizing process.
+              We definitely will provide our full gear support and resources as possible.
+              Meanwhile, we would like to have you as leader to invite other professional experts to be the judge and mentor.
+    We strongly believe only with your professional skills and experience that this event could be ever success."""
+
+[[item]]
+date = "Feb 2018"
+name = "Official LinkedIn page"
+title = "A.S. Watson Group"
+tags = ["Watson","Datathon"]
+abstract = """Hear Peter Chung, an enthusiast in data science who joined A.S. Watson Big Data Hackathon,
+on his insights and experiences gained as a hackathon veteran.
+We definitely need more people like Peter, and you can be part of More too!"""
+ref_url = "https://www.linkedin.com/feed/update/urn:li:activity:6364030218570698752/"
+ref_url_name = "Refernece link to the LinkedIn post"

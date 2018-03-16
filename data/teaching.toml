@@ -9,7 +9,7 @@ url = "//hkusttech.github.io/"
 year = "2018-19"
 
 [[educator]]
-title = "STEM Course Instructor"
+title = "STEM Instructor"
 group = "Academy For Bright Future Young Engineers"
 url = "http://abfye.ust.hk/"
 year = "2017-18"
@@ -71,6 +71,6 @@ special = "First Class Honors"
 year = "2006"
 
 [[awards]]
-title = "Professor Samuel Chanson Best Teaching Assistant"
+title = "Prof. Samuel Chanson Best Teaching Assistant"
 group = "HKUST"
 year = "2008"

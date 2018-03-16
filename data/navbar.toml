@@ -8,6 +8,11 @@ url = "/profile"
 icon = "far fa-address-card"
 
 [[menu]]
+name = "Testimonials"
+url = "/testimonial"
+icon = "far fa-comments"
+
+[[menu]]
 name = "Teaching"
 url = "/teaching"
 icon = "fas fa-book"
@@ -33,3 +38,5 @@ icon = "fas fa-graduation-cap"
 name = "Articles"
 url = "/article"
 icon = "fas fa-edit"
+
+

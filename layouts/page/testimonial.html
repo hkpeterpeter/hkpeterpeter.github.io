@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<div class="container mt-3">
+    <div class="row mb-3 h-100">
+
+        <div class="col-12">
+
+            <p class="bg-light p-3 text-center">
+                <span class="h2"><i class="far fa-comments"></i>
+                  {{len .Site.Data.testimonial.item}} Selected Testimonials</span>
+                <br>
+                <span class="small">  from senior professors, staff, and alumni at HKUST <br>
+                    and friends outside HKUST</span>
+            </p>
+
+        </div>
+
+        {{ with .Site.Data.testimonial }}
+        {{ range .item }}
+        <div class="col-12 p-5 mb-3 card">
+
+
+                <blockquote class="blockquote">
+                    <p class="small text-justify">{{.abstract}}</p>
+                    <footer class="blockquote-footer"><strong>{{.name}}</strong>
+                    <br> <cite title="{{.}}">{{.title}}</cite>
+                    </footer>
+                </blockquote>
+
+                <div>
+
+                    {{range .tags}}
+                    <span class="badge badge-pill badge-info">{{.}}</span>
+                    {{end}}
+                    <span class="badge badge-pill badge-warning"><i class="far fa-calendar-alt"></i>&nbsp;{{.date}}</span>
+
+                    {{if .ref_url}}
+                    <br><br>
+                    <a href="{{.ref_url}}" target="_blank"><i class="fas fa-link"></i>
+                        {{.ref_url_name}}</a>
+                    {{end}}
+                </div>
+        </div>
+        {{ end }}
+        {{ end }}
+
+
+
+    </div>
+</div>
+
+{{end}}
+
+{{ define "footer" }}
+
+{{ partial "footer.html" . }}
+
+{{ end }}

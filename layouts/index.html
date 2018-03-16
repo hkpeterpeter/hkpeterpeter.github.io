@@ -74,10 +74,10 @@
 
             <div class="p-3 col-6 col-lg-3 ">
 
-                <h1><i class="region-hover fas fa-trophy"></i>
-                    {{ len .Site.Data.hackathon.awards }}</h1>
-                <h3>Prizes</h3>
-                <p class="small">from Hackathon</p>
+                <h1><i class="region-hover far fa-comments"></i>
+                    {{  len .Site.Data.testimonial.item }}</h1>
+                <h3>Testimonials</h3>
+                <p class="small">from senior, alumni, and friends</p>
 
 
             </div>
@@ -86,14 +86,14 @@
                 <h1><i class="region-hover fab fa-hire-a-helper"></i>
                     {{len .Site.Data.hack_timeline.events}}</h1>
                 <h3>Hackathons</h3>
-                <p class="small">organized / joined</p>
+                <p class="small">organized or joined</p>
             </div>
 
             <div class=" p-3 col-6 col-lg-3">
                 <h1><i class="region-hover fas fa-graduation-cap"></i>
                     {{ len .Site.Data.alum_timeline.events }}</h1>
                 <h3>Alumni Events</h3>
-                <p class="small">organized / joined</p>
+                <p class="small">organized or joined</p>
 
             </div>
 
@@ -101,7 +101,7 @@
                 <h1><i class="region-hover fas fa-book"></i>
                     {{ partial "evaluation_report_count.html" . }}</h1>
                 <h3>TA Evaluation</h3>
-                <p class="small">reports received</p>
+                <p class="small">reports received from students</p>
             </div>
 
 
