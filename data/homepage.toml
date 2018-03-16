@@ -14,17 +14,16 @@ ext = true
 [[tags]]
 name = "Hackathon Expert"
 desc = """
-Since 2014, I partnered with 10+ companies/organizations (e.g. HKUST, Tencent, Ocean Park, Microsoft Hong Kong,
-Cyberport, Hang Seng Bank, SmarTone, Madhead, Radica Systems Limited, AngelHack, Hackernest, etc.)
+Since 2014, I partnered with 10+ companies/organizations
 to organize Hackathon in Hong Kong. In addition, I used to be a judge, a mentor, a participant,
 and a winning team member of Hackathon. I am now serving as AngelHack Hong Kong Ambassador.
 """
 
 [[tags]]
 name = "Educator"
-desc = """I have 8+ years of experience in higher education sector. I used to be an
+desc = """Besides from the teaching support duties, I used to be an
                  advisor at Student Innovation for Global Health Technology (SIGHT), HKUST and a STEM course
-                 instructor at Academy of Bright Future Young Engineers (ABFYE), HKUST. I also serve as an advisor in
+                 instructor at Academy of Bright Future Young Engineers (ABFYE), HKUST. I also serve as Advisor in
                  various student interest groups at HKUST.
        """
 

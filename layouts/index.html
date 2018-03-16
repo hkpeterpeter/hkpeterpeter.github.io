@@ -34,8 +34,8 @@
 
                 <div class="text-center">
                     {{ with .Site.Data.homepage }}
-                    <img id="profile-image" class="region-hover card-img-top rounded-circle img-thumbnail mt-2"
-                         src="{{.profile_url}}" alt="Profile Image">
+                    <a href="/profile"><img id="profile-image" class="region-hover card-img-top rounded-circle img-thumbnail mt-2"
+                         src="{{.profile_url}}" alt="Profile Image"></a>
                     {{ end }}
                 </div>
 
@@ -74,7 +74,7 @@
 
             <div class="p-3 col-6 col-lg-3 ">
 
-                <h1><i class="region-hover far fa-comments"></i>
+                <h1><a href="/testimonial"><i class="region-hover far fa-comments"></i></a>
                     {{  len .Site.Data.testimonial.item }}</h1>
                 <h3>Testimonials</h3>
                 <p class="small">from senior, alumni, and friends</p>
@@ -83,14 +83,14 @@
             </div>
 
             <div class="p-3 col-6 col-lg-3">
-                <h1><i class="region-hover fab fa-hire-a-helper"></i>
+                <h1><a href="/hackathon"><i class="region-hover fab fa-hire-a-helper"></i></a>
                     {{len .Site.Data.hack_timeline.events}}</h1>
                 <h3>Hackathons</h3>
                 <p class="small">organized or joined</p>
             </div>
 
             <div class=" p-3 col-6 col-lg-3">
-                <h1><i class="region-hover fas fa-graduation-cap"></i>
+                <h1><a href="/alumni"><i class="region-hover fas fa-graduation-cap"></i></a>
                     {{ len .Site.Data.alum_timeline.events }}</h1>
                 <h3>Alumni Events</h3>
                 <p class="small">organized or joined</p>
@@ -98,10 +98,10 @@
             </div>
 
             <div class=" p-3 col-6 col-lg-3">
-                <h1><i class="region-hover fas fa-book"></i>
+                <h1><a href="/teaching"><i class="region-hover fas fa-book"></i></a>
                     {{ partial "evaluation_report_count.html" . }}</h1>
-                <h3>TA Evaluation</h3>
-                <p class="small">reports received from students</p>
+                <h3>Reports</h3>
+                <p class="small">from lovely students</p>
             </div>
 
 
