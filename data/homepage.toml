@@ -8,34 +8,33 @@ participant and a co-founder of a HealthTech startup. He maintains strong connec
 job = "Teaching Associate"
 room = "Room 2532"
 sub = "via Lift 25/26"
-url = "//pathadvisor.ust.hk/?query=a;113;2|b;1007;2|&floor=2&scale=1&offsetX=2338&offsetY=535"
+url = "http://pathadvisor.ust.hk/?query=a;584;3|b;1007;2|&floor=2&scale=1&offsetX=2346&offsetY=537"
 ext = true
 
 [[tags]]
 name = "Hackathon Expert"
 desc = """
-Since 2014, I partnered with 10+ companies/organizations
-to organize Hackathon in Hong Kong. In addition, I used to be a judge, a mentor, a participant,
-and a winning team member of Hackathon. I am now serving as AngelHack Hong Kong Ambassador.
+Partnered with 10+ companies/ organizations to launch various Hackathon competitions in Hong Kong.
+Served as Organizer, Consultant, Judge, Speaker, Mentor, and Participant.
+Won various Hackathon competitions.
 """
 
 [[tags]]
 name = "Educator"
-desc = """Besides from the teaching support duties, I used to be an
-advisor at Student Innovation for Global Health Technology (SIGHT), HKUST and a STEM course
-instructor at Academy of Bright Future Young Engineers (ABFYE), HKUST. I also serve as Advisor in
-various student interest groups at HKUST.
+desc = """Served as Advisor at Student Innovation for Global Health Technology (SIGHT) and STEM Course Instructor
+at Academy of Bright Future Young Engineers (ABFYE), in addition to the teaching support duty at HKUST. Also serve as
+Advisor in various student groups at HKUST.
 """
 
 
 [[tags]]
 name = "Active Alumni"
-desc = """I am the Executive Sub-Committee Member of Cyberport Startup Alumni Association (CSAA) and the
-        Founding President of Computer Science and Engineering Alumni Association, HKUST (CSEAA)"""
+desc = """Co-founded Computer Science and Engineering Alumni Association, HKUST (CSEAA) and served as an
+Executive Sub-Committee Member of Cyberport Startup Alumni Association (CSAA)"""
 
 [[tags]]
 name = "Entrepreneur"
-desc = "I am a co-founder of HabHub, an award winning HealthTech startup at Cyberport"
+desc = "Co-founded HabHub, an award winning HealthTech startup at Cyberport"
 
 
 [[social]]

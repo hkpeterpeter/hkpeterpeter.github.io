@@ -1,6 +1,6 @@
 [[item]]
 name = "Prof. Ying CHAU"
-title = "Director of SIGHT"
+title = "Director of Student Innovation for Global Health Technology, HKUST"
 date = "Feb 2015"
 tags = ["HKUST", "SIGHT"]
 abstract = """
@@ -12,6 +12,9 @@ in the vision of SIGHT and partners with us  to transform students into creative
 Peter is a great asset of HKUST, and I am sure that he has already and is still making tremendous contribution
 for your department.
 """
+ref_url = "https://sight.ust.hk/"
+ref_url_name = "Learn more about SIGHT at HKUST"
+
 
 [[item]]
 name = "Prof. Wei SHYY"
@@ -80,7 +83,7 @@ abstract = """Many thanks Harry and Peter for kindly agreeing to serve as consul
 Please raise your questions here, and Harry and Peter will share their experience."""
 
 [[item]]
-name = "Sophia巩艳"
+name = "巩艳"
 title = "Senior Project Manager, Tencent Charity Foundation"
 date = "Apr 2015"
 tags = ["Tencent", "hackUST"]
@@ -122,10 +125,10 @@ name = "Verlebie Chan"
 title = "Audience Evangelism Manager, Microsoft Hong Kong"
 tags = ["Microsoft", "Hackathon"]
 abstract = """Dear Peter, We would like to invite you to be our <ImagineHack> 2017 Organizing Committee Leader.
-              As the leader, we would like you to guide the group of student committee through the entire organizing process.
-              We definitely will provide our full gear support and resources as possible.
-              Meanwhile, we would like to have you as leader to invite other professional experts to be the judge and mentor.
-    We strongly believe only with your professional skills and experience that this event could be ever success."""
+As the leader, we would like you to guide the group of student committee through the entire organizing process.
+"""
+ref_url = "https://imaginehack-2017.devpost.com/"
+ref_url_name = "ImageHack 2017 competition website"
 
 [[item]]
 date = "Feb 2018"
@@ -137,3 +140,12 @@ on his insights and experiences gained as a hackathon veteran.
 We definitely need more people like Peter, and you can be part of More too!"""
 ref_url = "https://www.linkedin.com/feed/update/urn:li:activity:6364030218570698752/"
 ref_url_name = "Refernece link to the LinkedIn post"
+
+[[item]]
+date = "Feb 2018"
+name = "Brian Tang"
+title = "Lead organizer of Global Legal Hackathon Hong Kong 2018"
+tags = ["LegalTech", "Hackathon"]
+abstract = """Congrats to you and your LEGOT team Peter Chung! I really appreciate your considered observations ....
+we would love to attract more at different levels and welcome your thoughts on doing so. Thanks again!
+"""

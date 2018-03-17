@@ -76,8 +76,8 @@
 
                 <h1><a href="/testimonial"><i class="region-hover far fa-comments"></i></a>
                     {{  len .Site.Data.testimonial.item }}</h1>
-                <h3>Testimonials</h3>
-                <p class="small">from senior, alumni, and friends</p>
+                <h5>Testimonials</h5>
+                <p class="small">from senior and friends</p>
 
 
             </div>
@@ -85,14 +85,14 @@
             <div class="p-3 col-6 col-lg-3">
                 <h1><a href="/hackathon"><i class="region-hover fab fa-hire-a-helper"></i></a>
                     {{len .Site.Data.hack_timeline.events}}</h1>
-                <h3>Hackathons</h3>
+                <h5>Hackathons</h5>
                 <p class="small">organized or joined</p>
             </div>
 
             <div class=" p-3 col-6 col-lg-3">
                 <h1><a href="/alumni"><i class="region-hover fas fa-graduation-cap"></i></a>
                     {{ len .Site.Data.alum_timeline.events }}</h1>
-                <h3>Alumni Events</h3>
+                <h5>Alumni Events</h5>
                 <p class="small">organized or joined</p>
 
             </div>
@@ -100,8 +100,8 @@
             <div class=" p-3 col-6 col-lg-3">
                 <h1><a href="/teaching"><i class="region-hover fas fa-book"></i></a>
                     {{ partial "evaluation_report_count.html" . }}</h1>
-                <h3>Evaluation Reports</h3>
-                <p class="small">from lovely students</p>
+                <h5>Evaluation Reports</h5>
+                <p class="small">from students</p>
             </div>
 
 

@@ -65,6 +65,13 @@ desc = "Served as AngelHack Hong Kong ambassador to organize a city competition"
 
 [[events]]
 order = 13
+title = "Dreamcatchers MedTech Hackathon 2017"
+role = "Speaker"
+date = "Jun 2017"
+desc = "Served as an alumni speaker to share my startup journey of HabHub after the 2016 competition"
+
+[[events]]
+order = 13
 title = "Hang Seng FinTech Hackathon 2017"
 url = "hack_timeline/hs_fintech_hackathon_2017.jpg"
 role = "Organizer"
@@ -78,6 +85,12 @@ url = "hack_timeline/hackust_2017.png"
 role = "Particpant"
 date = "Apr 2017"
 desc = "Won the top-5 award in HealthTech theme"
+
+[[events]]
+order = 11
+title = "E.C. Jamming Student Hackathon"
+role = "Advisor"
+date = "Mar 2017"
 
 [[events]]
 order = 11

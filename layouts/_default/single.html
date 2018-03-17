@@ -35,14 +35,14 @@
 
 <div class="container mt-3">
     <div class="row mb-3 w-100 p-3">
-        <div class="col-12 article_style">
+        <div class="col-12 article_style text-justify">
             {{.Content}}
 
         </div>
 
 
         {{ if .Site.DisqusShortname }}
-            <div class="col-12">
+            <div class="col-12 mt-3">
              {{ template "_internal/disqus.html" . }}
             </div>
         {{end}}
