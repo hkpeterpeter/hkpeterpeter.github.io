@@ -1,6 +1,11 @@
 title = "Other Volunteer Experience"
 
 [[roles]]
+year = "Sep 2017"
+title = "Judge"
+event = "Social-Up Youth Pitch day competition"
+
+[[roles]]
 year = "Aug 2017"
 title = "Consultant"
 event = "CityHack (CityU Hackathon)"

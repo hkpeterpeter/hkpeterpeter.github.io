@@ -2,29 +2,34 @@ expert_title = "Hackathon Experience"
 award_title = "Hackathon Awards"
 
 [[expert]]
-keyword = "Served as"
-description = "HKUST x Radica Big Datathon Project Manager"
-year = "2017-"
+keyword = "Organizer"
+description = "HKUST x Radica Big Datathon"
+year = "2017-18"
+url = "http://bdi.ust.hk/datathon/"
 
 [[expert]]
-keyword = "Served as"
-description = "Microsoft ImagineHack Organizing Committee"
-year = "2017-"
+keyword = "Organizing Committee Member"
+description = "Microsoft ImagineHack"
+year = "2017-18"
+url = "https://imaginehack-2017.devpost.com/"
 
 [[expert]]
-keyword = "Served as"
-description = "Fishackathon Hong Kong Mentor / Organizer"
+keyword = "Mentor / Organizer"
+description = "Fishackathon Hong Kong"
+year = "2016-18"
+url = "https://hackernest.com/events/hong-kong-china-fishackathon-2018"
+
+[[expert]]
+keyword = "Hong Kong Ambassador"
+description = "AngelHack"
 year = "2016-"
+url = "https://angelhack.com/ambassadors/"
 
 [[expert]]
-keyword = "Served as"
-description = "AngelHack Hong Kong Ambassador"
-year = "2016-"
-
-[[expert]]
-keyword = "Co-founded and organized"
+keyword = "Co-founder and Organizer"
 description = "hackUST"
-year = "2014-"
+year = "2014-16"
+url = "http://hack.ust.hk/"
 
 
 

@@ -112,7 +112,15 @@
                 {{ range .expert }}
                 <li>
                     {{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.keyword}}</span> {{.description}}
+                    <span class="badge badge-pill badge-info">{{.keyword}}</span>
+
+
+                    {{ if .url }}
+                    <a href="{{.url}}" target="_blank">{{.description}}</a>
+                    {{ else }}
+                    {{.description}}
+                    {{ end }}
+
                 </li>
                 {{ end }}
             </ul>

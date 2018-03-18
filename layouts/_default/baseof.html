@@ -3,6 +3,9 @@
 <head>
 
     {{ partial "meta.html" . }}
+    {{ block "page_meta" . }}
+    {{ end }}
+
     {{ partial "favicon.html" . }}
     {{ template "_internal/google_analytics_async.html" . }}
 
