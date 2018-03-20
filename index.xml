@@ -6,10 +6,20 @@
     <description>Recent content on Peter&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Mar 2018 11:58:20 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Mar 2018 19:44:34 +0800</lastBuildDate>
     
 	<atom:link href="https://hkpeterpeter.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10-year web development as a hobbyist</title>
+      <link>https://hkpeterpeter.github.io/article/10-year-web-development/</link>
+      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
+      
+      <guid>https://hkpeterpeter.github.io/article/10-year-web-development/</guid>
+      <description>I don&amp;rsquo;t need to make a living via coding daily. Developing web applications is a hobbyist effort, and it already lasts for 10 years. Programming is a habit. Even a programming language or framework becomes obsolete, the skills will be transferable to other projects. Nothing will be wasted.
+2007 - Joomla! CMS It was the first personal website I made when I was studying MPhil at HKUST. I didn’t code anything.</description>
+    </item>
     
     <item>
       <title>Alumni</title>
