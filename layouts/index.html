@@ -86,7 +86,7 @@
             <div class="p-3 col-6 col-lg-3 ">
 
                 <h1><a href="/testimonial"><i class="region-hover far fa-comments"></i></a>
-                    {{  len .Site.Data.testimonial.item }}</h1>
+                    <span id="testimonial_count"> 0 </span></h1>
                 <h5>Testimonials</h5>
                 <p class="small">from senior and friends</p>
 
@@ -95,14 +95,14 @@
 
             <div class="p-3 col-6 col-lg-3">
                 <h1><a href="/hackathon"><i class="region-hover fab fa-hire-a-helper"></i></a>
-                    {{len .Site.Data.hack_timeline.events}}</h1>
+                    <span id="hackathon_count"> 0 </span> </h1>
                 <h5>Hackathons</h5>
                 <p class="small">organized or joined</p>
             </div>
 
             <div class=" p-3 col-6 col-lg-3">
                 <h1><a href="/alumni"><i class="region-hover fas fa-graduation-cap"></i></a>
-                    {{ len .Site.Data.alum_timeline.events }}</h1>
+                   <span id="alumni_count"> 0 </span> </h1>
                 <h5>Alumni Events</h5>
                 <p class="small">organized or joined</p>
 
@@ -110,7 +110,7 @@
 
             <div class=" p-3 col-6 col-lg-3">
                 <h1><a href="/teaching"><i class="region-hover fas fa-book"></i></a>
-                    {{ partial "evaluation_report_count.html" . }}</h1>
+                    <span id="evaluation_count">0</span></h1>
                 <h5>Evaluation Reports</h5>
                 <p class="small">from students</p>
             </div>
@@ -124,6 +124,29 @@
     </div>
 </div>
 {{ end }}
+
+{{ define "page_js" }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.9.3/countUp.min.js"></script>
+<script>
+
+    var options = {
+        useEasing: true
+    };
+    var t = 2;
+    new CountUp("testimonial_count", 0, {{ len .Site.Data.testimonial.item }}, 0, t, options ).start();
+    new CountUp("hackathon_count", 0,  {{len .Site.Data.hack_timeline.events}}, 0, t, options ).start();
+    new CountUp("alumni_count", 0,  {{ len .Site.Data.alum_timeline.events }}, 0, t, options ).start();
+    new CountUp("evaluation_count", 0,   {{  int (trim (partial "evaluation_report_count.html" .) "\n ") }}, 0, t, options ).start();
+
+
+
+
+</script>
+
+
+{{ end }}
+
 
 {{ define "footer" }}
 {{ partial "footer.html" . }}
