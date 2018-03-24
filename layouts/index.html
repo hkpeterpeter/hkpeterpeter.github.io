@@ -131,9 +131,9 @@
 <script>
 
     var options = {
-        useEasing: true
+        useEasing: false
     };
-    var t = 2;
+    var t = 1;
     new CountUp("testimonial_count", 0, {{ len .Site.Data.testimonial.item }}, 0, t, options ).start();
     new CountUp("hackathon_count", 0,  {{len .Site.Data.hack_timeline.events}}, 0, t, options ).start();
     new CountUp("alumni_count", 0,  {{ len .Site.Data.alum_timeline.events }}, 0, t, options ).start();
