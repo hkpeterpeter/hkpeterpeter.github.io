@@ -1,10 +1,19 @@
 [[events]]
+order = 21
+title = "Access to Justice InnoTech Law Hackathon 2018"
+url = "hack_timeline/a2j_innotech_hackathon_2018.jpg"
+date = "Apr 2018"
+role = "Participant and Winner"
+desc = "Won the second runner-up award"
+
+
+[[events]]
 order = 20
 title = "Global Legal Hackathon Hong Kong 2018"
 url = "hack_timeline/global_legal_hackathon_2018.jpg"
 date = "Feb 2018"
-role = "Particpant and Winner"
-desc = "Participated and won the second runner up award"
+role = "Participant and Winner"
+desc = "Won the second runner-up award"
 
 [[events]]
 order = 19

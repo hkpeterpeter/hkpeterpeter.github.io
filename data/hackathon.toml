@@ -32,10 +32,11 @@ year = "2014-16"
 url = "http://hack.ust.hk/"
 
 
-
-
-
-
+[[awards]]
+keyword = "Second Runner-up"
+description = "Access to Justice InnoTech Law Hackathon"
+url = "https://www.a2jhackathon.net/"
+year = "2018"
 
 [[awards]]
 keyword = "Second Runner-up"
