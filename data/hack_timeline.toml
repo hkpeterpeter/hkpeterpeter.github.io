@@ -1,4 +1,14 @@
 [[events]]
+order = 22
+title = "hackUST 2018"
+url = "hack_timeline/hackust_2018.jpg"
+date = "Apr 2018"
+role = "Mentor and VIP"
+desc = """The 5th consecutive year in hackUST.I talked with participants on each table,
+spreading my experience in Hackathon and how to transform a prototype to a startup idea"""
+
+
+[[events]]
 order = 21
 title = "Access to Justice InnoTech Law Hackathon 2018"
 url = "hack_timeline/a2j_innotech_hackathon_2018.jpg"

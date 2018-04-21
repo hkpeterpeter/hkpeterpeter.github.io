@@ -2,6 +2,12 @@ expert_title = "Hackathon Experience"
 award_title = "Hackathon Awards"
 
 [[expert]]
+keyword = "Mentor and VIP"
+description = "hackUST"
+year = "2018"
+url = "http://hack.ust.hk/"
+
+[[expert]]
 keyword = "Organizer"
 description = "HKUST x Radica Big Datathon"
 year = "2017-18"
@@ -20,10 +26,10 @@ year = "2016-18"
 url = "https://hackernest.com/events/hong-kong-china-fishackathon-2018"
 
 [[expert]]
-keyword = "Hong Kong Ambassador"
-description = "AngelHack"
+keyword = "Ambassador"
+description = "AngelHack Hong Kong"
 year = "2016-"
-url = "https://angelhack.com/ambassadors/"
+url = "https://angelhack.com/"
 
 [[expert]]
 keyword = "Co-founder and Organizer"
