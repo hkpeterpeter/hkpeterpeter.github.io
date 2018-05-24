@@ -1,4 +1,15 @@
 [[events]]
+order = 23
+title = "PolyU x Radica Big Datathon 2018"
+url = "hack_timeline/polyu_radica_datathon_2018.jpg"
+date = "May 2018"
+role = "Event Emcee and General Support"
+desc = """The second time to help RADICA launch Big Datathon in Hong Kong.
+RADICA works with different universities each time to present BigDatathon -
+a competition focusing on the application of big data, data analytics, and data science"""
+
+
+[[events]]
 order = 22
 title = "hackUST 2018"
 url = "hack_timeline/hackust_2018.jpg"
@@ -10,7 +21,7 @@ spreading my experience in Hackathon and how to transform a prototype to a start
 
 
 [[events]]
-order = 21
+order = 22
 title = "Access to Justice InnoTech Law Hackathon 2018"
 url = "hack_timeline/a2j_innotech_hackathon_2018.jpg"
 date = "Apr 2018"
@@ -19,12 +30,23 @@ desc = "Won the second runner-up award"
 
 
 [[events]]
-order = 20
+order = 21
 title = "Global Legal Hackathon Hong Kong 2018"
 url = "hack_timeline/global_legal_hackathon_2018.jpg"
 date = "Feb 2018"
 role = "Participant and Winner"
 desc = "Won the second runner-up award"
+
+[[events]]
+order = 20
+title = "CityHack 2018"
+date = "Feb 2018"
+role = "Advisor"
+desc = """Kindly received an invitation by Dr. Ray Cheung at
+CityU to be an advisor to give some comments to the OC team in the
+very early stage, and I shared some of my experience in organizing
+Hackathon in Hong Kong"""
+
 
 [[events]]
 order = 19
