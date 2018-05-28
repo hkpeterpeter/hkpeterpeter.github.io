@@ -2,6 +2,12 @@ expert_title = "Hackathon Experience"
 award_title = "Hackathon Awards"
 
 [[expert]]
+keyword = "Event Emcee and General Support"
+description = "PolyU x Radica Big Datathon"
+year = "2018"
+url = "https://www.datavalleyhk.com/bigdatathon"
+
+[[expert]]
 keyword = "Mentor and VIP"
 description = "hackUST"
 year = "2018"
