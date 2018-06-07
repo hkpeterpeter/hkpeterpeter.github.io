@@ -247,10 +247,15 @@ reports = [
 "COMP3111_LA1_Spring1617.pdf",
 "COMP3111_LA2_Spring1617.pdf",
 "COMP3111_LA3_Spring1617.pdf",
+"COMP3111_LA1_Spring1718.pdf",
+"COMP3111_LA2_Spring1718.pdf",
+"COMP3111_LA3_Spring1718.pdf",
 ]
 good_comments = [
 """Peter is one of the best persons I have met in my life. Very friendly TA with solid background
 of his field. Very interesting way of teaching with clear accent.""",
+"Probably the best TA in HKUST with good knowledge and great passion towards teaching",
+"The only way to improve is for there to be two of him",
 "Already the best TA in HKUST",
 "Go over tutorial notes with great details",
 "Extremely familiar with the tutorial materials",
@@ -264,6 +269,9 @@ of his field. Very interesting way of teaching with clear accent.""",
 "Attentive with students giving feedbacks",
 "He was very friendly",
 "Nice. Would share some of his own experience to improve our learning",
+"talkative",
+"shares a lot of information, not just giving the bare minimum",
+"Keep the passion and hard work",
 ]
 bad_comments = [
 "too often to ask O.K.?",
@@ -277,6 +285,11 @@ which may seem interacting with students to him, but distracting and annoying to
 "The explanation about the requirements of the project is not clear enough. TA is not experienced enough in the related area.",
 "Get himself to know the subject better so that he can help solving actual problems instead of just lab problems.",
 "The TA should improve his ability related with this course. When we ask questions about asp.net MVC, he knew as little as us!",
+"better communication with the lecturer and less insist on the minor point",
+"have a lab session for learning basic JavaFX, have more office hours",
+"Perhaps be more friendly and approachable",
+"can be a bit more friendly to students and he will be a better ta if he look a bit more carefully to our email. But he is helpful overall",
+
 ]
 
 # === COMP3511
@@ -316,12 +329,14 @@ reports = [
   "COMP4511_LA1_Spring1516.pdf",
   "COMP4511_LA1_Spring1617.pdf",
   "COMP4511_LA2_Spring1617.pdf",
+  "COMP4511_LA1_Spring1718.pdf",
 ]
 good_comments = [
 "Peter tried to be helpful.",
 "He answers my email questions extremely fast. Also he explains everything extremely clear.",
 "Helpful TA. Easy to understand lab materials.",
 "Nothing. He's good.",
+"respond with any question",
 ]
 bad_comments = [
 "He grades assignment too slowely",
