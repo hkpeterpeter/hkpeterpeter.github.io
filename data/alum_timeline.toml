@@ -1,4 +1,10 @@
 [[events]]
+order = 29
+title = "CSAA Connects the World Dinner 2018"
+url = "slideshow/csaa_connects_the_world_2018.jpg"
+date = "Jun 2018"
+
+[[events]]
 order = 28
 title = "Cyberport Alumni New Year Networking Lunch 2018"
 url = "slideshow/Cyberport Alumni_Lunar_New_Year_Networking_Lunch_2018.jpg"
@@ -45,7 +51,7 @@ date = "Jun 2017"
 
 [[events]]
 order = 20
-title = "CSAA Connects the World Dinner"
+title = "CSAA Connects the World Dinner 2017"
 url = "slideshow/CSAA_connects_the_world_dinner_2017.jpg"
 date = "Jun 2017"
 
