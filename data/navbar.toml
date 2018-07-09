@@ -34,9 +34,9 @@ icon = "fas fa-graduation-cap"
 #icon = "fas fa-briefcase"
 #ext = "Yes"
 
-[[menu]]
-name = "Articles"
-url = "/article"
-icon = "fas fa-edit"
+#[[menu]]
+#name = "Articles"
+#url = "/article"
+#icon = "fas fa-edit"
 
 
