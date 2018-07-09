@@ -1,7 +1,17 @@
 [[events]]
-order = 29
+order = 31
+title = "HKUST SENG-SRI Forum and Alumni Reunion Dinner"
+date = "Jul 2018"
+
+[[events]]
+order = 30
 title = "CSAA Connects the World Dinner 2018"
 url = "slideshow/csaa_connects_the_world_2018.jpg"
+date = "Jun 2018"
+
+[[events]]
+order = 29
+title = "Blockchain seminar: Introduction to blockchain and opportunities for you (co-organized by CSEAA)"
 date = "Jun 2018"
 
 [[events]]

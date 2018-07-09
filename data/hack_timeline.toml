@@ -1,4 +1,12 @@
 [[events]]
+order = 24
+title = "AngelHack Hong Kong 2018"
+url = "hack_timeline/ah_hk_2018.jpg"
+date = "Jul 2018"
+role = "Organizer"
+desc = "Served as AngelHack Hong Kong ambassador to organize a city competition for the 3rd consecutive year"
+
+[[events]]
 order = 23
 title = "PolyU x Radica Big Datathon 2018"
 url = "hack_timeline/polyu_radica_bigdatathon_2018.jpg"
