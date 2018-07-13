@@ -5,6 +5,7 @@ url = "hack_timeline/ah_hk_2018.jpg"
 date = "Jul 2018"
 role = "Organizer"
 desc = "Served as AngelHack Hong Kong ambassador to organize a city competition for the 3rd consecutive year"
+album = "https://photos.app.goo.gl/bmRLCn3oNWaiQBWBA"
 
 [[events]]
 order = 23
@@ -35,6 +36,7 @@ url = "hack_timeline/a2j_innotech_hackathon_2018.jpg"
 date = "Apr 2018"
 role = "Participant and Winner"
 desc = "Won the second runner-up award"
+album = "https://photos.app.goo.gl/dv8k9V7BV962CC357"
 
 
 [[events]]
@@ -44,6 +46,7 @@ url = "hack_timeline/global_legal_hackathon_2018.jpg"
 date = "Feb 2018"
 role = "Participant and Winner"
 desc = "Won the second runner-up award"
+album = "https://photos.app.goo.gl/xtFLhcFM2gfWD5ZX8"
 
 [[events]]
 order = 20
@@ -63,6 +66,7 @@ url = "hack_timeline/fishackathon_hk_2018.jpg"
 date = "Feb 2018"
 role = "Organizer"
 desc = "Helped organize Fishackathon for the 2nd time in Hong Kong"
+album = "https://photos.app.goo.gl/UL7wekE6pqyXaBd38"
 
 [[events]]
 order = 18
@@ -71,6 +75,7 @@ url = "hack_timeline/aswatson_hackathon_2018.jpg"
 date = "Jan 2018"
 role = "Participant"
 desc = "Mentioned by the official AS Watson group's LinkedIn page"
+album = "https://photos.app.goo.gl/YvkGe879ujL4ropW7"
 
 [[events]]
 order = 17
@@ -88,6 +93,7 @@ url = "hack_timeline/hkust_radica_bigdatathon_2017.jpg"
 role = "Project Manager"
 date = "Dec 2017"
 desc = "Helped Radica and HKUST Big Data Insitute organize a data-centric Hackathon (Datathon) in Hong Kong"
+album = "https://photos.app.goo.gl/EywYLqAE117joF4D8"
 
 [[events]]
 order = 15
@@ -103,7 +109,7 @@ url = "hack_timeline/smartonehackathon_2017.jpg"
 role = "Organizer"
 date = "Oct 2017"
 desc =  "Served as AngelHack Hong Kong ambassador to help Smartone organize Hackathon in Hong Kong"
-
+album = "https://photos.app.goo.gl/HrxoRoUP4uavHVib9"
 
 [[events]]
 order = 14
@@ -112,6 +118,7 @@ url = "hack_timeline/angelhack_hongkong_2017.jpg"
 role = "Organizer"
 date = "Jun 2017"
 desc = "Served as AngelHack Hong Kong ambassador to organize a city competition"
+
 
 [[events]]
 order = 13
@@ -127,6 +134,7 @@ url = "hack_timeline/hs_fintech_hackathon_2017.jpg"
 role = "Organizer"
 date = "May 2017"
 desc = "Helped Hang Seng Bank organize their first FinTech Hackathon in Hong Kong"
+album = "https://photos.app.goo.gl/xZm6ZRe8SkDhtPEw2"
 
 [[events]]
 order = 12

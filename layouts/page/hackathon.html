@@ -32,6 +32,7 @@
                             {{with $item.role}}<p><i class="fas fa-users"></i>&nbsp;{{.}}&nbsp;</p>{{end}}
                             {{with $item.date}}<p><i class="far fa-calendar-alt"></i>&nbsp;{{.}}</p>{{end}}
                             {{with $item.desc}}<p class="timeline-content-description">{{.}}</p>{{end}}
+                            {{with $item.album}} <i class="far fa-image"></i> <a href="{{.}}" target="_blank">Photo Album</a>{{end}}
                         </div>
                   </div>
 
