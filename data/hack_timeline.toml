@@ -139,7 +139,7 @@ album = "https://photos.app.goo.gl/xZm6ZRe8SkDhtPEw2"
 [[events]]
 order = 12
 title = "hackUST 2017"
-url = "hack_timeline/hackUST_2017.png"
+url = "hack_timeline/hackust_2017.png"
 role = "Participant"
 date = "Apr 2017"
 desc = "Won the top-5 award in HealthTech theme"
