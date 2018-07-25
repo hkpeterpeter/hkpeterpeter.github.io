@@ -118,6 +118,7 @@ url = "hack_timeline/angelhack_hongkong_2017.jpg"
 role = "Organizer"
 date = "Jun 2017"
 desc = "Served as AngelHack Hong Kong ambassador to organize a city competition"
+album = "https://photos.app.goo.gl/Sf5wRHFZmyZbw34P8"
 
 
 [[events]]
@@ -165,6 +166,7 @@ url = "hack_timeline/ms_hack_2017.jpg"
 role = "Organizer"
 date = "Jan 2017"
 desc = "Helped Microsoft organize their first Hackathon in Hong Kong"
+album = "https://photos.app.goo.gl/nrq9tBxQVQsVa5Re9"
 
 [[events]]
 order = 9
@@ -173,6 +175,7 @@ url = "hack_timeline/hack_o_life_2016.jpg"
 role = "Winner"
 date = "Nov 2016"
 desc = "Worked with 3 students to win Hack-O-Life Hackathon in 2016"
+album = "https://photos.app.goo.gl/6RZBN75oKHFgSx2FA"
 
 [[events]]
 order = 8
@@ -181,6 +184,7 @@ url = "hack_timeline/jeju_hackathon_2016.jpg"
 role = "Participant"
 date = "Oct 2016"
 desc = "Traveled with 4 other Hong Kong people to join Hackathon in JeJu, South Korea"
+album = "https://photos.app.goo.gl/MMjGXaQ5mSz6PAfcA"
 
 [[events]]
 order = 7
@@ -191,6 +195,7 @@ date = "Oct 2016"
 desc = """A 6-hour condensed mini-hackathon competition. It attracted 89 HKUST students and alumni.
 Open source development via Git/GitHub and cloud computing technologies were included.
 """
+album = "https://photos.app.goo.gl/tY1EytnV28Ep8Prw9"
 
 [[events]]
 order = 7
@@ -200,6 +205,7 @@ date = "Sep 2016"
 desc = """Developed an innovative Virtual Reality (VR) application in FinTech theme. Although we
 could not win any prize, it was a wonderful experience"""
 url = "hack_timeline/ft_hackathon_2016.jpg"
+album = "https://photos.app.goo.gl/j3zNK6iFjjkHEjmM6"
 
 [[events]]
 order = 7
@@ -208,6 +214,7 @@ role = "Judge"
 date = "Sep 2016"
 desc = "Invited by BitwiseHack and Cyberport to be one of the judges in the competition"
 url = "hack_timeline/cyberport_fintech_hack_2016.jpg"
+album = "https://photos.app.goo.gl/gh8Ur6yJYk8awKbj7"
 
 
 [[events]]
@@ -217,6 +224,7 @@ url = "hack_timeline/dreamcatcher_hackathon_2016.jpg"
 role = "Finalist"
 date = "Jun 2016"
 desc = "HabHub entered the final presentation stage of the first MedTech Hackathon in Hong Kong"
+album = "https://photos.app.goo.gl/6XgeeTvisAi3HEYx9"
 
 
 [[events]]
@@ -233,6 +241,7 @@ role = "Mentor"
 date = "Apr 2016"
 desc = "Served as a technical mentor in Fishackathon at Ocean Park"
 url = "hack_timeline/fishackathon_2016.jpg"
+album = "https://photos.app.goo.gl/UbfpQ7iSWN3FKje5A"
 
 [[events]]
 order = 4
@@ -243,6 +252,7 @@ date = "Apr 2016"
 desc = """Comparing with hackUST 2015, the hackathon attracted double turnout.
 440+ participants in 91 teams from 8 local universities joined the competition
 """
+album = "https://photos.app.goo.gl/jYUs2DLpHgQpxLfWA"
 
 [[events]]
 order = 3
@@ -261,6 +271,7 @@ date = "Mar 2015"
 desc = """hackUST 2015 opened to all university students and alumni in Hong Kong.
 220+ participants in 47 teams from various local universities joined the competition.
 """
+album = "https://photos.app.goo.gl/sKATuL6BsbpFh2qM6"
 
 [[events]]
 order = 1
@@ -271,7 +282,7 @@ date = "April 2014"
 desc = """The first ever university-backed hackathon in Hong Kong.
 The competition attracted 105 HKUST students and alumni
 """
-
+album = "https://photos.app.goo.gl/WUASiScioA475txf6"
 
 
 
