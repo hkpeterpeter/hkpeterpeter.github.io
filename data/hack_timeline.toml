@@ -1,4 +1,11 @@
 [[events]]
+order = 25
+title = "Smart City Hackathon Hong Kong 2018"
+url = "hack_timeline/smart_city_hackathon_hong_kong_2018.jpg"
+date = "Sep 2018"
+role = "Founding Committee Member"
+
+[[events]]
 order = 24
 title = "AngelHack Hong Kong 2018"
 url = "hack_timeline/ah_hk_2018.jpg"
