@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="card-body text-center">
-                    <h4 class="card-title">{{ with .Site.Params.author }} {{.}} {{ end }}</h4>
+                    <h5 class="card-title">{{ with .Site.Params.author }} {{.}} {{ end }}</h5>
 
 
                     <p>
@@ -64,6 +64,9 @@
 
                     {{ end }}
                     </p>
+
+                    <span class="badge badge-danger">🔥HEAT🔥</span>
+                    <br>
 
                     {{ with .Site.Data.homepage.tags }}
                         {{ range . }}

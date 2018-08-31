@@ -1,8 +1,7 @@
 profile_url = "/images/profile.png"
 description = """Mr Chung has more than 8 years of experience in the higher education sector. He has solid experience in
 software engineering, entrepreneurship, e-learning, STEM education, student advising, and alumni engagement.
-He is an active Hackathon organizer and participant based in Hong Kong.
-He is a co-founder of a HealthTech startup, and maintains strong connections with the local startup community.
+He is an active Hackathon organizer and participant based in Hong Kong, and maintains close connections with the local startup community.
 """
 
 [office]
@@ -21,11 +20,9 @@ Won various Hackathon competitions.
 """
 
 [[tags]]
-name = "Educator"
-desc = """Served as Advisor at Student Innovation for Global Health Technology (SIGHT) and STEM Course Instructor
-at Academy of Bright Future Young Engineers (ABFYE), in addition to the teaching support duty at HKUST. Also serve as
-Advisor in various student groups at HKUST.
-"""
+name = "Entrepreneur"
+desc = """Co-founded HabHub, an award winning HealthTech startup at Cyberport.
+EFHK1 Founder In Residence, Entrepreneur First (EF). The total valuation of EF portfolio companies exceeds US 1 billion dollars."""
 
 
 [[tags]]
@@ -34,10 +31,12 @@ desc = """Co-founded Computer Science and Engineering Alumni Association, HKUST 
 Executive Sub-Committee Member of Cyberport Startup Alumni Association (CSAA)"""
 
 [[tags]]
-name = "Entrepreneur"
-desc = """Co-founded HabHub, an award winning HealthTech startup at Cyberport.
-EFHK1 Founder In Residence, Entrepreneur First (EF). EF is the world’s leading company builder where exceptional individuals
-come together to start groundbreaking companies. The total valuation of EF portfolio companies exceeds US 1 billion dollars."""
+name = "Teacher"
+desc = """Served as Advisor at Student Innovation for Global Health Technology (SIGHT) and STEM Course Instructor
+at Academy of Bright Future Young Engineers (ABFYE), in addition to the teaching support duty at HKUST. Also serve as
+Advisor in various student groups at HKUST.
+"""
+
 
 
 [[social]]
