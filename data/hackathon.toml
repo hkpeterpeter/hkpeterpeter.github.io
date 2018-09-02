@@ -2,6 +2,12 @@ expert_title = "Hackathon Experience"
 award_title = "Hackathon Awards"
 
 [[expert]]
+keyword = "Founding Committee Member"
+description = "Smart City Hong Kong Hackathon 2018"
+year = "2018"
+url = "https://odhack-hk-2018.devpost.com/submissions"
+
+[[expert]]
 keyword = "Event Emcee and General Support"
 description = "PolyU x Radica Big Datathon"
 year = "2018"
