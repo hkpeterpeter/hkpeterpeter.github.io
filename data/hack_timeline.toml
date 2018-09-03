@@ -4,6 +4,11 @@ title = "Smart City Hackathon Hong Kong 2018"
 url = "hack_timeline/smartcity_hackathon_2018.jpg"
 date = "Sep 2018"
 role = "Founding Committee Member"
+desc = """Partnered WEF Global Shapers Hong Kong and Hong Kong Science and Technology Park (HKSTP) to organize the first-ever
+          Smart City Hackathon in Hong Kong. The competition attracted over 100 talents, including a 10-year
+          old developer.
+"""
+album = "https://photos.app.goo.gl/GjFhXXYFyMtqyDjv8"
 
 [[events]]
 order = 24
