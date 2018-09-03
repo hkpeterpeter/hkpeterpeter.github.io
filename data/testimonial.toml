@@ -53,16 +53,7 @@ I rank HackUST as one of the best events at UST that show cases the innovative, 
 It largely outranked many of the events we professors organize.
 """
 
-[[item]]
-name = "Mr. Donny SIU"
-title = "Associate Director of Entrepreneurship Center and Student Affairs Office, HKUST"
-date = "Sep 2016"
-tags = ["HKUST", "hackUST"]
-abstract = """Peter is a very experienced participant and organizer in hackathon activities,
-to partner with us in organizing hackathon related activities on campus. With his passion,
-experience and partnership, I am sure we will be able to work together in making hackathon a remarkable
-and successful entrepreneurial activities at HKUST.
-"""
+
 
 [[item]]
 name = "Prof. Rocky CHANG"
@@ -74,13 +65,7 @@ Peter, although you did not say anything in the public, you are the one mastermi
 holding everything together. Your dedication and efforts are truly exemplary for all of us. Thank you for doing this for the students.
 """
 
-[[item]]
-name = "Prof. Ray CHEUNG"
-title = "Associate Professor and Director of App Lab, CityU"
-date = "Aug 2017"
-tags = ["CityU", "hackathon"]
-abstract = """Many thanks Harry and Peter for kindly agreeing to serve as consultant for the CityU Hackathon!
-Please raise your questions here, and Harry and Peter will share their experience."""
+
 
 [[item]]
 name = "巩艳"
@@ -111,13 +96,15 @@ ref_url = "http://one.cse.ust.hk/events/hoc2015/index.html"
 ref_url_name = "More about Hour of Code@HKUST 2015"
 
 [[item]]
-name = "Fai YEUNG"
-title = "Manager, Academy for Bright Future Engineers, HKUST"
-date = "Apr 2017"
-tags = ["HKUST", "STEM", "Chatbot"]
-abstract = "Dear Peter, Thanks for offering the Facebook chatbot workshop last Thursday. I believe the students enjoyed the workshop a lot."
-ref_url = "http://abfye.ust.hk/past_event_stem%20month_2.html"
-ref_url_name = "More about the STEM Chatbot workshop"
+name = "Mr. Donny SIU"
+title = "Associate Director of Entrepreneurship Center and Student Affairs Office, HKUST"
+date = "Sep 2016"
+tags = ["HKUST", "hackUST"]
+abstract = """Peter is a very experienced participant and organizer in hackathon activities,
+to partner with us in organizing hackathon related activities on campus. With his passion,
+experience and partnership, I am sure we will be able to work together in making hackathon a remarkable
+and successful entrepreneurial activities at HKUST.
+"""
 
 [[item]]
 date = "Dec 2016"
@@ -129,6 +116,23 @@ As the leader, we would like you to guide the group of student committee through
 """
 ref_url = "https://imaginehack-2017.devpost.com/"
 ref_url_name = "ImageHack 2017 competition website"
+
+[[item]]
+name = "Fai YEUNG"
+title = "Manager, Academy for Bright Future Engineers, HKUST"
+date = "Apr 2017"
+tags = ["HKUST", "STEM", "Chatbot"]
+abstract = "Dear Peter, Thanks for offering the Facebook chatbot workshop last Thursday. I believe the students enjoyed the workshop a lot."
+ref_url = "http://abfye.ust.hk/past_event_stem%20month_2.html"
+ref_url_name = "More about the STEM Chatbot workshop"
+
+[[item]]
+name = "Prof. Ray CHEUNG"
+title = "Associate Professor and Director of App Lab, CityU"
+date = "Aug 2017"
+tags = ["CityU", "hackathon"]
+abstract = """Many thanks Harry and Peter for kindly agreeing to serve as consultant for the CityU Hackathon!
+Please raise your questions here, and Harry and Peter will share their experience."""
 
 [[item]]
 date = "Feb 2018"
@@ -149,3 +153,14 @@ tags = ["LegalTech", "Hackathon"]
 abstract = """Congrats to you and your LEGOT team Peter Chung! I really appreciate your considered observations ....
 we would love to attract more at different levels and welcome your thoughts on doing so. Thanks again!
 """
+
+[[item]]
+date = "Sep 2018"
+name = "Gracie Ng"
+title = "Associate Director, ICT Cluster & Smart City Platform, HKSTP"
+tags = ["Hackathon", "Smart City"]
+abstract = """it’s such a privilege to work with such a talented team! thank you for
+choosing HKSTP and Data Studio to be your partner!  you folks are the best!
+"""
+ref_url = "https://odhack-hk-2018.devpost.com/"
+ref_url_name = "Smart City Hackathon Hong Kong 2018 competition website"
