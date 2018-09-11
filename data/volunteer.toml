@@ -1,6 +1,12 @@
 title = "Other Volunteer Experience"
 
 [[roles]]
+year = "Nov 2018"
+title = "Judge and Mentor"
+event = "Alibaba Jumpstarter Student Challenge 2019"
+
+
+[[roles]]
 year = "Mar 2018"
 title = "Volunteer"
 event = "Cyberport Startup Weekend FinTech Hong Kong 2018"
@@ -8,7 +14,7 @@ event = "Cyberport Startup Weekend FinTech Hong Kong 2018"
 [[roles]]
 year = "Mar 2018"
 title = "Guest Speaker"
-event = "Voice Up event, 青年築夢基金"
+event = "Voice Up event, youthfund.hk"
 
 [[roles]]
 year = "Sep 2017"
