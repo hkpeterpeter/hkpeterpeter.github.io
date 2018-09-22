@@ -1,4 +1,13 @@
 [[events]]
+order = 26
+title = "Belt & Road Justice Challenge - Innotech Law Hackathon"
+url = "hack_timeline/brj_hackathon_2018.jpg"
+date = "Sep 2018"
+role = "Mentor"
+desc = """The competition was organized by the Law Society of Hong Kong. I served as a mentor to
+help the top 10 teams, with a good mix of university students and working professionals."""
+
+[[events]]
 order = 25
 title = "Smart City Hackathon Hong Kong 2018"
 url = "hack_timeline/smartcity_hackathon_2018.jpg"
