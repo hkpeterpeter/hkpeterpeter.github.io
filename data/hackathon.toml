@@ -49,6 +49,12 @@ description = "hackUST"
 year = "2014-16"
 url = "http://hack.ust.hk/"
 
+[[awards]]
+keyword = "Day 1 idea pitching award"
+description = "AIA Life Hackathon"
+url = "https://www.aialifehack.com/"
+year = "2018"
+
 
 [[awards]]
 keyword = "Second Runner-up"

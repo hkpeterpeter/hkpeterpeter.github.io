@@ -1,4 +1,13 @@
 [[events]]
+order = 27
+title = "AIA Life Hackathon 2018"
+url = "hack_timeline/aialifehack_2018.jpg"
+date = "Nov 2018"
+role = "Participant. Winner of Day 1 idea pitching award"
+desc = """The Hackathon was organized by AIA, Microsoft Hong Kong, EY, and ThinkCol. The competition attracted over 100 participants from 12 different regions
+"""
+
+[[events]]
 order = 26
 title = "Belt & Road Justice Challenge - Innotech Law Hackathon"
 url = "hack_timeline/brj_hackathon_2018.jpg"
