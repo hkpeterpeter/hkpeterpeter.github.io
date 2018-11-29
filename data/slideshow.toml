@@ -1,4 +1,19 @@
 [[slide]]
+title = "Inter-School Innovation Competition on Insurance Technology 2018"
+url = "slideshow/insurtech_challenge_2018.jpg"
+tags = ["Hackathon"]
+
+[[slide]]
+title = "HKUST Alumni Reunion Day 2018"
+url = "slideshow/HKUST_Alumni_Reunion_2018.jpg"
+tags = ["Alumni"]
+
+[[slide]]
+title = "Facebook Chatbot Workshop for Alumni Families 2018"
+url = "slideshow/chatbot_workshop_alumni_families_2018.jpg"
+tags = ["Alumni", "Teaching"]
+
+[[slide]]
 title = "AIA Life Hackathon 2018"
 url = "slideshow/aialifehack_2018.jpg"
 tags = ["Hackathon"]
@@ -16,7 +31,7 @@ tags = ["Alumni"]
 [[slide]]
 title = "Entrepreneur First Hong Kong (Cohort 1) - Kick-off Day"
 url = "slideshow/efhk1_kod_2018.jpg"
-tags = ["Startup"]
+tags = ["Entrepreneurship"]
 
 [[slide]]
 title = "AngelHack Hong Kong 2018"
@@ -26,12 +41,12 @@ tags = ["Hackathon"]
 [[slide]]
 title = "CSAA Connects the World Dinner 2018"
 url = "slideshow/csaa_connects_the_world_2018.jpg"
-tags = ["Alumni", "Startup"]
+tags = ["Alumni", "Entrepreneurship"]
 
 [[slide]]
 title = "PolyU x Radica Big Datathon 2018"
 url = "slideshow/polyu_radica_bigdatathon_2018.jpg"
-tags = ["Hackathon", "Alumni", "Teaching", "Startup"]
+tags = ["Hackathon", "Alumni", "Teaching", "Entrepreneurship"]
 
 [[slide]]
 title = "CSE Graduation Dinner 2018"
@@ -52,13 +67,13 @@ subtitle = "Won the second runner-up in Justus team"
 [[slide]]
 title = "Cyberport Startup Weekend FinTech Hong Kong 2018"
 url = "slideshow/startupweekend_fintech_2018.jpg"
-tags = ["Alumni","Startup"]
+tags = ["Alumni","Entrepreneurship"]
 subtitle = "Supported the event as an executive committee member of Cyberport Startup Alumni Association"
 
 [[slide]]
 title = "Cyberport Alumni New Year Networking Lunch 2018"
 url = "slideshow/Cyberport Alumni_Lunar_New_Year_Networking_Lunch_2018.jpg"
-tags = ["Alumni", "Startup"]
+tags = ["Alumni", "Entrepreneurship"]
 
 [[slide]]
 title = "Global Legal Hackathon Hong Kong 2018"
@@ -80,7 +95,7 @@ tags = ["Hackathon"]
 [[slide]]
 title = "Cyberport Startup Graduation Ceremony 2017"
 url = "slideshow/habhub_ccmf_grad.jpg"
-tags = ["Startup", "Alumni"]
+tags = ["Entrepreneurship", "Alumni"]
 
 [[slide]]
 title = "HKUSTxRadica Big Datathon 2017"
@@ -97,18 +112,19 @@ subtitle = "Served as AngelHack Hong Kong Ambassador"
 [[slide]]
 title = "CSAA Mid-Autumn Festival Party and ExCo meeting 2017"
 url = "slideshow/CSAA_mid_autumn_exco_meeting_2017.jpg"
-tags = ["Alumni","Startup"]
+tags = ["Alumni","Entrepreneurship"]
 
 [[slide]]
 title = "HKUST Alumni Visit 2017"
 subtitle = "Shenzhen BlueBay Incubation Program"
 url = "slideshow/alumni_visit_hkust_bluebay_incubation_2017.jpg"
-tags = ["Alumni","Startup"]
+tags = ["Alumni","Entrepreneurship"]
 
 [[slide]]
 title = "Social-up Youth Program 2017"
 subtitle = "Served as Judge of the pitching competition"
 url = "slideshow/SoInSoGood_HKSTP_2017.jpg"
+tags = ["Entrepreneurship"]
 
 [[slide]]
 title = "SENG Alumni Social Mixer 2017"
@@ -119,7 +135,7 @@ tags = ["Alumni"]
 title = "RISE Conference Hong Kong 2017"
 subtitle = "Being interviewed by TVB about HabHub"
 url = "slideshow/HabHub_TVB_Interview_RISE.jpg"
-tags = ["Startup"]
+tags = ["Entrepreneurship"]
 
 [[slide]]
 title = "SENG Facebook Chatbot Workshop"
@@ -130,11 +146,12 @@ tags = ["Teaching"]
 [[slide]]
 title = "Cyberport Startup Alumni Association Dinner 2017"
 url = "slideshow/CSAA_connects_the_world_dinner_2017.jpg"
-tags = ["Startup", "Alumni" ]
+tags = ["Entrepreneurship", "Alumni" ]
 
 [[slide]]
 title = "Open Source Hong Kong Conference 2017"
 url = "slideshow/oshk_conf_2017.jpg"
+tags = ["Teaching"]
 
 [[slide]]
 title = 'AngelHack Hong Kong 2017'
@@ -149,7 +166,7 @@ tags = ["Hackathon"]
 [[slide]]
 title = "Cyberport Alumni Association Ice-break meetup 2017"
 url = "slideshow/Cyberport_Alumni_Association_2017.jpg"
-tags = ["Alumni", "Startup"]
+tags = ["Alumni", "Entrepreneurship"]
 
 [[slide]]
 title = "CSE Farewell Dinner 2017"
@@ -179,12 +196,12 @@ tags = ["Hackathon"]
 [[slide]]
 title = "HealthTech Asia 2017"
 url = "slideshow/habhub-health-tech-asia-2017.jpg"
-tags = ["Startup"]
+tags = ["Entrepreneurship"]
 
 [[slide]]
 title = "Hour of Code Hong Kong 2nd anniversary"
 url = "slideshow/HoC-2nd-anniversary-HabHub-Booth.jpg"
-tags = ["Startup"]
+tags = ["Entrepreneurship"]
 
 [[slide]]
 title = "CSEAA LightHouse of IT Trends Event 2016/17"
@@ -234,7 +251,7 @@ url = "slideshow/ISOC_HK_WIDS2016_Dinner.jpg"
 [[slide]]
 title = "HKUST A1 Entrepreneurship Night 2016"
 url = "slideshow/A1_Entrepreneurship_Night_2016.jpg"
-tags = ["Startup", "Alumni"]
+tags = ["Entrepreneurship", "Alumni"]
 
 [[slide]]
 title = "HKUST 25th Anniversary Exhibition"

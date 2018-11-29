@@ -1,4 +1,16 @@
 [[events]]
+order = 33
+title = "HKUST Alumni Reunion Day 2018"
+url = "slideshow/HKUST_Alumni_Reunion_2018.jpg"
+date = "Nov 2018"
+
+[[events]]
+order = 32
+title = "Facebook Chatbot Workshop for Alumni Families 2018"
+url = "slideshow/chatbot_workshop_alumni_families_2018.jpg"
+date = "Nov 2018"
+
+[[events]]
 order = 31
 title = "HKUST Engineering Alumni Day Shenzhen 2018"
 url = "slideshow/HKUST_Engineering_Alumni_Day_Shenzhen_2018.jpg"
