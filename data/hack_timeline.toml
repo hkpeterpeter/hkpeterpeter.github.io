@@ -4,17 +4,19 @@ title = "Inter-School Innovation Competition on Insurance Technology 2018"
 url = "hack_timeline/insurtech_challenge_2018.jpg"
 date = "Nov 2018"
 role = "Final-round Emcee"
-desc = """The competition was jointly organized by Financial Services and Treasury Bureau and Cyberport Hong Kong. The organizers adopted hashtag#Hackathon approach for secondary and tertiary students, with a mission to raise their awareness of insurance products and develop innovative solutions for the InsurTech industry.
+desc = """The competition was jointly organized by Financial Services and Treasury Bureau and Cyberport Hong Kong. The organizers adopted Hackathon approach for secondary and tertiary students, with a mission to raise their awareness of insurance products and develop innovative solutions for the InsurTech industry.
 """
+album = "https://photos.app.goo.gl/no5Lr3RKrzcTgjZWA"
 
 [[events]]
 order = 27
 title = "AIA Life Hackathon 2018"
 url = "hack_timeline/aialifehack_2018.jpg"
 date = "Nov 2018"
-role = "Participant. Winner of Day 1 idea pitching award"
+role = "Winner of Day 1 idea pitching award"
 desc = """The Hackathon was organized by AIA, Microsoft Hong Kong, EY, and ThinkCol. The competition attracted over 100 participants from 12 different regions
 """
+album = "https://photos.app.goo.gl/Xa425JAn1fvwDYwLA"
 
 [[events]]
 order = 26
