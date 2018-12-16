@@ -1,4 +1,10 @@
 [[events]]
+order = 35
+title = "CSEAA Coffee Appreciation Workshop 2018"
+url = "slideshow/cseaa_coffee_appreciation_workshop_2018.jpg"
+date = "Dec 2018"
+
+[[events]]
 order = 34
 title = "CSAA Connects the World Annual Gathering 2018"
 url = "slideshow/CSAA_connects_the_world_annual_gathering_2018.jpg"
