@@ -28,7 +28,7 @@ bad_comments = ["Present how some of the lab activities can be useful in real li
 [[course]]
 id = "COMP1022P"
 tags = ["COMP1022P"]
-title = " Introduction to Computing in Java"
+title = "Introduction to Computing in Java"
 
 reports = ["COMP1022P_LA1_Fall1314.pdf", "COMP1022P_LA1C_Fall1112.pdf", "COMP1022P_LA1D_Fall1112.pdf",
 "COMP1022P_LA2A_Fall1112.pdf", "COMP1022P_LA3_Fall1314.pdf"]
@@ -54,6 +54,58 @@ bad_comments = [
  we learn to write codes. While some codes are difficult to understand and we need a lot of examples.
  And we are not sure whether the codes written by us are right or not.""",
 "Teach more basic concepts",
+]
+
+# === COMP1022Q
+[[course]]
+id = "COMP1022Q"
+tags = ["COMP1022Q"]
+title = "Introduction to Computing with Excel VBA"
+
+reports = [
+"COMP1022Q_LA2_Fall1819.pdf",
+"COMP1022Q_LA3_Fall1819.pdf",
+"COMP1022Q_LA4_Fall1819.pdf",
+"COMP1022Q_LA6_Fall1819.pdf",
+]
+
+good_comments = [
+"Again, one of the best TAs during my study in HKUST. He speaks clearly and loudly, such that people would hardly fall asleep during the lab (haha). Also, a brand new way of asking questions online (via sli.do) encourages me to ask more questions regarding the lab rather than raising hands in front of 60+ people in the lab.",
+"Set up a problem-solving system, provide a way to let student ask question without putting up the hands.",
+"He is slow in pace which is easy to follow for beginners",
+"Explain things in details slowly and step by step, so we can follow",
+"Repeatedly telling same concept help to clarify it",
+"He has the sense of humour. Interesting person",
+"Explain lab clearly. Gave solid explanations during class",
+"Good knowledge, good pace of laboratory, willing to answer questions at any time",
+"He helps us step by step to complete the lab",
+"Very clear presentation and use interesting metaphor to help us understand",
+"Very helpful",
+"interesting TA always tell jokes in class. explain things very clearly",
+"He is patient introducing difficult ideas to us.",
+"He was very clear when explaining the labs",
+"Help you deal with your problems",
+"Clear instruction.",
+"Dedication to teach",
+"He explains the things really clear.",
+"I think he was good at explaining what he was teaching us.",
+"funny teaching",
+"suitable teaching pace and it is clear",
+]
+
+bad_comments = [
+
+"Attitude may be potentially more serious instead of being a troll, but this may be a good thing to reduce pressure of coding for students",
+"Sometimes he spent too much time with the easy part, and then rushed on the most complex parts of the labs.",
+"He has too many jokes",
+"Maybe can open more time slots for asking questions face to face cause sometimes email might not be the best way to explain things",
+"Give more help when students are answering questions",
+"He can speed up his voice a little bit.",
+"The teaching speed sometimes can be faster.",
+"Do not include bonus parts in lab. This is unfair to students who are new to VBA.",
+"He can be more helpful to foreign student.",
+"Provide all the solution of ALL labs",
+"Stay consistent for all lab sessions, slight declined performance for the last two labs, but still above average",
 ]
 
 # === COMP1029C
@@ -92,7 +144,11 @@ bad_comments = [
 id = "COMP1029P"
 tags = ["COMP1029P"]
 title = "Python Programming Bridging Course"
-reports = ["COMP1029P_LA1_Summer1617.pdf","COMP1029P_LA1_Winter1718.pdf"]
+reports = [
+"COMP1029P_LA1_Summer1617.pdf",
+"COMP1029P_LA1_Winter1718.pdf",
+"COMP1029P_LA1_Summer1718.pdf",
+]
 good_comments = [
 "patient"
 ,"responded"
@@ -303,6 +359,7 @@ reports = [
 "COMP3511_LA3_Fall1718.pdf",
 "COMP3511_LA4_Fall1718.pdf",
 "COMP3511_LA5_Fall1718.pdf",
+"COMP3511_LA1_Fall1819.pdf",
 
 ]
 good_comments = [
@@ -314,6 +371,8 @@ good_comments = [
 "Very detailed explanation of the solution process.",
 "Helpful.",
 "He try to explain what we have asked in easy way",
+"Very helpful and really tried to teach us, made his own example codes to help us understand concepts",
+"nice",
 ]
 bad_comments = [
 "Be more responsive!",
