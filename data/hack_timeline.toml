@@ -1,4 +1,14 @@
 [[events]]
+order = 29
+title = "Data and Media Hackathon 2019"
+url = "slideshow/data_media_hack_2019.jpg"
+date = "Jan 2019"
+role = "Mentor"
+desc = """The competition attracted more than 100 participants, most of them are future journalists and tech talents. The competition matches one of the strongest areas at HKBU: Data and Media concentration.
+"""
+album = "https://photos.app.goo.gl/297k7p3hbLXvtnCn7"
+
+[[events]]
 order = 28
 title = "Inter-School Innovation Competition on Insurance Technology 2018"
 url = "hack_timeline/insurtech_challenge_2018.jpg"
