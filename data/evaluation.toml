@@ -148,6 +148,7 @@ reports = [
 "COMP1029P_LA1_Summer1617.pdf",
 "COMP1029P_LA1_Winter1718.pdf",
 "COMP1029P_LA1_Summer1718.pdf",
+"COMP1029P_LA1_Winter1819.pdf",
 ]
 good_comments = [
 "patient"
