@@ -7,6 +7,15 @@ Demo: [https://hkpeterpeter.github.io](https://hkpeterpeter.github.io)
 ## Setup and build steps
 [![asciicast](https://asciinema.org/a/169792.png)](https://asciinema.org/a/169792)
 
+```sh
+yarn run debug   # debug the website
+
+# Push the changes here...
+
+yarn run deploy  # deploy the website 
+
+```
+
 ## Reference
 
 - [Hugo](https://gohugo.io/) - an extremely fast static site generator
