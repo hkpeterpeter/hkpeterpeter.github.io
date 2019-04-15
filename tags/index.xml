@@ -6,26 +6,62 @@
     <description>Recent content in Tags on Peter&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jan 2018 19:05:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Mar 2018 19:44:34 +0800</lastBuildDate>
     
 	<atom:link href="https://hkpeterpeter.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Datathon</title>
-      <link>https://hkpeterpeter.github.io/tags/datathon/</link>
-      <pubDate>Tue, 30 Jan 2018 19:05:31 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/tags/datathon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
+      <title>development</title>
       <link>https://hkpeterpeter.github.io/tags/development/</link>
       <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
       
       <guid>https://hkpeterpeter.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://hkpeterpeter.github.io/tags/hugo/</link>
+      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
+      
+      <guid>https://hkpeterpeter.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>joomla</title>
+      <link>https://hkpeterpeter.github.io/tags/joomla/</link>
+      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
+      
+      <guid>https://hkpeterpeter.github.io/tags/joomla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://hkpeterpeter.github.io/tags/react/</link>
+      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
+      
+      <guid>https://hkpeterpeter.github.io/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>responsive</title>
+      <link>https://hkpeterpeter.github.io/tags/responsive/</link>
+      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
+      
+      <guid>https://hkpeterpeter.github.io/tags/responsive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://hkpeterpeter.github.io/tags/web/</link>
+      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
+      
+      <guid>https://hkpeterpeter.github.io/tags/web/</guid>
       <description></description>
     </item>
     
@@ -48,34 +84,7 @@
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://hkpeterpeter.github.io/tags/hugo/</link>
-      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jeju</title>
-      <link>https://hkpeterpeter.github.io/tags/jeju/</link>
-      <pubDate>Sun, 23 Oct 2016 19:05:31 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/tags/jeju/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Joomla</title>
-      <link>https://hkpeterpeter.github.io/tags/joomla/</link>
-      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/tags/joomla/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Legaltech</title>
+      <title>LegalTech</title>
       <link>https://hkpeterpeter.github.io/tags/legaltech/</link>
       <pubDate>Sun, 25 Feb 2018 19:05:31 +0800</pubDate>
       
@@ -84,25 +93,16 @@
     </item>
     
     <item>
-      <title>React</title>
-      <link>https://hkpeterpeter.github.io/tags/react/</link>
-      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
+      <title>Datathon</title>
+      <link>https://hkpeterpeter.github.io/tags/datathon/</link>
+      <pubDate>Tue, 30 Jan 2018 19:05:31 +0800</pubDate>
       
-      <guid>https://hkpeterpeter.github.io/tags/react/</guid>
+      <guid>https://hkpeterpeter.github.io/tags/datathon/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Responsive</title>
-      <link>https://hkpeterpeter.github.io/tags/responsive/</link>
-      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/tags/responsive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rise</title>
+      <title>RISE</title>
       <link>https://hkpeterpeter.github.io/tags/rise/</link>
       <pubDate>Wed, 12 Jul 2017 19:05:31 +0800</pubDate>
       
@@ -129,20 +129,20 @@
     </item>
     
     <item>
-      <title>Traveltech</title>
-      <link>https://hkpeterpeter.github.io/tags/traveltech/</link>
+      <title>JeJu</title>
+      <link>https://hkpeterpeter.github.io/tags/jeju/</link>
       <pubDate>Sun, 23 Oct 2016 19:05:31 +0800</pubDate>
       
-      <guid>https://hkpeterpeter.github.io/tags/traveltech/</guid>
+      <guid>https://hkpeterpeter.github.io/tags/jeju/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Web</title>
-      <link>https://hkpeterpeter.github.io/tags/web/</link>
-      <pubDate>Tue, 20 Mar 2018 19:44:34 +0800</pubDate>
+      <title>TravelTech</title>
+      <link>https://hkpeterpeter.github.io/tags/traveltech/</link>
+      <pubDate>Sun, 23 Oct 2016 19:05:31 +0800</pubDate>
       
-      <guid>https://hkpeterpeter.github.io/tags/web/</guid>
+      <guid>https://hkpeterpeter.github.io/tags/traveltech/</guid>
       <description></description>
     </item>
     
