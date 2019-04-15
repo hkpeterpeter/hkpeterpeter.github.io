@@ -3,6 +3,12 @@ award_title = "Hackathon Awards"
 
 [[expert]]
 keyword = "Mentor"
+description = "hackUST"
+year = "2019"
+url = "https://www.ec.ust.hk/hackathon/2019/"
+
+[[expert]]
+keyword = "Mentor"
 description = "Data and Media Hackathon"
 year = "2019"
 url = "http://bu-dmc.hkbu.edu.hk/dmh/"
