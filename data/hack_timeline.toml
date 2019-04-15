@@ -1,4 +1,15 @@
 [[events]]
+order = 30
+title = "hackUST 2019"
+url = "slideshow/hackUST_2019.jpg"
+date = "Apr 2019"
+role = "Mentor"
+desc = """hackUST + hardUST is an annual hackathon at HKUST to develop your prototype, 
+meet entrepreneurs and industry experts, and pitch your ideas. I actively involved in hackUST since 2014.
+"""
+album = "https://photos.app.goo.gl/MnmF3ghWQP6MBqwj9"
+
+[[events]]
 order = 29
 title = "Data and Media Hackathon 2019"
 url = "slideshow/data_media_hack_2019.jpg"
