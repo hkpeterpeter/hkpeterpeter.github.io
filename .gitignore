@@ -12,3 +12,4 @@ public/
 
 # IDE settings
 .idea/
+package-lock.json
