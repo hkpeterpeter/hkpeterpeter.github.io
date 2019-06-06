@@ -67,12 +67,26 @@ reports = [
 "COMP1022Q_LA3_Fall1819.pdf",
 "COMP1022Q_LA4_Fall1819.pdf",
 "COMP1022Q_LA6_Fall1819.pdf",
+"COMP1022Q_LA1_Spring1819.pdf",
+"COMP1022Q_LA2_Spring1819.pdf",
+"COMP1022Q_LA4_Spring1819.pdf",
+"COMP1022Q_LA5_Spring1819.pdf",
 ]
 
 good_comments = [
 "Again, one of the best TAs during my study in HKUST. He speaks clearly and loudly, such that people would hardly fall asleep during the lab (haha). Also, a brand new way of asking questions online (via sli.do) encourages me to ask more questions regarding the lab rather than raising hands in front of 60+ people in the lab.",
-"Set up a problem-solving system, provide a way to let student ask question without putting up the hands.",
+"He really arouse my interest in doing and going to the lab even if it was a 9am class. He tells jokes and it was quite fun. I learnt and understand more than in the lecture and he explained everything in details and I really appreciate that. He also answer my questions and give me a useful answer.",
+"He explains clearly in the lab. Besides,He always reminds us to upload the file and check the marking scheme before leaving. This helps us get higher marks in the lab and avoid losing the file. He sometimes also tells jokes in the lab which make the lab more interesting",
+"He explains everything in details and is very helpful. He is willing to offer you help when you have any questions. I like how he reminds us some important issues every time and he did really concern about whether we understand the lab work or not",
 "He is slow in pace which is easy to follow for beginners",
+"Humorous, making a relaxing atmosphere for the class. He explained things well and had a good teaching attitude.",
+"He tries to make jokes to make the lab session less boring. He goes through everything, which is very good.",
+"He explains all lab procedures in details, with high fluency.",
+"He first let students to try on their own before giving out the answers.",
+"Explain everything in extremely clear manner. It is very easy to understand the lab content even for programming beginner.",
+"Fluent and clear explanations and illustration",
+"He is humorous and have in-depth knowledge in his field.",
+"Set up a problem-solving system, provide a way to let student ask question without putting up the hands.",
 "Explain things in details slowly and step by step, so we can follow",
 "Repeatedly telling same concept help to clarify it",
 "He has the sense of humour. Interesting person",
@@ -106,6 +120,11 @@ bad_comments = [
 "He can be more helpful to foreign student.",
 "Provide all the solution of ALL labs",
 "Stay consistent for all lab sessions, slight declined performance for the last two labs, but still above average",
+"The labs can be more practical (e.g. instead of creating games, it can be made more relevant to real life practices of VBA in businesses)",
+"He needs to stop making inappropriate jokes in class. It wasn't funny nor helpful towards the lab sessions.",
+"Please speak faster",
+"He is pretty good, though I hope he could improve his spoken English, such that he could speak English more fluently and students can catch up even easier. I understand it is hard, but it would be the best if so.",
+"Sometimes use too much time to explain one part of the content, even through it is already very clear. Could proceed faster for some simple points",
 ]
 
 # === COMP1029C
@@ -390,8 +409,15 @@ reports = [
   "COMP4511_LA1_Spring1617.pdf",
   "COMP4511_LA2_Spring1617.pdf",
   "COMP4511_LA1_Spring1718.pdf",
+  "COMP4511_LA1_Spring1819.pdf",
+  "COMP4511_LA2_Spring1819.pdf",
 ]
 good_comments = [
+"Enthusiastic, passionate",
+"He replies to me by email quickly enough. Very patient and kind.",
+"Response email quickly and prepare labs very well and explain clearly for the lab materials",
+"he responds to questions very fast, and the feedbacks are very useful",
+"Very quick e-mail response",
 "Peter tried to be helpful.",
 "He answers my email questions extremely fast. Also he explains everything extremely clear.",
 "Helpful TA. Easy to understand lab materials.",
@@ -401,4 +427,5 @@ good_comments = [
 bad_comments = [
 "He grades assignment too slowely",
 "Peter shall try to learn more about the course, and prepare better lab/assignments",
+"The Lab materials can refer to the book Computer Systems: A Programmer's Perspective. (CSAPP)",
 ]
