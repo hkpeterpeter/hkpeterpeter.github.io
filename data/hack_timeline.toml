@@ -1,4 +1,13 @@
 [[events]]
+order = 31
+title = "MIT HealthHACK 2019"
+url = "slideshow/mit_healthhack_2019.jpg"
+date = "Jun 2019"
+role = "Participant"
+desc = """By participating in this event, I have learned about the basics of the hackathon process, built resilient teams, and contributed to solving challenges in aging and wellness
+"""
+
+[[events]]
 order = 30
 title = "hackUST 2019"
 url = "slideshow/hackUST_2019.jpg"
