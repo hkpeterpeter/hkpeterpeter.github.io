@@ -62,14 +62,14 @@
         <div class="col-12 col-lg-9 text-left mb-2 p-3">
 
             <p><h5>
-                <span class="badge badge-danger">🔥HEAT🔥</span>
-                <span class="badge badge-dark badge-pill">=</span>
+                <span class="badge badge-danger">HEAT</span>
+                <span class="badge">=</span>
                 <span class="badge badge-success">Hackathon Expert</span>
-                <span class="badge badge-dark badge-pill">+</span>
+                <span class="badge ">+</span>
                 <span class="badge badge-success">Entrepreneur</span>
-                <span class="badge badge-dark badge-pill">+</span>
-                <span class="badge badge-success">Active Alumni</span>
-                <span class="badge badge-dark badge-pill">+</span>
+                <span class="badge">+</span>
+                <span class="badge badge-success">Alumni</span>
+                <span class="badge">+</span>
                 <span class="badge badge-success">Teacher</span></h5>
             </p>
 
@@ -93,51 +93,6 @@
             {{ end }}
 
 
-
-        </div>
-
-        <div class="col-12 col-lg-6">
-            {{ with .Site.Data.hackathon }}
-            <h5><i class="fas fa-trophy"></i>&nbsp;
-                {{len .awards}}
-                {{.award_title}}</h5>
-            <ul class="list-unstyled">
-                {{ range .awards }}
-                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.keyword}}</span>
-
-                    {{ if .url }}
-                    <a href="{{.url}}" target="_blank">{{.description}}</a>
-                    {{ else }}
-                    {{.description}}
-                    {{ end }}
-
-                </li>
-                {{ end }}
-            </ul>
-            {{ end }}
-        </div>
-
-        <div class="col-12 col-lg-6 p-2">
-            {{ with .Site.Data.hackathon }}
-            <h5><i class="fas fa-lightbulb"></i>&nbsp;{{.expert_title}} </h5>
-            <ul class="list-unstyled">
-                {{ range .expert }}
-                <li>
-                    {{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.keyword}}</span>
-
-
-                    {{ if .url }}
-                    <a href="{{.url}}" target="_blank">{{.description}}</a>
-                    {{ else }}
-                    {{.description}}
-                    {{ end }}
-
-                </li>
-                {{ end }}
-            </ul>
-            {{ end }}
 
         </div>
 
@@ -186,6 +141,53 @@
             </ul>
             {{ end }}
         </div>
+
+        <div class="col-12 col-lg-6">
+            {{ with .Site.Data.hackathon }}
+            <h5><i class="fas fa-trophy"></i>&nbsp;
+                {{len .awards}}
+                {{.award_title}}</h5>
+            <ul class="list-unstyled">
+                {{ range .awards }}
+                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
+                    <span class="badge badge-pill badge-info">{{.keyword}}</span>
+
+                    {{ if .url }}
+                    <a href="{{.url}}" target="_blank">{{.description}}</a>
+                    {{ else }}
+                    {{.description}}
+                    {{ end }}
+
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+
+        <div class="col-12 col-lg-6 p-2">
+            {{ with .Site.Data.hackathon }}
+            <h5><i class="fas fa-lightbulb"></i>&nbsp;{{.expert_title}} </h5>
+            <ul class="list-unstyled">
+                {{ range .expert }}
+                <li>
+                    {{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
+                    <span class="badge badge-pill badge-info">{{.keyword}}</span>
+
+
+                    {{ if .url }}
+                    <a href="{{.url}}" target="_blank">{{.description}}</a>
+                    {{ else }}
+                    {{.description}}
+                    {{ end }}
+
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
+        </div>
+
+ 
 
         <div class="col-12 col-lg-6">
             {{ with .Site.Data.csaa }}
