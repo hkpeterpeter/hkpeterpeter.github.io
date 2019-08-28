@@ -1,5 +1,5 @@
 profile_url = "/images/profile.png"
-description = """Mr Chung has more than 10 years of experience in the higher education sector. He has solid experience in software engineering, kernel programming in Linux, entrepreneurship, e-learning, STEM education, student advising, and alumni engagement. He is an experienced Hackathon activist in Hong Kong. As a Hong Kong Cyberport startup alumni, he maintains close connections with the local startup community.
+description = """Mr Chung has more than 10 years of experience in the higher education sector. He has solid experience in software engineering, system and kernel programming in Linux, entrepreneurship, e-learning, STEM education, student advising, and alumni engagement. He is an experienced Hackathon activist in Hong Kong. As a Hong Kong Cyberport startup alumni, he maintains close connections with the local startup community.
 """
 
 [office]
@@ -11,24 +11,22 @@ ext = true
 
 [[tags]]
 name = "Hackathon Expert"
-desc = """
-Partnered with 10+ companies/ organizations to launch various Hackathon competitions in Hong Kong. Served as Organizer, Consultant, Judge, Speaker, Mentor, and Participant.
-Won various Hackathon competitions.
+desc = """ He partnered with 10+ companies/ organizations to organize various Hackathon competitions in Hong Kong. He served as Organizer, Consultant, Judge, Speaker, and Mentor. In addition, he participated several Hackathon competitions and won a few Hackathon competitions.
 """
 
 [[tags]]
 name = "Entrepreneur"
-desc = """Co-founded HabHub, an award-winning HealthTech startup at Cyberport, Hong Kong. EFHK1 Alumni, Entrepreneur First, Hong Kong."""
+desc = """He co-founded HabHub, an award-winning HealthTech startup at Cyberport, Hong Kong in 2016. In addition, he is a EFHK1 alumnus, Entrepreneur First, Hong Kong."""
 
 
 [[tags]]
 name = "Alumni"
-desc = """Co-founded Computer Science and Engineering Alumni Association, HKUST (CSEAA) and served as an Executive Sub-Committee Member of Cyberport Startup Alumni Association (CSAA)"""
+desc = """He co-founded Computer Science and Engineering Alumni Association, HKUST (CSEAA) in 2013. He also served as an Executive Sub-Committee Member of Cyberport Startup Alumni Association (CSAA)"""
 
 [[tags]]
 name = "Teacher"
-desc = """Served as Advisor at Student Innovation for Global Health Technology (SIGHT) and STEM Course Instructor
-at Academy of Bright Future Young Engineers (ABFYE), in addition to the teaching support duty at HKUST.
+desc = """In 2015-16, he served as Advisor at Student Innovation for Global Health Technology (SIGHT), HKUST. Since 2017, he serves as a STEM Course Instructor
+at Academy of Bright Future Young Engineers (ABFYE), School of Engineering, HKUST. Since 2008, he serves as Teaching Associate in the Department of Computer Science and Engineering, HKUST.
 """
 
 
