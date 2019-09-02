@@ -6,7 +6,7 @@ description = """Mr Chung has more than 10 years of experience in the higher edu
 job = "Teaching Associate"
 room = "Room 2532"
 sub = "via Lift 25/26"
-url = "http://pathadvisor.ust.hk/?query=a;584;3|b;1007;2|&floor=2&scale=1&offsetX=2346&offsetY=537"
+url = "https://pathadvisor.ust.hk/search/nearest/lift/from/ROOM%202532;BNHn-iJYT4xp;2;1916,-313/floor/2/at/normalized/1739,-242,0"
 ext = true
 
 [[tags]]
