@@ -16,8 +16,30 @@
 
             </div>
 
+            <h5><i class="fas fa-comments"></i>&nbsp;Top Comments from Students</h5>
+            <div class="col-12 p-5 mb-3 card">
+                <ul style="list-style-type: none;">
+                {{ with .Site.Data.best_comments }}
+                    {{  range .comments}}
+                        <li>
+                            <i class="far fa-thumbs-up"></i> {{ .content}}
+                            <br>
+                            <span class="small">
+                                received from a student in 
+                                <a href="/evaluation/{{.report}}" target="_blank">
+                                    {{.course}} {{.section}} {{.semester}}
+                                </a>
+                            </span> 
+                            <br><br>
+                        </li>
+                    {{end}}
+                {{end}}
+                </ul>
+             </div>
+            
 
-            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation
+
+            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Full Teaching Evaluation Reports
                 <span class="small">
                     {{ with .Site.Data.evaluation}} from {{ len .course }} {{ end }}regular courses</span></h5>
 
@@ -49,7 +71,7 @@
 
 
         <div class="col-12 mt-3">
-            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation
+            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Full Teaching Evaluation Reports
                 <span class="small">
                     {{ with .Site.Data.evaluation}} from {{ len .course_bridging }} {{ end }}bridging courses</span></h5>
 
