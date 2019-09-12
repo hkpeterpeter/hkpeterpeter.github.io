@@ -134,7 +134,11 @@ id = "COMP1029C"
 tags = ["COMP1029C"]
 title = "C Programming Bridging Course"
 
-reports = ["COMP1029C_LA1_Summer1617.pdf","COMP1029C_LA1_Winter1617.pdf"]
+reports = [
+  "COMP1029C_LA1_Summer1617.pdf",
+  "COMP1029C_LA1_Winter1617.pdf",
+  "COMP1029C_LA1_Summer1819.pdf",
+]
 good_comments = [
 "Quick response to emails",
 ]
@@ -168,6 +172,7 @@ reports = [
 "COMP1029P_LA1_Winter1718.pdf",
 "COMP1029P_LA1_Summer1718.pdf",
 "COMP1029P_LA1_Winter1819.pdf",
+"COMP1029P_LA1_Summer1819.pdf",
 ]
 good_comments = [
 "patient"
@@ -175,6 +180,7 @@ good_comments = [
 ,"Efficient initially. Thanks for that."
 ,"Good Feedback"
 ,"He did grading of the assignments"
+,"Clear Feedback"
 ]
 
 bad_comments = [
