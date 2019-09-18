@@ -1,5 +1,5 @@
 [[comments]]
-content = "...He really arouse my interest in doing and going to the lab even if it was a 9am..."
+content = "...He really arouse my interest in doing and going to the lab even if it was a 9am class.  He tells jokes and it was quite fun..."
 course = "COMP1022Q"
 section = "LA4"
 semester = "Spring 18/19"
@@ -11,6 +11,13 @@ course = "COMP4511"
 section = "LA1"
 semester = "Spring 18/19"
 report = "COMP4511_LA1_Spring1819.pdf"
+
+[[comments]]
+content = "Very helpful and really tried to teach us, made his own example codes to help us understand concepts"
+course = "COMP3511"
+section = "LA1"
+semester = "Fall 18/19"
+report = "COMP3511_LA1_Fall1819.pdf"
 
 [[comments]]
 content = "...He is very good that he gives me a lot more insights on the mips programming. Also, he demonstrates greatly in teaching!!!..."
