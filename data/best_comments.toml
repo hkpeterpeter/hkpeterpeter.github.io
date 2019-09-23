@@ -13,7 +13,7 @@ semester = "Spring 18/19"
 report = "COMP4511_LA1_Spring1819.pdf"
 
 [[comments]]
-content = "Very helpful and really tried to teach us, made his own example codes to help us understand concepts"
+content = "...Very helpful and really tried to teach us, made his own example codes to help us understand concepts..."
 course = "COMP3511"
 section = "LA1"
 semester = "Fall 18/19"
@@ -40,7 +40,6 @@ section = "T3"
 semester = "Spring 13/14"
 report = "COMP3111_T3_Spring1314.pdf"
 
-
 [[comments]]
 content = "...The TAs are patient and are willing to give guidance to the students..."
 course = "COMP1022P"
@@ -48,4 +47,9 @@ section = "LA1"
 semester = "Fall 13/14"
 report = "COMP1022P_LA1_Fall1314.pdf"
 
-
+[[comments]]
+content = "...Peter is very devoted into his work that he is always approachable even on Sundays..."
+course = "COMP104 (former COMP2011)"
+section = "T1A"
+semester = "Fall 09/10"
+report = "COMP104_T1A_Fall0910.pdf"
