@@ -1,4 +1,13 @@
 [[events]]
+order = 32
+title = "Finspire Hackathon 2019"
+url = "hack_timeline/finspire_hackathon_2019.jpg"
+date = "Oct 2019"
+role = "Mentor, Team of Experts"
+desc = """FINSPIRE Hackathon is the premier annual event of FINSPIRE where hustlers, hackers and hipsters from universities team up to ideate, design, build and pitch their Fintech-inspired innovations. The competition is co-organized by Convoy and Cyberport. Participants have a chance to win over HK$100k in cash and prizes. 
+"""
+
+[[events]]
 order = 31
 title = "MIT HealthHACK 2019"
 url = "slideshow/mit_healthhack_2019.jpg"
