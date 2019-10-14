@@ -1,10 +1,19 @@
 [[events]]
-order = 32
+order = 33
 title = "Finspire Hackathon 2019"
 url = "hack_timeline/finspire_hackathon_2019.jpg"
-date = "Oct 2019"
+date = "Nov 2019 (Expected)"
 role = "Mentor, Team of Experts"
 desc = """FINSPIRE Hackathon is the premier annual event of FINSPIRE where hustlers, hackers and hipsters from universities team up to ideate, design, build and pitch their Fintech-inspired innovations. The competition is co-organized by Convoy and Cyberport. Participants have a chance to win over HK$100k in cash and prizes. 
+"""
+
+[[events]]
+order = 32
+title = "SmarTone Hackathon 2019 - 5G and Smart City"
+url = "hack_timeline/smartone_hack_2019.jpg"
+date = "Oct 2019 (Expected)"
+role = "Participant"
+desc = """Hack with the best talents to generate new ideas on 5G services and Smart City development. In Hong Kong, elderly services are still relying on older technology (e.g. fixed-line telephone service). I would like to explore the innovative ideas of applying 5G for sliver generation. 
 """
 
 [[events]]
