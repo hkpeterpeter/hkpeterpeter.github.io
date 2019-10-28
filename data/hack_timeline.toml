@@ -10,11 +10,12 @@ desc = """FINSPIRE Hackathon is the premier annual event of FINSPIRE where hustl
 [[events]]
 order = 32
 title = "SmarTone Hackathon 2019 - 5G and Smart City"
-url = "hack_timeline/smartone_hack_2019.jpg"
-date = "Oct 2019 (Expected)"
-role = "Participant"
-desc = """Hack with the best talents to generate new ideas on 5G services and Smart City development. In Hong Kong, elderly services are still relying on older technology (e.g. fixed-line telephone service). I would like to explore the innovative ideas of applying 5G for sliver generation. 
+url = "slideshow/smartone_hackathon_2019.jpg"
+date = "Oct 2019"
+role = "Finalist (one of the top-10 teams)"
+desc = """We successfully demonstrated a 5G Mixed Reality prototype for the silver generation using smart glass. The application detects the progress and continuously prompts encouragement words from the family members. At the same time, real-time data analysis is shown. 
 """
+album = "https://photos.app.goo.gl/JGc7wbYwhY4g3CXF6"
 
 [[events]]
 order = 31

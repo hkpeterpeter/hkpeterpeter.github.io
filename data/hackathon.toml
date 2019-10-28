@@ -1,5 +1,11 @@
-expert_title = "Hackathon Experience"
+expert_title = "Hackathon Organizing Experience"
 award_title = "Hackathon Awards"
+
+[[expert]]
+keyword = "Mentor"
+description = "Finspire Hackathon"
+year = "2019"
+url = "https://www.finspire.hk/"
 
 [[expert]]
 keyword = "Mentor"
@@ -60,6 +66,12 @@ keyword = "Co-founder and Organizer"
 description = "hackUST"
 year = "2014-16"
 url = "http://hack.ust.hk/"
+
+[[awards]]
+keyword = "Finalist"
+description = "SmarTone Hackathon"
+url = "https://www.smartonehackathon.com/"
+year = 2019
 
 [[awards]]
 keyword = "Idea pitching award"
