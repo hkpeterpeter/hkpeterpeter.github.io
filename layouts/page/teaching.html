@@ -16,8 +16,13 @@
 
             </div>
 
-            <h5><i class="fas fa-comments"></i>&nbsp;Best Comments from Students</h5>
-            <div class="col-12 p-5 mb-3 card">
+            <h5><i class="fa fa-list-alt" ></i>&nbsp;Summary</h5>
+            <div class="col-12 col-md-9 col-lg-6 offset-lg-3 p-5">
+                <img src="/evaluation/summary.png" class="mx-auto d-block img-fluid"
+                 alt="summary of teaching evaluation reports">
+            </div>
+            <h5><i class="fas fa-comments"></i>&nbsp;Selected Student Feedback</h5>
+            <div class="col-12 p-5 mb-3">
                 <ul style="list-style-type: none;">
                 {{ with .Site.Data.best_comments }}
                     {{  range .comments}}
@@ -36,6 +41,7 @@
                 {{end}}
                 </ul>
              </div>
+ 
             
 
 
