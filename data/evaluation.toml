@@ -71,6 +71,9 @@ reports = [
 "COMP1022Q_LA2_Spring1819.pdf",
 "COMP1022Q_LA4_Spring1819.pdf",
 "COMP1022Q_LA5_Spring1819.pdf",
+"COMP1022Q_LA1_Fall1920.pdf",
+"COMP1022Q_LA4_Fall1920.pdf",
+"COMP1022Q_LA5_Fall1920.pdf",
 ]
 
 good_comments = [
@@ -78,6 +81,7 @@ good_comments = [
 "He really arouse my interest in doing and going to the lab even if it was a 9am class. He tells jokes and it was quite fun. I learnt and understand more than in the lecture and he explained everything in details and I really appreciate that. He also answer my questions and give me a useful answer.",
 "He explains clearly in the lab. Besides,He always reminds us to upload the file and check the marking scheme before leaving. This helps us get higher marks in the lab and avoid losing the file. He sometimes also tells jokes in the lab which make the lab more interesting",
 "He explains everything in details and is very helpful. He is willing to offer you help when you have any questions. I like how he reminds us some important issues every time and he did really concern about whether we understand the lab work or not",
+"The TA is humorous. He tells many jokes during the lab session. This makes it enjoyable and interesting. He also explained some functions of Excel in a funny way, which makes it easy to understand and memorize. I love to attend the lab session held by the TA",
 "He is slow in pace which is easy to follow for beginners",
 "Humorous, making a relaxing atmosphere for the class. He explained things well and had a good teaching attitude.",
 "He tries to make jokes to make the lab session less boring. He goes through everything, which is very good.",
@@ -105,6 +109,7 @@ good_comments = [
 "I think he was good at explaining what he was teaching us.",
 "funny teaching",
 "suitable teaching pace and it is clear",
+
 ]
 
 bad_comments = [
@@ -125,6 +130,9 @@ bad_comments = [
 "Please speak faster",
 "He is pretty good, though I hope he could improve his spoken English, such that he could speak English more fluently and students can catch up even easier. I understand it is hard, but it would be the best if so.",
 "Sometimes use too much time to explain one part of the content, even through it is already very clear. Could proceed faster for some simple points",
+"Sometimes repeat things too much",
+"should avoid talking political issue or making jokes about it",
+"Too many jokes, delay learning progress",
 ]
 
 # === COMP1029C
@@ -386,9 +394,22 @@ reports = [
 "COMP3511_LA4_Fall1718.pdf",
 "COMP3511_LA5_Fall1718.pdf",
 "COMP3511_LA1_Fall1819.pdf",
+"COMP3511_LA1_Fall1920.pdf",
+"COMP3511_LA2_Fall1920.pdf",
+"COMP3511_LA3_Fall1920.pdf",
+"COMP3511_LA4_Fall1920.pdf",
+"COMP3511_LA5_Fall1920.pdf",
 
 ]
 good_comments = [
+"He tried to create a good learning atmosphere by adopting the online Q&A system and encouraging students to ask questions. He is also familiar with the course materials and the difficulties that students encountered",
+"The TA made one of the lab sessions more interactive by encouraging students to post their questions anonymously in an online platform and answering them in real time",
+"He explained the project assignments very well and helped us understand what we needed to do",
+"He's nice and very willing to make sure that we understand what we don't",
+"Deep understanding on the course coverage, able to explain the knowledge in detail, quick response on questions",
+"Excellent TA. Explained the material very well",
+"Very attentive and responsible for projects and labs",
+"Well prepared and willing to answer questions",
 "At least he explain the lab material rather than reading the lab materials which are what other TA did",
 "Go to class on time. Speak loudly and clearly. Check if we have done each step correctly.",
 "The concept is very clear in the tutorial section. He will answer questions outsides the tutorial.",
@@ -403,6 +424,8 @@ good_comments = [
 bad_comments = [
 "Be more responsive!",
 "The speed could be a bit faster.",
+"English pronunciation",
+"Both project assignments should be improved",
 ]
 
 # === COMP4511
