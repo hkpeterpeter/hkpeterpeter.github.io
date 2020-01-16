@@ -1,5 +1,5 @@
 profile_url = "/images/profile.png"
-description = """Mr Chung has more than 10 years of experience in the higher education sector. He has solid experience in software engineering, system and kernel programming in Linux, entrepreneurship, e-learning, STEM education, student advising, and alumni engagement. He is an experienced Hackathon activist in Hong Kong. As a Hong Kong Cyberport startup alumni, he maintains close connections with the local startup community.
+description = """Mr Chung has more than 10 years of experience in the higher education sector. He has solid experience in software engineering, system and kernel programming in Linux, web and mobile app development, entrepreneurship, e-learning, STEM education, student advising, and alumni engagement. Besides from his teaching duties at HKUST, he is an experienced Hackathon organizer in Hong Kong. He is also a Hong Kong Cyberport startup alumnus and maintains close connections with the Hong Kong startup community.
 """
 
 [office]
@@ -16,16 +16,16 @@ desc = """ He partnered with 10+ companies/ organizations to organize various Ha
 
 [[tags]]
 name = "Entrepreneur"
-desc = """He co-founded HabHub, an award-winning HealthTech startup at Cyberport, Hong Kong in 2016. In addition, he is a EFHK1 alumnus, Entrepreneur First, Hong Kong."""
+desc = """He co-founded HabHub, an award-winning HealthTech startup at Cyberport, Hong Kong in 2016. In addition, he is an alumnus in Entrepreneur First (EF), Hong Kong."""
 
 
 [[tags]]
 name = "Alumni"
-desc = """He co-founded Computer Science and Engineering Alumni Association, HKUST (CSEAA) in 2013. He also served as an Executive Sub-Committee Member of Cyberport Startup Alumni Association (CSAA)"""
+desc = """He co-founded Computer Science and Engineering Alumni Association, HKUST (CSEAA) in 2013. He also served as an Executive Sub-Committee Member in MedTech, Cyberport Startup Alumni Association (CSAA)"""
 
 [[tags]]
 name = "Teacher"
-desc = """In 2015-16, he served as Advisor at Student Innovation for Global Health Technology (SIGHT), HKUST. Since 2017, he serves as a STEM Course Instructor
+desc = """He served as Advisor at Student Innovation for Global Health Technology (SIGHT), HKUST in 2015-16. Since 2017, he serves as a STEM Course Instructor
 at Academy of Bright Future Young Engineers (ABFYE), School of Engineering, HKUST. Since 2008, he serves as Teaching Associate in the Department of Computer Science and Engineering, HKUST.
 """
 

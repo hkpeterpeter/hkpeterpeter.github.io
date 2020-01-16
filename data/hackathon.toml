@@ -5,91 +5,79 @@ award_title = "Hackathon Awards"
 keyword = "Mentor"
 description = "Finspire Hackathon"
 year = "2019"
-url = "https://www.finspire.hk/"
+
 
 [[expert]]
 keyword = "Mentor"
 description = "hackUST"
 year = "2019"
-url = "https://www.ec.ust.hk/hackathon/2019/"
+
 
 [[expert]]
 keyword = "Mentor"
-description = "Data and Media Hackathon"
+description = "HKBU Data and Media Hackathon"
 year = "2019"
-url = "http://bu-dmc.hkbu.edu.hk/dmh/"
+
 
 [[expert]]
 keyword = "Founding Committee Member"
 description = "Smart City Hong Kong Hackathon 2018"
 year = "2018"
-url = "https://odhack-hk-2018.devpost.com/submissions"
 
 [[expert]]
 keyword = "Event Emcee and General Support"
 description = "PolyU x Radica Big Datathon"
 year = "2018"
-url = "https://www.datavalleyhk.com/bigdatathon"
 
 [[expert]]
 keyword = "Mentor and VIP"
 description = "hackUST"
 year = "2018"
-url = "http://hack.ust.hk/"
 
 [[expert]]
 keyword = "Organizer"
 description = "HKUST x Radica Big Datathon"
 year = "2017-18"
-url = "http://bdi.ust.hk/datathon/"
 
 [[expert]]
 keyword = "Organizing Committee Member"
 description = "Microsoft ImagineHack"
 year = "2017-18"
-url = "https://imaginehack-2017.devpost.com/"
 
 [[expert]]
-keyword = "Mentor / Organizer"
+keyword = "Mentor (2016) / Organizer (2018)"
 description = "Fishackathon Hong Kong"
 year = "2016-18"
-url = "https://hackernest.com/events/hong-kong-china-fishackathon-2018"
 
 [[expert]]
 keyword = "Ambassador"
 description = "AngelHack Hong Kong"
-year = "2016-"
-url = "https://angelhack.com/"
+year = "2016-2019"
 
 [[expert]]
 keyword = "Co-founder and Organizer"
 description = "hackUST"
 year = "2014-16"
-url = "http://hack.ust.hk/"
 
 [[awards]]
 keyword = "Finalist"
 description = "SmarTone Hackathon"
-url = "https://www.smartonehackathon.com/"
 year = 2019
 
 [[awards]]
 keyword = "Idea pitching award"
 description = "AIA Life Hackathon"
-url = "https://www.aialifehack.com/"
 year = "2018"
 
 
 [[awards]]
 keyword = "Second Runner-up"
 description = "Access to Justice InnoTech Law Hackathon"
-url = "https://www.a2jhackathon.net/"
 year = "2018"
 
 [[awards]]
 keyword = "Second Runner-up"
 description = "Global Legal Hackathon Hong Kong"
-url = "//globallegalhackathon.com/"
 year = "2018"
 
 [[awards]]
@@ -101,7 +89,6 @@ year = "2018"
 [[awards]]
 keyword = "Top-5 in HealthTech theme"
 description = "hackUST"
-url = "http://hack.ust.hk/"
 year = "2017"
 
 [[awards]]
@@ -113,7 +100,6 @@ year = "2016"
 [[awards]]
 keyword = "Finalist"
 description = "Dreamcatchers Medtech Hackathon"
-url = "http://mthackathon.info/"
 year = "2016"
 
 [[awards]]

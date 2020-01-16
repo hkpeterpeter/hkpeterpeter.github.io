@@ -1,6 +1,9 @@
 title = "CSE Alumni Association, HKUST"
 abbr = "CSEAA, HKUST"
-url = "//www.cse.ust.hk/cseaa"
+
+[[roles]]
+title = "Executive Committee Member"
+year = "2019-20"
 
 [[roles]]
 title = "Treasurer"

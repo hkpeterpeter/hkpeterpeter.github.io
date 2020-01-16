@@ -2,48 +2,41 @@ educator_title = "Teaching Roles"
 academic_title = "Academic Qualifications"
 award_title = "Awards"
 
-
-
 [[educator]]
 title = "Advisor"
 group = "HKUST Tech Club"
-url = "//hkusttech.github.io/"
 year = "Spring 2018"
 
 [[educator]]
-title = "STEM Instructor"
-group = "Academy For Bright Future Young Engineers"
+title = "Instructor"
+group = "Academy For Bright Future Young Engineers, HKUST"
 url = "http://abfye.ust.hk/"
 year = "2017-"
 
 [[educator]]
 title = "Advisor"
-group = "Student Innovation for Global Health Technology"
+group = "Student Innovation for Global Health Technology, HKUST"
 url = "//sight.ust.hk/"
 year = "2015-16"
 
 [[educator]]
 title = "Advisor"
 group = "CSE Entrepreneurship Club"
-url = "http://e-club.cse.ust.hk"
 year = "2014-16"
 
 [[educator]]
 title = "Advisor"
 group = "CSE One"
-url = "http://one.cse.ust.hk"
 year = "2014-16"
 
 [[educator]]
 title = "Academic Counsellor"
 group = "Department of CSE, HKUST"
-url = "http://www.cse.ust.hk/"
 year = "2013-14"
 
 [[educator]]
 title = "Advisor"
-group = "E2I, School of Engineering, HKUST"
-url = "http://e2i.ust.hk/ug/advising/"
+group = "Center for Engineering Education Innovation, HKUST"
 year = "2013-14"
 
 [[educator]]
