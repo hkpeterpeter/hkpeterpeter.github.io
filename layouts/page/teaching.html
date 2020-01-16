@@ -11,7 +11,8 @@
                     <span class="h2"><i class="fas fa-book"></i>
                         <strong>{{ partial "evaluation_report_count.html" . }}</strong> Teaching Evaluation Reports</span>
                     <br>
-                    <span class="small"> received from students</span>
+                    <span class="small"> received from students 
+                        <br> All reports (in PDF <i class="far fa-file-pdf"></i> format) can be downloaded by the links below</span>
                 </p>
 
             </div>
@@ -32,6 +33,7 @@
                             <span class="small">
                                 received from a student in 
                                 <a href="/evaluation/{{.report}}" target="_blank">
+                                    <i class="far fa-file-pdf"></i>
                                     {{.course}} {{.section}} {{.semester}}
                                 </a>
                             </span> 
