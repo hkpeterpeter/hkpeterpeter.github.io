@@ -11,12 +11,12 @@ ext = true
 
 [[tags]]
 name = "Hackathon Expert"
-desc = """ He partnered with 10+ companies/ organizations to organize various Hackathon competitions in Hong Kong. He served as Organizer, Consultant, Judge, Speaker, and Mentor. In addition, he participated several Hackathon competitions and won a few Hackathon competitions.
+desc = """ He partnered with 10+ companies/ organizations to organize various Hackathon competitions in Hong Kong. He served as Organizer, Consultant, Judge, Speaker, Emcee, and Mentor. In addition, he participated several Hackathon competitions and won a few Hackathon competitions. In particular, he used to turn a Hackathon prototype to a startup project at Cyberport in 2016-17
 """
 
 [[tags]]
 name = "Entrepreneur"
-desc = """He co-founded HabHub, an award-winning HealthTech startup at Cyberport, Hong Kong in 2016. In addition, he is an alumnus in Entrepreneur First (EF), Hong Kong."""
+desc = """He co-founded HabHub, an award-winning HealthTech startup project at Cyberport, Hong Kong in 2016. In addition, he is an alumnus in Entrepreneur First (EF), Hong Kong."""
 
 
 [[tags]]
@@ -25,8 +25,8 @@ desc = """He co-founded Computer Science and Engineering Alumni Association, HKU
 
 [[tags]]
 name = "Teacher"
-desc = """He served as Advisor at Student Innovation for Global Health Technology (SIGHT), HKUST in 2015-16. Since 2017, he serves as a STEM Course Instructor
-at Academy of Bright Future Young Engineers (ABFYE), School of Engineering, HKUST. Since 2008, he serves as Teaching Associate in the Department of Computer Science and Engineering, HKUST.
+desc = """Since 2008, he serves as Teaching Associate in the Department of Computer Science and Engineering, HKUST. Since 2017, he serves as a STEM Course Instructor
+at Academy of Bright Future Young Engineers (ABFYE), School of Engineering, HKUST. He served as Advisor at Student Innovation for Global Health Technology (SIGHT), HKUST in 2015-16. 
 """
 
 
