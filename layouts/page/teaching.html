@@ -11,19 +11,19 @@
                     <span class="h2"><i class="fas fa-book"></i>
                         <strong>{{ partial "evaluation_report_count.html" . }}</strong> Teaching Evaluation Reports</span>
                     <br>
-                    <span class="small"> received from students 
-                        <br> All reports (in PDF <i class="far fa-file-pdf"></i> format) can be downloaded by the links below</span>
+                    <span class="small"> 
+                        All reports (in PDF <i class="far fa-file-pdf"></i> format) can be downloaded by the links below</span>
                 </p>
 
             </div>
 
             <h5><i class="fa fa-list-alt" ></i>&nbsp;Summary</h5>
-            <div class="col-12 col-md-9 col-lg-6 offset-lg-3 p-5">
+            <div class="col-12 col-md-9 col-lg-6 offset-lg-3 p-3">
                 <img src="/evaluation/summary.png" class="mx-auto d-block img-fluid"
                  alt="summary of teaching evaluation reports">
             </div>
-            <h5><i class="fas fa-comments"></i>&nbsp;Selected Student Feedback</h5>
-            <div class="col-12 p-5 mb-3">
+            <h5><i class="fas fa-comments"></i>&nbsp;Selected Feedback</h5>
+            <div class="col-12 p-3 mb-3">
                 <ul style="list-style-type: none;">
                 {{ with .Site.Data.best_comments }}
                     {{  range .comments}}
@@ -47,7 +47,7 @@
             
 
 
-            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Full Teaching Evaluation Reports
+            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation Reports
                 <span class="small">
                     {{ with .Site.Data.evaluation}} from {{ len .course }} {{ end }}regular courses</span></h5>
 
@@ -79,7 +79,7 @@
 
 
         <div class="col-12 mt-3">
-            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Full Teaching Evaluation Reports
+            <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation Reports
                 <span class="small">
                     {{ with .Site.Data.evaluation}} from {{ len .course_bridging }} {{ end }}bridging courses</span></h5>
 
