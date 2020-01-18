@@ -17,11 +17,16 @@
 
             </div>
 
-            <h5><i class="fa fa-list-alt" ></i>&nbsp;Summary</h5>
+            <h5><i class="fa fa-list-alt" ></i>&nbsp;Summary of the Overall Rating</h5>
+            <span class="small">
+                This summary ignores students giving NA (Not sure/Not applicable)
+                </span><br>
             <div class="col-12 col-md-9 col-lg-6 offset-lg-3 p-3">
+                
                 <img src="/evaluation/summary.png" class="mx-auto d-block img-fluid"
                  alt="summary of teaching evaluation reports">
             </div>
+
             <h5><i class="fas fa-comments"></i>&nbsp;Selected Feedback</h5>
             <div class="col-12 p-3 mb-3">
                 <ul style="list-style-type: none;">
@@ -31,7 +36,7 @@
                             <i class="far fa-thumbs-up"></i> {{ .content}}
                             <br>
                             <span class="small">
-                                received from a student in 
+                                quoted from a student in 
                                 <a href="/evaluation/{{.report}}" target="_blank">
                                     <i class="far fa-file-pdf"></i>
                                     {{.course}} {{.section}} {{.semester}}

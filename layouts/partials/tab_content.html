@@ -71,7 +71,12 @@
             {{ range .tags}}
             <span class="badge badge-pill badge-warning">{{.}}</span>
             {{end}}
+            
+            {{ if gt (len .tags) 1 }}
+            <br>
+            <span class="small">old course codes and honour course codes are mapped to the most relevant existing course code</span>
             </p>
+            {{ end }}
         {{end}}
 
 
