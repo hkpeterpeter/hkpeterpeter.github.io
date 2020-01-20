@@ -2,6 +2,19 @@
     <div class="card p-3">
         <h5>{{.id}} - {{with .title}}{{.}}{{end}}
         </h5>
+
+        <div class="col-12 col-md-9 col-lg-6 offset-lg-3 p-3">
+
+            <img src="/evaluation/{{.id}}.png" class="mx-auto d-block img-fluid"
+             alt="summary of teaching evaluation reports">
+            <br>
+             <span class="small">
+                NA (Not Applicable) ratings are excluded
+                <br>
+                Suitable mappings are applied on the ratings prior to Fall 2008
+            </span>
+        </div>
+
         <div class="row justify-content-lg-center">
 
             <div class="col-12 col-lg-6  mb-2 p-2" >
