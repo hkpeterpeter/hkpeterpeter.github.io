@@ -1,7 +1,16 @@
+# overall rating
+# 5 values, commas separated
+# from "Very well" ... "Poorly"
+
+rating = "550,700,434,72,34"
+
 # === COMP1001
+
+
 
 [[course]]
 id = "COMP1001"
+rating = "6,18,6,1,0"
 title = "Exploring Multimedia and Internet Computing"
 reports = ["COMP1001_LA1_Fall1617.pdf"]
 tags = ["COMP1001"]
@@ -27,6 +36,7 @@ bad_comments = ["Present how some of the lab activities can be useful in real li
 
 [[course]]
 id = "COMP1022P"
+rating = "41,51,34,3,3"
 tags = ["COMP1022P"]
 title = "Introduction to Computing in Java"
 
@@ -59,6 +69,7 @@ bad_comments = [
 # === COMP1022Q
 [[course]]
 id = "COMP1022Q"
+rating = "99,109,54,6,3"
 tags = ["COMP1022Q"]
 title = "Introduction to Computing with Excel VBA"
 
@@ -139,6 +150,7 @@ bad_comments = [
 
 [[course_bridging]]
 id = "COMP1029C"
+rating = "8,13,5,1,0"
 tags = ["COMP1029C"]
 title = "C Programming Bridging Course"
 
@@ -159,6 +171,7 @@ bad_comments = [
 
 [[course_bridging]]
 id = "COMP1029J"
+rating = "3,4,1,0,0"
 tags = ["COMP1029J"]
 title = "Java Programming Bridging Course"
 reports = ["COMP1029J_LA1_Winter1617.pdf"]
@@ -173,6 +186,7 @@ bad_comments = [
 # === COMP1029P
 [[course_bridging]]
 id = "COMP1029P"
+rating = "20,21,8,1,1"
 tags = ["COMP1029P"]
 title = "Python Programming Bridging Course"
 reports = [
@@ -199,6 +213,7 @@ bad_comments = [
 # === COMP2011
 [[course]]
 id = "COMP2011"
+rating = "147,202,128,13,10"
 title = "Introduction to Object-oriented Programming"
 tags = ["COMP2011","COMP102", "COMP104","COMP1004"]
 reports = [
@@ -250,6 +265,7 @@ bad_comments = [
 # === COMP2012
 [[course]]
 id = "COMP2012"
+rating = "54,79,57,4,2"
 tags = ["COMP2012", "COMP152", "COMP171"]
 title = "Object-Oriented Programming and Data Structures"
 reports = [
@@ -282,6 +298,7 @@ bad_comments = [
 # === COMP2611
 [[course]]
 id = "COMP2611"
+rating = "23,22,13,1,0"
 tags = ["COMP2611"]
 title = "Computer Organization"
 reports = [
@@ -308,6 +325,7 @@ bad_comments = [
 # === COMP3111
 [[course]]
 id = "COMP3111"
+rating = "95,129,94,32,9"
 tags = ["COMP3111","COMP3111H","COMP211","COMP211H"]
 title = "Software Engineering"
 reports = [
@@ -390,6 +408,7 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
+rating = "35,41,26,9,4"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
@@ -436,6 +455,7 @@ bad_comments = [
 # === COMP4511
 [[course]]
 id = "COMP4511"
+rating = "17,8,6,0,2"
 tags = ["COMP4511"]
 title = "System and Kernel Programming in Linux"
 reports = [

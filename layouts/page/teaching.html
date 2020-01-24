@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="/evaluation/evaluation_chart.js"></script>
+
 <div class="container mt-3">
     <div class="row mb-3 h-100">
 
@@ -21,14 +24,20 @@
            
             <div class="col-12 col-md-9 col-lg-6 offset-lg-3 p-3">
 
-                <img src="/evaluation/summary.png" class="mx-auto d-block img-fluid"
-                 alt="summary of teaching evaluation reports">
-                <br>
-                 <span class="small">
-                    NA (Not Applicable) ratings are excluded
+              
+
+                {{ if .Site.Data.evaluation.rating }}
+                    <svg id="chart_summary"></svg>
+                    <script>evalulation_chart("#chart_summary", "{{.Site.Data.evaluation.rating}}");</script>
                     <br>
-                    Suitable mappings are applied on the ratings prior to Fall 2008
-                </span>
+                    <span class="small">
+                            NA (Not Applicable) ratings are excluded
+                            <br>
+                            Suitable mappings are applied on the ratings prior to Fall 2008
+                    </span>
+                {{end}}
+              
+                
             </div>
 
             
