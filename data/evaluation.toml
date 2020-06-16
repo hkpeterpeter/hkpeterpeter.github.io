@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "558,707,437,72,34"
+rating = "620,759,449,76,35"
 
 # === COMP1001
 
@@ -69,7 +69,7 @@ bad_comments = [
 # === COMP1022Q
 [[course]]
 id = "COMP1022Q"
-rating = "99,109,54,6,3"
+rating = "140,157,63,10,4"
 tags = ["COMP1022Q"]
 title = "Introduction to Computing with Excel VBA"
 
@@ -85,15 +85,26 @@ reports = [
 "COMP1022Q_LA1_Fall1920.pdf",
 "COMP1022Q_LA4_Fall1920.pdf",
 "COMP1022Q_LA5_Fall1920.pdf",
+"COMP1022Q_LA1_Spring1920.pdf",
+"COMP1022Q_LA2_Spring1920.pdf",
+"COMP1022Q_LA3_Spring1920.pdf",
+"COMP1022Q_LA4_Spring1920.pdf",
+"COMP1022Q_LA5_Spring1920.pdf",
+"COMP1022Q_LA6_Spring1920.pdf",
+"COMP1022Q_LA7_Spring1920.pdf",
+"COMP1022Q_LA8_Spring1920.pdf",
 ]
 
 good_comments = [
+"He explained the lab very clearly. And he raised my interest in doing the lab. For example, in the last lab, he showed a lot of music tracks, like Let it go, Animal Crossing song. It made the lab more interesting. The pre recorded video by Peter is really good, very detailed and easy to follow helped me a lot in this course His presentation is easy to listen as well",
 "Again, one of the best TAs during my study in HKUST. He speaks clearly and loudly, such that people would hardly fall asleep during the lab (haha). Also, a brand new way of asking questions online (via sli.do) encourages me to ask more questions regarding the lab rather than raising hands in front of 60+ people in the lab.",
 "He really arouse my interest in doing and going to the lab even if it was a 9am class. He tells jokes and it was quite fun. I learnt and understand more than in the lecture and he explained everything in details and I really appreciate that. He also answer my questions and give me a useful answer.",
 "He explains clearly in the lab. Besides,He always reminds us to upload the file and check the marking scheme before leaving. This helps us get higher marks in the lab and avoid losing the file. He sometimes also tells jokes in the lab which make the lab more interesting",
 "He explains everything in details and is very helpful. He is willing to offer you help when you have any questions. I like how he reminds us some important issues every time and he did really concern about whether we understand the lab work or not",
 "The TA is humorous. He tells many jokes during the lab session. This makes it enjoyable and interesting. He also explained some functions of Excel in a funny way, which makes it easy to understand and memorize. I love to attend the lab session held by the TA",
 "He is slow in pace which is easy to follow for beginners",
+"Respond to emails very quickly even it's in holidays. Make sure I am updated with the progress of my test appeal. Overall speaking , he's outstanding",
+"He was very responsive in replying the emails of my questions. His explanation was also very clear and it really helped me to understand the problems more",
 "Humorous, making a relaxing atmosphere for the class. He explained things well and had a good teaching attitude.",
 "He tries to make jokes to make the lab session less boring. He goes through everything, which is very good.",
 "He explains all lab procedures in details, with high fluency.",
@@ -409,7 +420,7 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "35,41,26,9,4"
+rating = "56,45,29,9,4"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
@@ -424,6 +435,11 @@ reports = [
 "COMP3511_LA3_Fall1920.pdf",
 "COMP3511_LA4_Fall1920.pdf",
 "COMP3511_LA5_Fall1920.pdf",
+"COMP3511_LA1_Spring1920.pdf",
+"COMP3511_LA2_Spring1920.pdf",
+"COMP3511_LA3_Spring1920.pdf",
+"COMP3511_LA4_Spring1920.pdf",
+
 
 ]
 good_comments = [
