@@ -1,4 +1,13 @@
 [[events]]
+order = 34
+title = "Hack Viral"
+date = "Aug 2020"
+url = "hack_timeline/hack_viral_2020.png"
+role = "Mentor - Youth Development and Education Track"
+desc = """Organised by Student Innovation for Global Health Technology (SIGHT) and HKUST Entrepreneurship Center (EC), we are looking for students and professionals to tackle problems brought on by this COVID19 pandemic!
+"""
+
+[[events]]
 order = 33
 title = "Finspire Hackathon"
 url = "hack_timeline/finspire_hackathon_2019.jpg"
@@ -19,7 +28,7 @@ album = "https://photos.app.goo.gl/JGc7wbYwhY4g3CXF6"
 
 [[events]]
 order = 31
-title = "MIT HealthHACK 2019"
+title = "MIT HealthHACK"
 url = "slideshow/mit_healthhack_2019.jpg"
 date = "Jun 2019"
 role = "Participant"

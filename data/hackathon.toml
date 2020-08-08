@@ -3,6 +3,11 @@ award_title = "Hackathon Awards"
 
 [[expert]]
 keyword = "Mentor"
+description = "Hack Viral"
+year = "2020"
+
+[[expert]]
+keyword = "Mentor"
 description = "Finspire Hackathon"
 year = "2020"
 
@@ -21,7 +26,7 @@ year = "2019"
 
 [[expert]]
 keyword = "Founding Committee Member"
-description = "Smart City Hong Kong Hackathon 2018"
+description = "Smart City Hong Kong Hackathon"
 year = "2018"
 
 [[expert]]
