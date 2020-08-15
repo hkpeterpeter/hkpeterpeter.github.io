@@ -174,3 +174,11 @@ abstract = """We are thrilled to see that “Data + Media” has such great impa
 """
 ref_url = "http://bu-dmc.hkbu.edu.hk/dmh/"
 ref_url_name = "Data and Media Hack 2019 Website"
+
+[[item]]
+date = "Aug 2020"
+name = "Hack Viral 2020 Organizing Committee"
+title = "Student Innovation for Global Health Technology (SIGHT), HKUST"
+tags = ["Hackathon", "HealthTech"]
+abstract = """I would like to thank you for your help in coaching and advising the teams. I participated as an observer in a number of the mentoring sessions, and were impressed by the how you engaged the team and guided them to think creatively and critically.
+"""

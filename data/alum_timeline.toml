@@ -1,4 +1,10 @@
 [[events]]
+order = 36
+title = "Serve as a mentor in HKUST United"
+url = "slideshow/hkust_united.png"
+date = "Jun 2020"
+
+[[events]]
 order = 35
 title = "CSEAA Coffee Appreciation Workshop 2018"
 url = "slideshow/cseaa_coffee_appreciation_workshop_2018.jpg"

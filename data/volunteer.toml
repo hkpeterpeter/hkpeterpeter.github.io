@@ -1,6 +1,11 @@
 title = "Volunteering"
 
 [[roles]]
+year = "Jun 2020"
+title = "Mentor"
+event = "HKUST United"
+
+[[roles]]
 year = "Nov 2018"
 title = "Teacher"
 event = "Facebook Chatbot Workshop for Alumni Families"
