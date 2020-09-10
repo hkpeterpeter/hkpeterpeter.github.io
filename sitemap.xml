@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -10,55 +10,46 @@
   <url>
     <loc>https://hkpeterpeter.github.io/article/</loc>
     <lastmod>2018-03-20T19:44:34+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hkpeterpeter.github.io/</loc>
-    <lastmod>2018-03-20T19:44:34+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hkpeterpeter.github.io/tags/</loc>
-    <lastmod>2018-03-20T19:44:34+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/development/</loc>
     <lastmod>2018-03-20T19:44:34+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/hugo/</loc>
     <lastmod>2018-03-20T19:44:34+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/joomla/</loc>
     <lastmod>2018-03-20T19:44:34+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkpeterpeter.github.io/</loc>
+    <lastmod>2018-03-20T19:44:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/react/</loc>
     <lastmod>2018-03-20T19:44:34+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/responsive/</loc>
     <lastmod>2018-03-20T19:44:34+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hkpeterpeter.github.io/tags/</loc>
+    <lastmod>2018-03-20T19:44:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/web/</loc>
     <lastmod>2018-03-20T19:44:34+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -89,19 +80,16 @@
   <url>
     <loc>https://hkpeterpeter.github.io/tags/hackathon/</loc>
     <lastmod>2018-02-25T19:05:31+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/hong-kong/</loc>
     <lastmod>2018-02-25T19:05:31+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/legaltech/</loc>
     <lastmod>2018-02-25T19:05:31+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -112,7 +100,6 @@
   <url>
     <loc>https://hkpeterpeter.github.io/tags/datathon/</loc>
     <lastmod>2018-01-30T19:05:31+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -128,13 +115,11 @@
   <url>
     <loc>https://hkpeterpeter.github.io/tags/rise/</loc>
     <lastmod>2017-07-12T19:05:31+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/startup/</loc>
     <lastmod>2017-07-12T19:05:31+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -145,13 +130,11 @@
   <url>
     <loc>https://hkpeterpeter.github.io/tags/talent/</loc>
     <lastmod>2017-06-07T19:05:31+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hkpeterpeter.github.io/tags/jeju/</loc>
     <lastmod>2016-10-23T19:05:31+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -162,7 +145,6 @@
   <url>
     <loc>https://hkpeterpeter.github.io/tags/traveltech/</loc>
     <lastmod>2016-10-23T19:05:31+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -177,7 +159,6 @@
   
   <url>
     <loc>https://hkpeterpeter.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
