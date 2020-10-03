@@ -43,26 +43,46 @@
             
 
             <h5><i class="fas fa-comments"></i>&nbsp;Selected Feedback</h5>
-            <div class="col-12 p-3 mb-3">
-                <ul style="list-style-type: none;">
+           
+
+             <ul class="nav nav-pills" role="tablist">
                 {{ with .Site.Data.best_comments }}
-                    {{  range .comments}}
-                        <li>
-                            <i class="far fa-thumbs-up"></i> {{ .content}}
-                            <br>
+                {{ range $i, $c := .comments }}
+                
+                <li class="nav-item">
+                    <a class="nav-link {{if eq $i 0}}active{{end}}" id="selected-comments-{{$i}}-tab"
+                       data-toggle="pill" href="#selected-comments-{{$i}}" role="tab"
+                       aria-controls="selected-comments-{{$i}}" aria-selected="true">{{$c.semester}}</a>
+                </li>
+              
+                {{ end }}
+                {{ end }}
+
+            </ul>
+            <div class="tab-content">
+                {{ with .Site.Data.best_comments }}
+                {{ range $i, $c := .comments }}
+                <div class="tab-pane fade show {{if eq $i 0}}active{{end}}" id="selected-comments-{{$i}}" role="tabpanel"
+                     aria-labelledby="selected-comments-{{$i}}-tab">
+                     <div class="card p-3">
+                         <p>{{ .content}}</p> 
+                        
                             <span class="small">
+                                <i class="far fa-thumbs-up"></i> 
                                 quoted from a student in 
                                 <a href="/evaluation/{{.report}}" target="_blank">
                                     <i class="far fa-file-pdf"></i>
                                     {{.course}} {{.section}} {{.semester}}
                                 </a>
-                            </span> 
-                            <br><br>
-                        </li>
-                    {{end}}
-                {{end}}
-                </ul>
-             </div>
+                            </span>
+                    </div> 
+                    
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+
+            <br>
  
             
 
