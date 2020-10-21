@@ -1,6 +1,12 @@
 [[events]]
+order = 37
+title = "HKUST Young Alumni Virtual Networking 2020"
+url = "slideshow/young_alumni_network_2020.png"
+date = "Oct 2020"
+
+[[events]]
 order = 36
-title = "Serve as a mentor in HKUST United"
+title = "Served as a mentor in HKUST United"
 url = "slideshow/hkust_united.png"
 date = "Jun 2020"
 
