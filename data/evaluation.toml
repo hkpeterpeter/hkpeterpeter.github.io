@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "626,760,449,76,35"
+rating = "863,857,479,80,36"
 
 # === COMP1001
 
@@ -30,6 +30,79 @@ bad_comments = ["Present how some of the lab activities can be useful in real li
 ,"Interaction and increase attractiveness of lab course"
 ,
 ]
+
+# === COMP1021
+
+[[course]]
+id = "COMP1021"
+rating = "196,80,23,1,0"
+title = "Introduction to Computer Science"
+reports = [
+  "COMP1021_LA01_Fall2021.pdf",
+  "COMP1021_LA02_Fall2021.pdf",
+  "COMP1021_LA03_Fall2021.pdf",
+  "COMP1021_LA04_Fall2021.pdf",
+  "COMP1021_LA05_Fall2021.pdf",
+  "COMP1021_LA06_Fall2021.pdf",
+  "COMP1021_LA07_Fall2021.pdf",
+  "COMP1021_LA08_Fall2021.pdf",
+  "COMP1021_LA09_Fall2021.pdf",
+  "COMP1021_LA10_Fall2021.pdf",
+  "COMP1021_LA11_Fall2021.pdf",
+
+]
+tags = ["COMP1021"]
+
+good_comments = [
+  """During lecture time, Peter is always actively answering our questions, which help us to catch up in class and eliminate our questions
+immediately""",
+"""I want to give all thanks to him. He is always in the class with us and explain every questions of students. Every question is public so
+I can know so much things through our students's points. Thank you very much to him""",
+"""He is really helpful during classes. He answers our questions very fast. Apart from classes, he answers my email question almost
+immediately. Overall, a very good TA""",
+"""TA is readily there to answer student's questions while Professor is teacher to ensure the class runs smoothly. Also, TA can crack
+jokes with students every once in a while which makes going to class extra fun""",
+"""He is participating in every lectures, trying to answer every questions in the chat box. Sometimes he is not telling the answer
+directly, but trying to guide us to think""",
+"""i've never asked questions myself, but Peter always answered questions in the chat almost instantaneously.""",
+"""Was quick to answer questions to students' satisfaction and benefit as well as to provide needed background on anything the
+instructor might have missed""",
+"""Great interaction between students and TA during lecture. In addition, he is willing to answer student's question actively""",
+"""Peter was able to provide very useful comments and solutions when classmates had questions, and his responses were quick so that
+we can continue our lecture with better understanding.""",
+"""TA Peter was in my L10 lectures, he answered every question that was asked in the chat and provided external links for assistance
+as well""",
+"""He can answer the questions detailedly and patiently""",
+"""The TA was very helpful and active with answering chat questions. The TA also answered questions in the discussions poll on
+Canvas""",
+"""The TA was very good at answering questions we had. Gave perfect explanations, and also he is very funny.""",
+"""He answered all of our questions well and was overall very helpful, I like the fact that he created the COMP1021 index page too""",
+"""TA always respond to my email regarding the lab assignment and answer it with a simple and straightforward words.""",
+"""He has a solid knowledge in this course which allowed students to ask question freeley without bothering the class. He helped
+students very nicely with the labs""",
+"""He was always responsive in addressing chat questions and I saw synergy when he was working in class with prof. Rossiter""",
+"""Very helpful during lectures, answered students' questions in detail. Also really appreciate how a "summary page" was made for us to
+access the large amount of topics in an easy way. He is also quite funny as seen by some of the interactions during lecture. I also see
+that he was very helpful.in answering questions on the Canvas discussion page.""",
+"""TA Peter answered every question on the Zoom chat very promptly and quickly. His answers were very clear and solved any doubts
+that I had. Sometimes he also made the class discussions quite interesting""",
+"""The TA solve problems and answer questions during the class,which is helpful for both teacher and students.""",
+]
+
+bad_comments = [
+  """maybe a little bit faster but overall is already very good""",
+  """teach additional stuff""",
+  """Can open the mic and speak sometime""",
+  """ it is better if he can turn on the camera""",
+  """provide more further study material""",
+  """If possible, the TA could be more quicker in answering the doubts during the class, then that would be great.""",
+  """Maybe some praise for students who answer questions before TA could answer. Something like: "xxx is correct, blah blah blah". This
+might encourage some students think to help each other (which can consolidate their understanding)and also prevents chat from
+getting clogged with the an answer that has already been answered previously. Other than that, TA is doing great""",
+"""Sometimes the time of entering to the zoom meeting of the lab is quite long, which maybe can be improved.""",
+
+]
+
 
 
 # === COMP1022P
@@ -378,6 +451,7 @@ reports = [
 "COMP3111_LA3_Spring1718.pdf",
 ]
 good_comments = [
+  
 """Peter is one of the best persons I have met in my life. Very friendly TA with solid background
 of his field. Very interesting way of teaching with clear accent.""",
 "Probably the best TA in HKUST with good knowledge and great passion towards teaching",
@@ -421,7 +495,7 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "56,45,29,9,4"
+rating = "97,62,36,12,5"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
@@ -440,10 +514,22 @@ reports = [
 "COMP3511_LA2_Spring1920.pdf",
 "COMP3511_LA3_Spring1920.pdf",
 "COMP3511_LA4_Spring1920.pdf",
+"COMP3511_LA1_Fall2021.pdf",
+"COMP3511_LA2_Fall2021.pdf",
+"COMP3511_LA3_Fall2021.pdf",
+"COMP3511_LA4_Fall2021.pdf",
+"COMP3511_LA5_Fall2021.pdf",
 
 
 ]
 good_comments = [
+"""Peter is very clear in his teaching, he's also really funny so he keeps us all engaged. He also responds very quickly to any questions
+and he is very detailed and clear is his explanations so there's no confusion""",
+  """Clearly illustrate the concept, teaching base on the student's difficulties. Try to understand learning obstacle from student's
+perspective, and give some suggestion""",
+  """Really encourages the spirit of education. Instead of being able to just regurgitate knowledge, peter encourages a deeper
+understanding among us students.
+  """,
 "He tried to create a good learning atmosphere by adopting the online Q&A system and encouraging students to ask questions. He is also familiar with the course materials and the difficulties that students encountered",
 "The TA made one of the lab sessions more interactive by encouraging students to post their questions anonymously in an online platform and answering them in real time",
 "He explained the project assignments very well and helped us understand what we needed to do",
@@ -468,6 +554,7 @@ bad_comments = [
 "The speed could be a bit faster.",
 "English pronunciation",
 "Both project assignments should be improved",
+"Peter designed the project to be TOOOOO EASY! Cannot learn anything from doing the project",
 ]
 
 # === COMP4511
