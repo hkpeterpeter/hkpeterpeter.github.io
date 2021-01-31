@@ -1,31 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>JeJu on Peter&#39;s website</title>
-    <link>https://hkpeterpeter.github.io/tags/jeju/</link>
-    <description>Recent content in JeJu on Peter&#39;s website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 23 Oct 2016 19:05:31 +0800</lastBuildDate><atom:link href="https://hkpeterpeter.github.io/tags/jeju/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>JeJu Hackathon at South Korea (Day 2)</title>
-      <link>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-2/</link>
-      <pubDate>Sun, 23 Oct 2016 19:05:31 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-2/</guid>
-      <description>In Day 2, the main focus was the idea development. After some discussion, we agreed to set our goal as an application to help promote small businesses at JeJu.
-Step 1 - Idea Development As our goal was finalized, we decided to choose a team name which can exactly reflect the goal. We independently wrote names and then tried to incorporate all key ideas from the names. Finally, we combined 2 key ideas: &amp;ldquo;blog&amp;rdquo; and &amp;ldquo;story telling&amp;rdquo; as our team and application name - Blogory</description>
-    </item>
-    
-    <item>
-      <title>JeJu Hackathon at South Korea (Day 1)</title>
-      <link>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-1/</link>
-      <pubDate>Sat, 22 Oct 2016 19:05:31 +0800</pubDate>
-      
-      <guid>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-1/</guid>
-      <description>Yes, I travelled to JeJu, South Korea. We couldn&amp;rsquo;t book a direct flight, and there were serious flight delay, we were forced to sleep at Shanghai airport. After 24 hours of travelling, we finally arrive JeJu, South Korea.
-Step 1 - On-the-group research for the Hackathon We arrived at 3pm. We immediately started the on-the-ground research because we were extremely hungry. We spotted a very nice restaurant near our competition venue.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JeJu on Peter's website</title><link>https://hkpeterpeter.github.io/tags/jeju/</link><description>Recent content in JeJu on Peter's website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2016 19:05:31 +0800</lastBuildDate><atom:link href="https://hkpeterpeter.github.io/tags/jeju/index.xml" rel="self" type="application/rss+xml"/><item><title>JeJu Hackathon at South Korea (Day 2)</title><link>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-2/</link><pubDate>Sun, 23 Oct 2016 19:05:31 +0800</pubDate><guid>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-2/</guid><description>In Day 2, the main focus was the idea development. After some discussion, we agreed to set our goal as an application to help promote small businesses at JeJu.
+Step 1 - Idea Development As our goal was finalized, we decided to choose a team name which can exactly reflect the goal. We independently wrote names and then tried to incorporate all key ideas from the names. Finally, we combined 2 key ideas: &amp;ldquo;blog&amp;rdquo; and &amp;ldquo;story telling&amp;rdquo; as our team and application name - Blogory</description></item><item><title>JeJu Hackathon at South Korea (Day 1)</title><link>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-1/</link><pubDate>Sat, 22 Oct 2016 19:05:31 +0800</pubDate><guid>https://hkpeterpeter.github.io/article/jeju-hackathon-south-korea-day-1/</guid><description>Yes, I travelled to JeJu, South Korea. We couldn&amp;rsquo;t book a direct flight, and there were serious flight delay, we were forced to sleep at Shanghai airport. After 24 hours of travelling, we finally arrive JeJu, South Korea.
+Step 1 - On-the-group research for the Hackathon We arrived at 3pm. We immediately started the on-the-ground research because we were extremely hungry. We spotted a very nice restaurant near our competition venue.</description></item></channel></rss>
