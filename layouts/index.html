@@ -132,19 +132,19 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.9.3/countUp.min.js"></script>
 <script>
-
     var options = {
         useEasing: false
     };
     var t = 1;
-    new CountUp("testimonial_count", 0, {{ len .Site.Data.testimonial.item }}, 0, t, options ).start();
-    new CountUp("hackathon_count", 0,  {{len .Site.Data.hack_timeline.events}}, 0, t, options ).start();
-    new CountUp("alumni_count", 0,  {{ len .Site.Data.alum_timeline.events }}, 0, t, options ).start();
-    new CountUp("evaluation_count", 0,   {{  int (trim (partial "evaluation_report_count.html" .) "\n ") }}, 0, t, options ).start();
+    var testimonial_count = {{ len .Site.Data.testimonial.item }};
+    var hackathon_count =  {{len .Site.Data.hack_timeline.events}};
+    var alumni_count = {{ len .Site.Data.alum_timeline.events }};
+    var evaluation_count = {{  int (trim (partial "evaluation_report_count.html" .) "\n ") }};
 
-
-
-
+    new CountUp("testimonial_count", 0, testimonial_count , 0, t, options ).start();
+    new CountUp("hackathon_count", 0, hackathon_count, 0, t, options ).start();
+    new CountUp("alumni_count", 0, alumni_count , 0, t, options ).start();
+    new CountUp("evaluation_count", 0, evaluation_count  , 0, t, options ).start();
 </script>
 
 
