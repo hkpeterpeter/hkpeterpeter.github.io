@@ -6,15 +6,13 @@
   "author": "Peter Chung <hkpeterpeter@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "gulp": "^4.0.2",
-    "gulp-htmlmin": "^5.0.1"
+    "gh-pages": "^3.1.0"
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "build": "hugo && gulp",
+    "build": "hugo",
     "debug": "hugo server -D",
-    "debug-build": "hugo && gulp && serve -s public/",
+    "debug-build": "hugo && serve -s public/",
     "deploy": "gh-pages -b master -d public"
   }
 }

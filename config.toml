@@ -9,6 +9,8 @@ paginate = 3  # Define the number of posts per page
 author = "Peter Chung"
 keywords = "Hackathon, hackUST, Hackathon@HKUST, Datathon, Alumni, HKUST, CSE, Entrepreneur, Startup, Cyberport, SIGHT, TA, cspeter, Peter"
 
+[minify]
+minifyOutput = true
 
 
 
