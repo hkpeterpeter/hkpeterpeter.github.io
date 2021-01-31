@@ -33,98 +33,106 @@
     }
 
 </style>
+<link href="css/cube.css" rel="stylesheet"   />
 {{ end }}
 
 {{ define "main" }}
 <div class="container">
-    <div class="row h-100">
-
-        <div class="col-12 col-md-12 col-lg-3 p-2 text-center text-sm-left">
-
-            <div class="card profile-background">
-
-                <div class="text-center">
-                    {{ with .Site.Data.homepage }}
-                    <a href="/profile"><img id="profile-image" class="region-hover card-img-top rounded-circle img-thumbnail mt-2"
-                         src="{{.profile_url}}" alt="Profile Image"></a>
-                    {{ end }}
-                </div>
-
-                <div class="card-body text-center">
-                    <h5 class="card-title">{{ with .Site.Params.author }} {{.}} {{ end }}</h5>
-
-
-                    <p>
-                    {{ with .Site.Data.homepage.social }}
-                        {{ range . }}
-                            {{ if .url }}
-                               <a {{if .ext}}target="_blank" {{end}} href="{{.url}}"><i class="region-hover {{.icon}}"></i></a>
-                            {{ end }}
-                        {{ end }}
-
-                    {{ end }}
-                    </p>
-
-                    <span class="badge badge-danger">🔥HEAT🔥</span>
-                    <br>
-
-                    {{ with .Site.Data.homepage.tags }}
-                        {{ range . }}
-                        <span class="badge badge-success"> {{.name}}</span>
-                        {{ end }}
-                    {{ end }}
-
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="col-12 col-lg-9 p-2">
-            {{ partial "slideshow.html" . }}
-        </div>
-
-        <div class="row text-center w-100">
-
-            <div class="p-3 col-6 col-lg-3 ">
-
-                <h1><a href="/testimonial"><i class="region-hover far fa-comments"></i></a>
-                    <span id="testimonial_count"> 0 </span></h1>
-                <h5>Testimonials</h5>
-
-
-
-            </div>
-
-            <div class="p-3 col-6 col-lg-3">
-                <h1><a href="/hackathon"><i class="region-hover fab fa-hire-a-helper"></i></a>
-                    <span id="hackathon_count"> 0 </span> </h1>
-                <h5>Hackathons</h5>
-
-            </div>
-
-            <div class=" p-3 col-6 col-lg-3">
-                <h1><a href="/alumni"><i class="region-hover fas fa-graduation-cap"></i></a>
-                   <span id="alumni_count"> 0 </span> </h1>
-                <h5>Alumni Events</h5>
-
-
-            </div>
-
-            <div class=" p-3 col-6 col-lg-3">
-                <h1><a href="/teaching"><i class="region-hover fas fa-book"></i></a>
-                    <span id="evaluation_count">0</span></h1>
-                <h5>Evaluation Reports</h5>
+    <div class="row my-2">
+        <div class="col-12 col-lg-3 text-center profile-background">
+          
+            {{ with .Site.Data.homepage }}
+    
                 
+             
+             <div class="cube-card">   
+                 <div class="cube-wrapper">
+                    <div class="cube" id="cube">
+                        <div class="cube__face cube__face--front">&nbsp;</div>
+                        <div class="cube__face cube__face--back">&nbsp;</div>
+                        <div class="cube__face cube__face--right">&nbsp;</div>
+                        <div class="cube__face cube__face--left">&nbsp;</div>
+                        <div class="cube__face cube__face--top">&nbsp;</div>
+                        <div class="cube__face cube__face--bottom">&nbsp;</div>
+                    </div>
+                </div>
             </div>
 
+          
+            {{ end }}
+            
+            <h5>{{ with .Site.Params.author }} {{.}} {{ end }}</h5>
+            
+            <div class="icon-wrapper">
+                {{ with .Site.Data.homepage.social }}
+                    {{ range . }}
+                        <a href="#" id="{{.id}}" class="me-2"><i class="{{.icon}} region-hover" ></i></a>
+                    {{ end }}
+                {{ end }}
+            </div>
+
+            <div class="my-2">
+                {{ with .Site.Data.homepage }}
+                    <a href="mailto:{{.email}}"><i class="fas fa-envelope region-hover"></i>
+                        <span class="ms-1">{{.email}}</span>
+                    </a>
+                {{ end }}
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="js/cube.js" ></script>
+
+     
+
+        <div class="col-12 col-lg-9">
+          
+            {{ partial "slideshow.html" . }}
+
+        </div>
+  
+    </div>
+    <div class="row text-center">
+
+        <div class="p-3 col-6 col-lg-3 ">
+
+            <h1><a href="/testimonial"><i class="region-hover far fa-comments"></i></a>
+                <span id="testimonial_count" class="ms-2">0</span></h1>
+            <h5>Testimonials</h5>
 
 
 
         </div>
 
+        <div class="p-3 col-6 col-lg-3">
+            <h1><a href="/hackathon"><i class="region-hover fab fa-hire-a-helper"></i></a>
+                <span id="hackathon_count" class="ms-2">0</span> </h1>
+            <h5>Hackathons</h5>
 
+        </div>
+
+        <div class=" p-3 col-6 col-lg-3">
+            <h1><a href="/alumni"><i class="region-hover fas fa-graduation-cap"></i></a>
+               <span id="alumni_count" class="ms-2">0</span> </h1>
+            <h5>Alumni Events</h5>
+
+
+        </div>
+
+        <div class=" p-3 col-6 col-lg-3">
+            <h1><a href="/teaching"><i class="region-hover fas fa-book"></i></a>
+                <span id="evaluation_count" class="ms-2">0</span></h1>
+            <h5>Evaluation Reports</h5>
+            
+        </div>
+        
     </div>
+
+
+
+
+
+ 
 </div>
 {{ end }}
 

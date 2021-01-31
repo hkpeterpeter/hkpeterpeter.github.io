@@ -29,7 +29,8 @@
             <div class="col-12 col-lg-6  mb-2 p-2" >
 
 
-                    <p class="text-success"><i class="far fa-thumbs-up"></i> What was good about Peter?</p>
+                    <p class="text-success"><i class="far fa-thumbs-up"></i> 
+                        <span class="ms-1">What was good about Peter?</span></p>
                     {{ if .good_comments }}
                     <ol class="small">
                         {{ range .good_comments }}
@@ -46,7 +47,8 @@
 
             <div class="col-12 col-lg-6  mb-2 p-2">
 
-                    <p class="text-danger"> <i class="far fa-thumbs-down"></i> How might Peter be improved? </p>
+                    <p class="text-danger"> <i class="far fa-thumbs-down"></i> 
+                        <span class="ms-1">How might Peter be improved?</span> </p>
                     {{ if .bad_comments }}
                     <ol class="small">
                         {{ range .bad_comments}}
@@ -66,9 +68,9 @@
 
         {{ if .reports }}
         <p>
-           <span class="badge badge-info mb-2 p-2">
+           <span class="badge bg-info mb-2 p-2">
             <i class="fa fa-download"></i> 
-                 {{ len .reports }} evaluation report(s)
+                 <span class="ms-1">{{ len .reports }} evaluation report(s)</span>
             </span>
             <br>
 
@@ -79,7 +81,7 @@
                     <a target="_blank" href="/evaluation/{{.}}">
                         <button type="button" class="btn btn-outline-dark btn-sm mb-2">
                             <i class="far fa-file-pdf"></i>
-                            {{$display}}
+                            <span class="ms-1">{{$display}}</span>
                         </button>
                     </a>
 
@@ -91,7 +93,7 @@
         {{if .tags}}
             <p>
             {{ range .tags}}
-            <span class="badge badge-pill badge-warning">{{.}}</span>
+            <span class="badge rounded-pill bg-warning">{{.}}</span>
             {{end}}
             
             {{ if gt (len .tags) 1 }}

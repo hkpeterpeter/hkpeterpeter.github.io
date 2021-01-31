@@ -14,24 +14,19 @@
 
 {{ define "main" }}
 
-
-<div class="container mt-3">
-
-    <div class="row mb-3 h-100">
-
-        <div class="col-12 col-lg-3 p-2 text-center text-sm-left">
-
-            <div class="card profile-background">
-
-                <div class="text-center">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-3 p-2 text-center">
+            <div class="profile-background py-2">
+                <div>
                     {{ with .Site.Data.homepage }}
-                    <img id="profile-image" class="card-img-top rounded-circle img-thumbnail mt-2"
+                    <img id="profile-image" class="rounded-circle img-thumbnail my-2"
                          src="{{.profile_url}}" alt="Profile Image">
                     {{ end }}
                 </div>
 
-                <div class="card-body text-center">
-                    <h4 class="card-title">{{ with .Site.Params.author }} {{.}} {{ end }}</h4>
+                <div>
+                    <h4>{{ with .Site.Params.author }} {{.}} {{ end }}</h4>
 
                     {{ with .Site.Data.homepage.office }}
                     <p class="small">
@@ -39,39 +34,23 @@
                         <a {{if .ext}}target="_blank"{{end}} href="{{.url}}">
                             {{ .room }} <em>{{.sub}}</em></a></p>
                     {{ end }}
-
-                    <p>
-                        {{ with .Site.Data.homepage.social }}
-                        {{ range . }}
-                        {{ if .url }}
-                        <a {{if .ext}}target="_blank" {{end}} href="{{.url}}"><i class="{{.icon}}"></i></a>
-                        {{ end }}
-                        {{ end }}
-
-                        {{ end }}
-                    </p>
-
-
-
                 </div>
+
             </div>
-
-
         </div>
 
         <div class="col-12 col-lg-9 text-left mb-2 p-3">
-
-            <p><h5>
-                <span class="badge badge-danger">HEAT</span>
-                <span class="badge">=</span>
-                <span class="badge badge-success">Hackathon Expert</span>
-                <span class="badge ">+</span>
-                <span class="badge badge-success">Entrepreneur</span>
-                <span class="badge">+</span>
-                <span class="badge badge-success">Alumni</span>
-                <span class="badge">+</span>
-                <span class="badge badge-success">Teacher</span></h5>
-            </p>
+            <h5 class="my-2">
+                <span class="badge bg-danger">HEAT</span>
+                <span >=</span>
+                <span class="badge bg-success">Hackathon Expert</span>
+                <span >+</span>
+                <span class="badge bg-success">Entrepreneur</span>
+                <span >+</span>
+                <span class="badge bg-success">Alumni</span>
+                <span >+</span>
+                <span class="badge bg-success">Teacher</span>
+            </h5>
 
             <p class="small text-justify">
                 {{ with .Site.Data.homepage.description }}
@@ -79,30 +58,30 @@
                 {{ end }}
             </p>
 
-
-
             {{ with .Site.Data.homepage.tags }}
                  {{ range . }}
                <p >
-                <span class="badge badge-success">{{.name}}</span>
-
+                <span class="badge bg-success">{{.name}}</span>
                    {{ with .desc }} <span class="small"> {{ . }} </span> {{end}}
                 </p>
                {{ end }}
 
             {{ end }}
 
-
-
         </div>
+    </div>
 
+    <div class="row my-2">
         <div class="col-12 col-lg-6 p-2">
             {{ with .Site.Data.teaching }}
-            <h5><i class="fas fa-users"></i>&nbsp;{{ len .educator }} {{.educator_title}} </h5>
+            <h5>
+                <i class="fas fa-users"></i>
+                <span class="ms-2">{{ len .educator }} {{.educator_title}}</span>
+            </h5>
             <ul class="list-unstyled">
                 {{ range .educator }}
-                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.title}}</span>
+                <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
+                    <span class="badge rounded-pill bg-info">{{.title}}</span>
                     {{ if .url }}<a target="_blank" href="{{.url}}">{{.group}}</a>{{ else }} {{ .group }} {{ end }}
                 </li>
                 {{ end }}
@@ -111,15 +90,17 @@
 
         </div>
 
-
         <div class="col-12 col-lg-6 p-2">
             {{ with .Site.Data.teaching }}
-            <h5><i class="fas fa-certificate"></i>&nbsp;{{.academic_title}}</h5>
+            <h5>
+                <i class="fas fa-certificate"></i>
+                <span class="ms-2">{{ len .academic}} {{.academic_title}}</span>
+            </h5>
             <ul class="list-unstyled">
                 {{ range .academic }}
-                <li><span class="badge badge-pill badge-warning">{{.year}}</span>
-                    <span class="badge badge-pill badge-info">{{.level}}</span>
-                    <span class="badge badge-pill badge-info">{{.degree}}</span>
+                <li><span class="badge rounded-pill bg-warning">{{.year}}</span>
+                    <span class="badge rounded-pill bg-info">{{.level}}</span>
+                    <span class="badge rounded-pill bg-info">{{.degree}}</span>
                     <br>
                     {{.university}} {{ if .special}}
                     <small> ({{.special}})</small>
@@ -130,11 +111,14 @@
             {{ end }}
 
             {{ with .Site.Data.teaching }}
-            <h5><i class="fas fa-trophy"></i>&nbsp;{{.award_title}} </h5>
+            <h5>
+                <i class="fas fa-trophy"></i>
+                <span class="ms-2">{{len .awards}} {{.award_title}} </span>
+            </h5>
             <ul class="list-unstyled">
                 {{ range .awards }}
-                <li><span class="badge badge-pill badge-warning">{{.year}}</span>
-                    <span class="badge badge-pill badge-info">{{.title}}</span>
+                <li><span class="badge rounded-pill bg-warning">{{.year}}</span>
+                    <span class="badge rounded-pill bg-info">{{.title}}</span>
                     {{.group}}
                 </li>
                 {{ end }}
@@ -144,13 +128,14 @@
 
         <div class="col-12 col-lg-6">
             {{ with .Site.Data.hackathon }}
-            <h5><i class="fas fa-trophy"></i>&nbsp;
-                {{len .awards}}
-                {{.award_title}}</h5>
+            <h5>
+                <i class="fas fa-trophy"></i>
+                <span class="ms-2">{{len .awards}} {{.award_title}}</span>
+            </h5>
             <ul class="list-unstyled">
                 {{ range .awards }}
-                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.keyword}}</span>
+                <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
+                    <span class="badge rounded-pill bg-info">{{.keyword}}</span>
 
                     {{ if .url }}
                     <a href="{{.url}}" target="_blank">{{.description}}</a>
@@ -166,12 +151,15 @@
 
         <div class="col-12 col-lg-6 p-2">
             {{ with .Site.Data.hackathon }}
-            <h5><i class="fas fa-lightbulb"></i>&nbsp;{{.expert_title}} </h5>
+            <h5>
+                <i class="fas fa-lightbulb"></i>
+                <span class="ms-2">{{len .expert}} {{.expert_title}} </span>
+            </h5>
             <ul class="list-unstyled">
                 {{ range .expert }}
                 <li>
-                    {{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.keyword}}</span>
+                    {{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
+                    <span class="badge rounded-pill bg-info">{{.keyword}}</span>
 
 
                     {{ if .url }}
@@ -191,24 +179,28 @@
 
         <div class="col-12 col-lg-6">
             {{ with .Site.Data.csaa }}
-            <h5><i class="fas fa-graduation-cap"></i>
-                {{.title}}</h5>
+            <h5>
+                <i class="fas fa-graduation-cap"></i>
+                <span class="ms-2">{{.title}}</span>
+            </h5>
             <ul class="list-unstyled">
                 {{ range .roles }}
-                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.title}}</span></li>
+                <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
+                    <span class="badge rounded-pill bg-info">{{.title}}</span></li>
                 {{ end }}
 
             </ul>
             {{ end }}
 
             {{ with .Site.Data.cseaa }}
-            <h5><i class="fas fa-graduation-cap"></i>
-                {{.title}}</h5>
+            <h5>
+                <i class="fas fa-graduation-cap"></i>
+                <span class="ms-2">{{.title}}</span>
+            </h5>
             <ul class="list-unstyled">
                 {{ range .roles }}
-                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.title}}</span></li>
+                <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
+                    <span class="badge rounded-pill bg-info">{{.title}}</span></li>
                 {{ end }}
 
             </ul>
@@ -219,12 +211,14 @@
         <div class="col-12 col-lg-6 p-2">
 
             {{ with .Site.Data.volunteer }}
-            <h5><i class="fas fa-handshake"></i>
-               {{.title}}</h5>
+            <h5>
+                <i class="fas fa-handshake"></i>
+                <span class="ms-2">{{len .roles}} {{.title}}</span>
+            </h5>
             <ul class="list-unstyled">
                 {{ range .roles }}
-                <li>{{if .year}}<span class="badge badge-pill badge-warning">{{.year}}</span>{{end}}
-                    <span class="badge badge-pill badge-info">{{.title}}</span>
+                <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
+                    <span class="badge rounded-pill bg-info">{{.title}}</span>
                     {{.event}}</li>
                 {{ end }}
 

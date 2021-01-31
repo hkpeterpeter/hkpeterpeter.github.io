@@ -1,6 +1,7 @@
-profile_url = "/images/profile.png"
+profile_url = "/images/profile-peter.jpg"
 description = """Mr Chung has more than 10 years of experience in the higher education sector. He has solid experience in software engineering, system and kernel programming in Linux, web and mobile app development, entrepreneurship, e-learning, STEM education, student advising, and alumni engagement. Besides from his teaching duties at HKUST, he is an experienced Hackathon organizer in Hong Kong. He is also a Hong Kong Cyberport startup alumnus and maintains close connections with the Hong Kong startup community.
 """
+email = "cspeter@cse.ust.hk"
 
 [office]
 job = "Teaching Associate"
@@ -34,29 +35,25 @@ at Academy of Bright Future Young Engineers (ABFYE), School of Engineering, HKUS
 [[social]]
 name = "Facebook"
 icon = "fab fa-2x fa-facebook-square"
-url = "//fb.com/cspeter"
-ext = true
+id = "icon-fb"
 
 [[social]]
 name = "LinkedIn"
 icon = "fab fa-2x fa-linkedin"
-url = "//www.linkedin.com/in/hkpeterpeter/"
-ext = true
+id = "icon-linkedin"
 
 [[social]]
 name = "Instagram"
 icon = "fab fa-2x fa-instagram"
-url = "//instagram.com/hkpeterpeter"
-ext = true
+id = "icon-ig"
 
 [[social]]
 name = "Whatsapp"
 icon = "fab fa-2x fa-whatsapp"
-url = "//api.whatsapp.com/send?phone=85264921981"
-ext = true
+id = "icon-whatsapp"
 
 [[social]]
-name = "Email"
-icon = "fas fa-2x fa-envelope"
-url = "mailto:cspeter@cse.ust.hk"
+name = "WeChat"
+icon = "fab fa-2x fa-weixin"
+id = "icon-wechat"
 

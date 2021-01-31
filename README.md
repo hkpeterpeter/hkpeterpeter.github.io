@@ -18,6 +18,6 @@ yarn run deploy  # deploy the website
 
 ## Reference
 
-- [Hugo](https://gohugo.io/) - an extremely fast static site generator
-- [Bootstrap 4](https://gohugo.io/) - responsive front-end library
-- [Font Awesome 5](https://fontawesome.com/) - vector icon library
+- [Hugo v0.80.0](https://gohugo.io/) - an extremely fast static site generator
+- [Bootstrap 5.0.0-beta1](https://gohugo.io/) - responsive front-end library
+- [Font Awesome 5.15.2](https://fontawesome.com/) - vector icon library

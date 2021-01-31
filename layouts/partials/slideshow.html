@@ -1,6 +1,6 @@
-<!-- // Bootstrap 4 carosel -->
+<!-- // Bootstrap 5 carosel -->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselSlideShow" class="carousel slide" data-bs-ride="carousel">
 
     <div class="carousel-inner">
 
@@ -8,7 +8,7 @@
         <div class="carousel-item {{if eq $index 0}} active {{end}}">
             <img class="d-block w-100" src="{{$element.url}}" alt="slide {{add $index 1}}">
 
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="background-color:rgba(0, 0, 0, 0.5);">
 
                 <h5>{{$element.title}} </h5>
 
@@ -21,7 +21,7 @@
                 <p>
                 {{ with $element.tags }}
                     {{ range sort . }}
-                    <span class="badge badge-warning"> {{.}}</span>
+                    <span class="badge bg-warning text-dark"> {{.}}</span>
 
                     {{ end }}
                 {{ end }}
@@ -31,13 +31,13 @@
         {{ end }}
 
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselSlideShow" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselSlideShow" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+        <span class="visually-hidden">Next</span>
+      </a>
 </div>
-<!-- // Bootstrap 4 carosel -->
+<!-- // Bootstrap 5 carosel -->

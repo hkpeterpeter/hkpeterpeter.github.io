@@ -7,7 +7,10 @@
 
             <p class="bg-light p-3 text-center">
                 <span class="h2"><i class="far fa-comments"></i>
-                 <strong> {{len .Site.Data.testimonial.item}} </strong>Selected Testimonials</span>
+                 <strong> 
+                    <span class="ms-2">{{len .Site.Data.testimonial.item}} </span>
+
+                 </strong>Selected Testimonials</span>
                 <br>
                 <span class="small">in a chronological order</span> </p>
 
@@ -31,9 +34,9 @@
                 <div>
 
                     {{range .tags}}
-                    <span class="badge badge-pill badge-info">{{.}}</span>
+                    <span class="badge rounded-pill bg-info">{{.}}</span>
                     {{end}}
-                    <span class="badge badge-pill badge-warning"><i class="far fa-calendar-alt"></i>&nbsp;{{.date}}</span>
+                    <span class="badge rounded-pill bg-warning"><i class="far fa-calendar-alt"></i>&nbsp;{{.date}}</span>
 
                     {{if .ref_url}}
                     <br><br>

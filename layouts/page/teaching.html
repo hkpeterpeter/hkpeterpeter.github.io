@@ -4,23 +4,24 @@
 <script src="/evaluation/evaluation_chart.js"></script>
 
 <div class="container mt-3">
-    <div class="row mb-3 h-100">
-
+    <div class="row mb-3">
         <div class="col-12">
-
             <div class="col-12">
-
                 <p class="bg-light p-3 text-center">
                     <span class="h2"><i class="fas fa-book"></i>
-                        <strong>{{ partial "evaluation_report_count.html" . }}</strong> Teaching Evaluation Reports</span>
+                        <strong>
+                            <span class="ms-2">{{ partial "evaluation_report_count.html" . }}</span>
+                        </strong> Teaching Evaluation Reports</span>
                     <br>
                     <span class="small"> 
-                        All reports (in PDF <i class="far fa-file-pdf"></i> format) can be downloaded via the links below</span>
+                        All reports (in PDF <i class="far fa-file-pdf"></i> 
+                        <span class="ms-1">format</span>) can be downloaded via the links below</span>
                 </p>
-
             </div>
 
-            <h5><i class="fa fa-list-alt" ></i>&nbsp;Overall Rating</h5>
+            <h5><i class="fa fa-list-alt" ></i>
+                <span class="ms-2">Overall Rating</span>
+            </h5>
            
             <div class="col-12 col-md-9 col-lg-6 offset-lg-3 p-3">
 
@@ -51,7 +52,7 @@
                 
                 <li class="nav-item">
                     <a class="nav-link {{if eq $i 0}}active{{end}}" id="selected-comments-{{$i}}-tab"
-                       data-toggle="pill" href="#selected-comments-{{$i}}" role="tab"
+                       data-bs-toggle="pill" href="#selected-comments-{{$i}}" role="tab"
                        aria-controls="selected-comments-{{$i}}" aria-selected="true">{{$c.semester}}</a>
                 </li>
               
@@ -72,7 +73,7 @@
                                 quoted from a student in 
                                 <a href="/evaluation/{{.report}}" target="_blank">
                                     <i class="far fa-file-pdf"></i>
-                                    {{.course}} {{.section}} {{.semester}}
+                                    <span class="ms-1">{{.course}} {{.section}} {{.semester}}</span>
                                 </a>
                             </span>
                     </div> 
@@ -97,7 +98,7 @@
                 {{ if $c.id }}
                 <li class="nav-item">
                     <a class="nav-link {{if eq $i 0}}active{{end}}" id="pills-{{$c.id}}-tab"
-                       data-toggle="pill" href="#pills-{{$c.id}}" role="tab"
+                       data-bs-toggle="pill" href="#pills-{{$c.id}}" role="tab"
                        aria-controls="pills-{{$c.id}}" aria-selected="true">{{$c.id}}</a>
                 </li>
                 {{end}}
@@ -129,7 +130,7 @@
                 {{ if $c.id }}
                 <li class="nav-item">
                     <a class="nav-link {{if eq $i 0}}active{{end}}" id="pills-{{$c.id}}-tab"
-                       data-toggle="pill" href="#pills-{{$c.id}}" role="tab"
+                       data-bs-toggle="pill" href="#pills-{{$c.id}}" role="tab"
                        aria-controls="pills-{{$c.id}}" aria-selected="true">{{$c.id}}</a>
                 </li>
                 {{end}}
