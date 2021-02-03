@@ -2,7 +2,7 @@
 {{ define "css" }}
 <style>
     #profile-image {
-        width: 150px;
+        width: auto;
         height: auto !important;
     }
     .profile-background {
@@ -17,15 +17,15 @@
 <div class="container">
     <div class="row my-2">
         <div class="col-12 col-lg-3 p-2 text-center">
-            <div class="profile-background py-2">
-                <div>
+            <div class="profile-background py-2 rounded-3">
+                <div class="my-2">
                     {{ with .Site.Data.homepage }}
                     <img id="profile-image" class="rounded-circle img-thumbnail my-2"
                          src="{{.profile_url}}" alt="Profile Image">
                     {{ end }}
                 </div>
 
-                <div>
+                <div class="my-2">
                     <h4>{{ with .Site.Params.author }} {{.}} {{ end }}</h4>
 
                     {{ with .Site.Data.homepage.office }}
@@ -33,6 +33,14 @@
                         {{.job}} <br>
                         <a {{if .ext}}target="_blank"{{end}} href="{{.url}}">
                             {{ .room }} <em>{{.sub}}</em></a></p>
+                    {{ end }}
+                </div>
+
+                <div class="my-2">
+                    {{ with .Site.Data.homepage }}
+                        <a href="mailto:{{.email}}"><i class="fas fa-envelope region-hover"></i>
+                            <span class="ms-1">{{.email}}</span>
+                        </a>
                     {{ end }}
                 </div>
 

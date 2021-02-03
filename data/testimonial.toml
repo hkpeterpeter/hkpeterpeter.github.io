@@ -92,8 +92,7 @@ date = "Nov 2015"
 tags = ["HKUST", "Hour of Code", "alumni"]
 abstract = """We had a good time with our alumni and their family members this afternoon.
 May I express great thanks to Qiong, Peter, Yanice, Yiu and CSEAA executive committee members."""
-ref_url = "http://one.cse.ust.hk/events/hoc2015/index.html"
-ref_url_name = "More about Hour of Code@HKUST 2015"
+
 
 [[item]]
 name = "Mr. Donny SIU"
@@ -123,8 +122,7 @@ title = "Manager, Academy for Bright Future Engineers, HKUST"
 date = "Apr 2017"
 tags = ["HKUST", "STEM", "Chatbot"]
 abstract = "Dear Peter, Thanks for offering the Facebook chatbot workshop last Thursday. I believe the students enjoyed the workshop a lot."
-ref_url = "http://abfye.ust.hk/past_event_stem%20month_2.html"
-ref_url_name = "More about the STEM Chatbot workshop"
+
 
 [[item]]
 name = "Prof. Ray CHEUNG"

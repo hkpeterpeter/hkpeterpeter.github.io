@@ -12,7 +12,7 @@
                    <svg id="chart_{{.id}}"></svg>
                     <script>evalulation_chart("#chart_{{.id}}", "{{.rating}}");</script>
                     <br>
-                    <span class="small">
+                    <span class="small text-muted">
                         NA (Not Applicable) ratings are excluded
                         <br>
                         Suitable mappings are applied on the ratings prior to Fall 2008
@@ -69,8 +69,8 @@
         {{ if .reports }}
         <p>
            <span class="badge bg-info mb-2 p-2">
-            <i class="fa fa-download"></i> 
-                 <span class="ms-1">{{ len .reports }} evaluation report(s)</span>
+            
+                 {{ len .reports }} evaluation report(s)
             </span>
             <br>
 

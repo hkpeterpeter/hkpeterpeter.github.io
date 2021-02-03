@@ -26,8 +26,10 @@
 
                 <blockquote class="blockquote">
                     <p class="small text-justify">{{.abstract}}</p>
+                    <br>
                     <footer class="blockquote-footer"><strong>{{.name}}</strong>
-                    <br> <cite title="{{.title}}">{{.title}}</cite>
+                    <br> 
+                    <cite title="{{.title}}">{{.title}}</cite>
                     </footer>
                 </blockquote>
 
@@ -41,7 +43,7 @@
                     {{if .ref_url}}
                     <br><br>
                     <a href="{{.ref_url}}" target="_blank"><i class="fas fa-link"></i>
-                        {{.ref_url_name}}</a>
+                        <span class="ms-1">{{.ref_url_name}}</span></a>
                     {{end}}
                 </div>
         </div>
