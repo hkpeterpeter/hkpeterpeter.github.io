@@ -30,6 +30,8 @@
                     <footer class="blockquote-footer"><strong>{{.name}}</strong>
                     <br> 
                     <cite title="{{.title}}">{{.title}}</cite>
+                    <br>
+                    <span class="badge rounded-pill bg-warning">Received on <i class="far fa-calendar-alt"></i>&nbsp;{{.date}}</span>
                     </footer>
                 </blockquote>
 
@@ -38,7 +40,7 @@
                     {{range .tags}}
                     <span class="badge rounded-pill bg-info">{{.}}</span>
                     {{end}}
-                    <span class="badge rounded-pill bg-warning"><i class="far fa-calendar-alt"></i>&nbsp;{{.date}}</span>
+                    
 
                     {{if .ref_url}}
                     <br><br>

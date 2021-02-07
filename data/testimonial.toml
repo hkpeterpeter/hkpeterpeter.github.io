@@ -2,7 +2,7 @@
 name = "Prof. Ying CHAU"
 title = "Director of Student Innovation for Global Health Technology, HKUST"
 date = "Feb 2015"
-tags = ["HKUST", "SIGHT"]
+tags = ["HKUST", "SIGHT","HealthTech"]
 abstract = """
 Peter has been extremely generous in giving his time for the project and for the students. Very often,
 SIGHT teams meet in the evenings and weekends for hours. I understand that his involvement with SIGHT is
@@ -27,7 +27,7 @@ abstract = "Peter:  I greatly appreciate your efforts and contributions. Many th
 name = "Prof. Roger CHENG"
 title = "Associate Provost for Teaching & Learning, HKUST"
 date = "Feb 2015"
-tags = ["HKUST", "hackUST"]
+tags = ["HKUST", "hackUST","Hackathon"]
 abstract = """In fact, your active engagement and involvement in the Hackathon is also very highly commendable.
 I am sure that Dept of CSE and the School of Engineering will join me to thank you for great contributions to
 student learning through many initiatives and programs
@@ -37,7 +37,7 @@ student learning through many initiatives and programs
 name = "Prof. Qiang YANG"
 title = "Chair Professor and Department Head of CSE, HKUST"
 date = "Feb 2015"
-tags = ["HKUST", "hackUST"]
+tags = ["HKUST", "hackUST","Hackathon"]
 abstract = """I second Rogers’ note – thank you greatly from CSE department.  The Hackathon is part of a major
 initiative to make student more in tuned with societal needs.  We look forward to your continued collaboration
 with us in the future!"""
@@ -46,7 +46,7 @@ with us in the future!"""
 name = "Prof. Pascale FUNG"
 title = "Professor, Department of Electronic & Computer Engineering"
 date = "Mar 2015"
-tags = ["HKUST", "hackUST"]
+tags = ["HKUST", "hackUST","Hackathon"]
 abstract = """It was really an eye-opening experience for me to see how well the Hackathon has been organized,
 how diverse the teams were and how creative these students are. It's amazing.
 I rank HackUST as one of the best events at UST that show cases the innovative, can-do spirit of HKUST!
@@ -59,7 +59,7 @@ It largely outranked many of the events we professors organize.
 name = "Prof. Rocky CHANG"
 title = "Associate Professor, Department of Computing, PolyU"
 date = "Jan 2015"
-tags = ["PolyU", "hackUST"]
+tags = ["PolyU", "hackUST","Hackathon"]
 abstract = """
 Peter, although you did not say anything in the public, you are the one masterminding it [hackUST] and
 holding everything together. Your dedication and efforts are truly exemplary for all of us. Thank you for doing this for the students.
@@ -71,7 +71,7 @@ holding everything together. Your dedication and efforts are truly exemplary for
 name = "巩艳"
 title = "Senior Project Manager, Tencent Charity Foundation"
 date = "Apr 2015"
-tags = ["Tencent", "hackUST"]
+tags = ["Tencent", "hackUST","Hackathon"]
 abstract = "Peter你好！首先祝贺活动圆满顺利结束！辛苦所有参与准备活动的学生代表们，也感谢参与活动的各专业评委！"
 
 
@@ -79,7 +79,7 @@ abstract = "Peter你好！首先祝贺活动圆满顺利结束！辛苦所有参
 name = "Irene CHEUNG"
 title = "Co-founder and Executive Director, Radica Systems Limited"
 date = "Apr 2015"
-tags = ["Radica", "hackUST", "alumni"]
+tags = ["Radica", "hackUST", "alumni","Hackathon"]
 abstract = """Thank you very much for organising such meaningful event! I can see it is much bigger and more successful
 this year! You have done a great job with your team that I really appreciated! Looking forward to more co-operation
 in the coming future! ~
@@ -89,7 +89,7 @@ in the coming future! ~
 name = "Prof. Shing-chi CHEUNG"
 title = "Professor and Associate Head, CSE, HKUST"
 date = "Nov 2015"
-tags = ["HKUST", "Hour of Code", "alumni"]
+tags = ["HKUST", "Hour of Code", "alumni", "STEM"]
 abstract = """We had a good time with our alumni and their family members this afternoon.
 May I express great thanks to Qiong, Peter, Yanice, Yiu and CSEAA executive committee members."""
 
@@ -98,7 +98,7 @@ May I express great thanks to Qiong, Peter, Yanice, Yiu and CSEAA executive comm
 name = "Mr. Donny SIU"
 title = "Associate Director of Entrepreneurship Center and Student Affairs Office, HKUST"
 date = "Sep 2016"
-tags = ["HKUST", "hackUST"]
+tags = ["HKUST", "hackUST","Hackathon"]
 abstract = """Peter is a very experienced participant and organizer in hackathon activities,
 to partner with us in organizing hackathon related activities on campus. With his passion,
 experience and partnership, I am sure we will be able to work together in making hackathon a remarkable
@@ -128,7 +128,7 @@ abstract = "Dear Peter, Thanks for offering the Facebook chatbot workshop last T
 name = "Prof. Ray CHEUNG"
 title = "Associate Professor and Director of App Lab, CityU"
 date = "Aug 2017"
-tags = ["CityU", "hackathon"]
+tags = ["CityU", "Hackathon"]
 abstract = """Many thanks Harry and Peter for kindly agreeing to serve as consultant for the CityU Hackathon!
 Please raise your questions here, and Harry and Peter will share their experience."""
 
@@ -136,7 +136,7 @@ Please raise your questions here, and Harry and Peter will share their experienc
 date = "Feb 2018"
 name = "Official LinkedIn page"
 title = "A.S. Watson Group"
-tags = ["Watson","Datathon"]
+tags = ["Watson","Datathon","Hackathon"]
 abstract = """Hear Peter Chung, an enthusiast in data science who joined A.S. Watson Big Data Hackathon,
 on his insights and experiences gained as a hackathon veteran.
 We definitely need more people like Peter, and you can be part of More too!"""
@@ -177,6 +177,13 @@ ref_url_name = "Data and Media Hack 2019 Website"
 date = "Aug 2020"
 name = "Hack Viral 2020 Organizing Committee"
 title = "Student Innovation for Global Health Technology (SIGHT), HKUST"
-tags = ["Hackathon", "HealthTech"]
+tags = ["HKUST","Hackathon", "HealthTech"]
 abstract = """I would like to thank you for your help in coaching and advising the teams. I participated as an observer in a number of the mentoring sessions, and were impressed by the how you engaged the team and guided them to think creatively and critically.
 """
+
+[[item]]
+date = "Oct 2020"
+name = "CSE Departmental Merit Salary Review Committee"
+title = "HKUST CSE Departmental Review 2020"
+tags = ["Teaching", "HKUST"]
+abstract = """You are very knowledgeable and experienced in providing teaching and instructional support especially for systems courses. You are highly committed to coordinating the junior TAs and preparing tutorial materials that can help students work on course projects. You are generally very independent in completing the tasks assigned to you"""
