@@ -30,27 +30,35 @@ desc = """Since 2008, he serves as Teaching Associate in the Department of Compu
 at Academy of Bright Future Young Engineers (ABFYE), School of Engineering, HKUST. He served as Advisor at Student Innovation for Global Health Technology (SIGHT), HKUST in 2015-16. 
 """
 
-
+# url and ext are not used - not good for the mobile web UI
 
 [[social]]
 name = "Facebook"
 icon = "fab fa-2x fa-facebook-square"
 id = "icon-fb"
+url = "//fb.com/cspeter"
+ext = true
 
 [[social]]
 name = "LinkedIn"
 icon = "fab fa-2x fa-linkedin"
 id = "icon-linkedin"
+url = "//www.linkedin.com/in/hkpeterpeter/"
+ext = true
 
 [[social]]
 name = "Instagram"
 icon = "fab fa-2x fa-instagram"
 id = "icon-ig"
+url = "//instagram.com/hkpeterpeter"
+ext = true
 
 [[social]]
 name = "Whatsapp"
 icon = "fab fa-2x fa-whatsapp"
 id = "icon-whatsapp"
+url = "//api.whatsapp.com/send?phone=85264921981"
+ext = true
 
 [[social]]
 name = "WeChat"
