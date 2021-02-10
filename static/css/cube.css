@@ -33,7 +33,7 @@
     border: 1px solid lightgray;
 }
 
-.cube__face--front  { background-image: url("../images/profile-peter.jpg"); }
+.cube__face--front  { background-image: url("../images/my_chinese_name.png"); }
 .cube__face--right  { background-image: url("../images/qrcode-peter-facebook.jpg"); }
 .cube__face--back   { background-image: url("../images/qrcode-peter-instagram.png"); }
 .cube__face--left   { background-image: url("../images/qrcode-peter-linkedin.jpg"); }
