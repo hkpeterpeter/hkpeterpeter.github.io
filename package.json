@@ -10,6 +10,8 @@
     "typescript": "^4.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "build": "tsc && hugo",
     "debug": "tsc && hugo server -D",
     "deploy": "gh-pages -b master -d public"
   }
