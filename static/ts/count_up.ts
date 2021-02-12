@@ -27,14 +27,18 @@ class CountUp {
         const progress = timestamp - this.startTime;
 
         let frameVal = this.startVal + (this.endVal - this.startVal) * (progress / this.duration);
+    
         frameVal = Number(frameVal.toFixed(this.decimal_places));
+        if ( frameVal > this.endVal )
+            frameVal = this.endVal;  // set the frameVal to endVal at the end
+
+        // console.log(frameVal);
 
         this.el.textContent = frameVal.toString();
 
         if ( progress < this.duration ) {
             requestAnimationFrame(this.count);
-        }
-        
+        }  
     } 
     start() {
         requestAnimationFrame(this.count);
