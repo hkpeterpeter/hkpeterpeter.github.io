@@ -150,21 +150,19 @@
 
 {{ define "page_js" }}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.9.3/countUp.min.js"></script>
+<script type="text/javascript" src="js/count_up.js" ></script>
 <script>
-    var options = {
-        useEasing: false
-    };
+
     var t = 1;
     var testimonial_count = {{ len .Site.Data.testimonial.item }};
     var hackathon_count =  {{len .Site.Data.hack_timeline.events}};
     var alumni_count = {{ len .Site.Data.alum_timeline.events }};
     var evaluation_count = {{  int (trim (partial "evaluation_report_count.html" .) "\n ") }};
 
-    new CountUp("testimonial_count", 0, testimonial_count , 0, t, options ).start();
-    new CountUp("hackathon_count", 0, hackathon_count, 0, t, options ).start();
-    new CountUp("alumni_count", 0, alumni_count , 0, t, options ).start();
-    new CountUp("evaluation_count", 0, evaluation_count  , 0, t, options ).start();
+    new CountUp("testimonial_count", 0, testimonial_count , 0, t ).start();
+    new CountUp("hackathon_count", 0, hackathon_count, 0, t ).start();
+    new CountUp("alumni_count", 0, alumni_count , 0, t ).start();
+    new CountUp("evaluation_count", 0, evaluation_count  , 0, t ).start();
 </script>
 
 

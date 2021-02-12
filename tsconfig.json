@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "static/js",
+        "target": "ES5",
+        "removeComments": true,
+    },
+    "include": ["static/ts/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
