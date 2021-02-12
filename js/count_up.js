@@ -8,6 +8,8 @@ var CountUp = (function () {
             var progress = timestamp - _this.startTime;
             var frameVal = _this.startVal + (_this.endVal - _this.startVal) * (progress / _this.duration);
             frameVal = Number(frameVal.toFixed(_this.decimal_places));
+            if (frameVal > _this.endVal)
+                frameVal = _this.endVal;
             _this.el.textContent = frameVal.toString();
             if (progress < _this.duration) {
                 requestAnimationFrame(_this.count);
