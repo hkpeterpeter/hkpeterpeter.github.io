@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "863,857,479,80,36"
+rating = "967,914,497,82,36"
 
 # === COMP1001
 
@@ -35,7 +35,7 @@ bad_comments = ["Present how some of the lab activities can be useful in real li
 
 [[course]]
 id = "COMP1021"
-rating = "196,80,23,1,0"
+rating = "263,121,36,2,0"
 title = "Introduction to Computer Science"
 reports = [
   "COMP1021_LA01_Fall2021.pdf",
@@ -49,6 +49,14 @@ reports = [
   "COMP1021_LA09_Fall2021.pdf",
   "COMP1021_LA10_Fall2021.pdf",
   "COMP1021_LA11_Fall2021.pdf",
+  "COMP1021_LA1_Spring2021.pdf",
+  "COMP1021_LA2_Spring2021.pdf",
+  "COMP1021_LA3_Spring2021.pdf",
+  "COMP1021_LA4_Spring2021.pdf",
+  "COMP1021_LA5_Spring2021.pdf",
+  "COMP1021_LA6_Spring2021.pdf",
+  "COMP1021_LA7_Spring2021.pdf",
+  "COMP1021_LA8_Spring2021.pdf",
 
 ]
 tags = ["COMP1021"]
@@ -87,9 +95,14 @@ that he was very helpful.in answering questions on the Canvas discussion page.""
 """TA Peter answered every question on the Zoom chat very promptly and quickly. His answers were very clear and solved any doubts
 that I had. Sometimes he also made the class discussions quite interesting""",
 """The TA solve problems and answer questions during the class,which is helpful for both teacher and students.""",
+"""Peter is very responsive during all the lecture sessions and he replies with detailed explanation, making it easy for students to understand when the professor proceeds to explain new concepts.""",
+"""He is willing to answer the students questions quickly and to the point.""",
+"""He always reply my questions both in lectures and emails with simple and easily understandable answers.""",
+"""He is so responsive that he replies to every single question in zoom app""",
 ]
 
 bad_comments = [
+  """There really isn't much for Peter to improve; he has done all that is required for him from the students.""",
   """maybe a little bit faster but overall is already very good""",
   """teach additional stuff""",
   """Can open the mic and speak sometime""",
@@ -495,7 +508,7 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "97,62,36,12,5"
+rating = "134,78,41,13,5"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
@@ -519,10 +532,19 @@ reports = [
 "COMP3511_LA3_Fall2021.pdf",
 "COMP3511_LA4_Fall2021.pdf",
 "COMP3511_LA5_Fall2021.pdf",
+"COMP3511_LA1_Spring2021.pdf",
+"COMP3511_LA2_Spring2021.pdf",
+"COMP3511_LA3_Spring2021.pdf",
+"COMP3511_LA4_Spring2021.pdf",
 
 
 ]
 good_comments = [
+"""The TA is very enthusiastic and he is able to explain concepts in lessons very well. He also gave very clear instructions for the programming assignments. In particular, he wrote a simple website for PA1 that included a code editor together with videos to explain the code, which is very impressive. I think it's rare to find TAs with such passion in HKUST.""",
+"""Mr Chung will prepare extra project materials in order to provide more help to all the students. The materials are very useful and
+well organized. Thanks to Peter, I have a better understanding to my project assignment and he saves me a lot time!""",
+"""Nice examples and presentations, also explain other topics like Docker although it is out of scope.""",
+
 """Peter is very clear in his teaching, he's also really funny so he keeps us all engaged. He also responds very quickly to any questions
 and he is very detailed and clear is his explanations so there's no confusion""",
   """Clearly illustrate the concept, teaching base on the student's difficulties. Try to understand learning obstacle from student's
@@ -548,8 +570,13 @@ understanding among us students.
 "He try to explain what we have asked in easy way",
 "Very helpful and really tried to teach us, made his own example codes to help us understand concepts",
 "nice",
+"Crystal clear explanations on course materials and even clearer instructions on the programming assignments",
+"Give detailed explanation on PA material",
 ]
 bad_comments = [
+  "A perfect TA does not need any improvement :)",
+  "Overall is excellent already.",
+"I think his talking speed can be a bit faster because I watch his lab sessions in 1.5x speed on Zoom.",
 "Be more responsive!",
 "The speed could be a bit faster.",
 "English pronunciation",

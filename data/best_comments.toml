@@ -1,4 +1,18 @@
 [[comments]]
+content = """The TA is very enthusiastic and he is able to explain concepts in lessons very well. He also gave very clear instructions for the programming assignments. In particular, he wrote a simple website for PA1 that included a code editor together with videos to explain the code, which is very impressive. I think it's rare to find TAs with such passion in HKUST."""
+course = "COMP3511"
+section = "LA4"
+semester = "Spring 20/21"
+report = "COMP3511_LA4_Spring2021.pdf"
+
+[[comments]]
+content = """Peter is very responsive during all the lecture sessions and he replies with detailed explanation, making it easy for students to understand when the professor proceeds to explain new concepts"""
+course = "COMP1021"
+section = "LA8"
+semester = "Spring 20/21"
+report = "COMP1021_LA8_Spring2021.pdf"
+
+[[comments]]
 content = """Very helpful during lectures, answered students' questions in detail. Also really appreciate how a "summary page" was made for us to access the large amount of topics in an easy way. He is also quite funny as seen by some of the interactions during lecture. I also see that he was very helpful.in answering questions on the Canvas discussion page."""
 course = "COMP1021"
 section = "LA10"
