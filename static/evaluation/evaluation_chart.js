@@ -7,7 +7,7 @@ function evalulation_chart(target, ratingString) {
         return {rating: r, count: c};
     }
 
-    var ratings = ["Very well", "Well", "Acceptable", "Not Well", "Poorly"];
+    var ratings = ["Very Good", "Good", "Average", "Bad", "Very Bad"];
     var data = ratingString.split(",").map( (d, i) => datum( ratings[i], +d)  );
     var totalCount = data.map(d => d.count).reduce( (a,b) => a+b, 0); // sum the count
     var colors = [ 
