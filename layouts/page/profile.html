@@ -96,9 +96,27 @@
             </ul>
             {{ end }}
 
+
+
         </div>
 
         <div class="col-12 col-lg-6 p-2">
+
+            {{ with .Site.Data.teaching }}
+            <h5>
+                <i class="fas fa-trophy"></i>
+                <span class="ms-2">{{len .awards}} {{.award_title}} </span>
+            </h5>
+            <ul class="list-unstyled">
+                {{ range .awards }}
+                <li><span class="badge rounded-pill bg-warning">{{.year}}</span>
+                    <span class="badge rounded-pill bg-info">{{.title}}</span>
+                    {{.group}}
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
             {{ with .Site.Data.teaching }}
             <h5>
                 <i class="fas fa-certificate"></i>
@@ -118,44 +136,9 @@
             </ul>
             {{ end }}
 
-            {{ with .Site.Data.teaching }}
-            <h5>
-                <i class="fas fa-trophy"></i>
-                <span class="ms-2">{{len .awards}} {{.award_title}} </span>
-            </h5>
-            <ul class="list-unstyled">
-                {{ range .awards }}
-                <li><span class="badge rounded-pill bg-warning">{{.year}}</span>
-                    <span class="badge rounded-pill bg-info">{{.title}}</span>
-                    {{.group}}
-                </li>
-                {{ end }}
-            </ul>
-            {{ end }}
+           
         </div>
 
-        <div class="col-12 col-lg-6">
-            {{ with .Site.Data.hackathon }}
-            <h5>
-                <i class="fas fa-trophy"></i>
-                <span class="ms-2">{{len .awards}} {{.award_title}}</span>
-            </h5>
-            <ul class="list-unstyled">
-                {{ range .awards }}
-                <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
-                    <span class="badge rounded-pill bg-info">{{.keyword}}</span>
-
-                    {{ if .url }}
-                    <a href="{{.url}}" target="_blank">{{.description}}</a>
-                    {{ else }}
-                    {{.description}}
-                    {{ end }}
-
-                </li>
-                {{ end }}
-            </ul>
-            {{ end }}
-        </div>
 
         <div class="col-12 col-lg-6 p-2">
             {{ with .Site.Data.hackathon }}
@@ -183,7 +166,49 @@
 
         </div>
 
- 
+        <div class="col-12 col-lg-6 p-2">
+            {{ with .Site.Data.hackathon }}
+            <h5>
+                <i class="fas fa-trophy"></i>
+                <span class="ms-2">{{len .awards}} {{.award_title}}</span>
+            </h5>
+            <ul class="list-unstyled">
+                {{ range .awards }}
+                <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
+                    <span class="badge rounded-pill bg-info">{{.keyword}}</span>
+
+                    {{ if .url }}
+                    <a href="{{.url}}" target="_blank">{{.description}}</a>
+                    {{ else }}
+                    {{.description}}
+                    {{ end }}
+
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+
+
+
+        <div class="col-12 col-lg-6 p-2">
+
+            {{ with .Site.Data.volunteer }}
+            <h5>
+                <i class="fas fa-handshake"></i>
+                <span class="ms-2">{{len .roles}} {{.title}}</span>
+            </h5>
+            <ul class="list-unstyled">
+                {{ range .roles }}
+                <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
+                    <span class="badge rounded-pill bg-info">{{.title}}</span>
+                    {{.event}}</li>
+                {{ end }}
+
+            </ul>
+            {{ end }}
+
+        </div>
 
         <div class="col-12 col-lg-6">
             {{ with .Site.Data.csaa }}
@@ -209,25 +234,6 @@
                 {{ range .roles }}
                 <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
                     <span class="badge rounded-pill bg-info">{{.title}}</span></li>
-                {{ end }}
-
-            </ul>
-            {{ end }}
-
-        </div>
-
-        <div class="col-12 col-lg-6 p-2">
-
-            {{ with .Site.Data.volunteer }}
-            <h5>
-                <i class="fas fa-handshake"></i>
-                <span class="ms-2">{{len .roles}} {{.title}}</span>
-            </h5>
-            <ul class="list-unstyled">
-                {{ range .roles }}
-                <li>{{if .year}}<span class="badge rounded-pill bg-warning">{{.year}}</span>{{end}}
-                    <span class="badge rounded-pill bg-info">{{.title}}</span>
-                    {{.event}}</li>
                 {{ end }}
 
             </ul>
