@@ -187,3 +187,10 @@ name = "CSE Departmental Merit Salary Review Committee"
 title = "HKUST CSE Departmental Review 2020"
 tags = ["Teaching", "HKUST"]
 abstract = """You are very knowledgeable and experienced in providing teaching and instructional support especially for systems courses. You are highly committed to coordinating the junior TAs and preparing tutorial materials that can help students work on course projects. You are generally very independent in completing the tasks assigned to you"""
+
+[[item]]
+date = "Nov 2021"
+name = "CSE Departmental Merit Salary Review Committee"
+title = "HKUST CSE Departmental Review 2021"
+tags = ["Teaching", "HKUST"]
+abstract = """Great improvement from last year! Peter is a runner-up of the 2021 “Instructor’s Choice” Award... He was also a runner-up in the 2021 “Students’ Choice” Award..."""

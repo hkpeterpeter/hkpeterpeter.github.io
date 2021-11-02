@@ -67,7 +67,19 @@ university = "Hong Kong University of Science and Technology (HKUST)"
 special = "First Class Honors"
 year = "2006"
 
+
+[[awards]]
+title = "Runner-up in the Student's Choice Award"
+group = "Dept. of CSE, HKUST"
+year = "2021"
+
+[[awards]]
+title = "Runner-up in the Instructor’s Choice Award"
+group = "Dept. of CSE, HKUST"
+year = "2021"
+
 [[awards]]
 title = "Prof. Samuel Chanson Best Teaching Assistant"
-group = "HKUST"
+group = "Dept. of CSE, HKUST"
 year = "2008"
+
