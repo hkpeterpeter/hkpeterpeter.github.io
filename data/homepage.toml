@@ -2,9 +2,8 @@ profile_url = "/images/profile-peter.jpg"
 description = """Mr Chung has more than 10 years of experience in the higher education sector. He has solid experience in software engineering, system and kernel programming in Linux, web and mobile app development, entrepreneurship, e-learning, STEM education, student advising, and alumni engagement. Besides from his teaching duties at HKUST, he is an experienced Hackathon organizer in Hong Kong. He is also a Hong Kong Cyberport startup alumnus and maintains close connections with the Hong Kong startup community.
 """
 email = "cspeter@cse.ust.hk"
-homepage_text = """
-    In 2021, I received a runner-up of 2 teaching awards. It is encouraging to know that both students and colleagues appreciated my work in the past year. Online tutoring is not an easy task because students easily develop a feeling of isolation. Yet, many students wrote positive words in my online classes, such as fun, helpful, and encouragement. 
-    Over the past years, I have been accessed by more than 2500 students from over 150 teaching evaluation reports at HKUST. I regard all the evaluation scores and comments as valuable assets to further improve my tutoring and mentoring skills. 
+homepage_text = """In 2021, I received 2 runner-up teaching awards. It is exciting to know that both students and colleagues appreciated my work. Online tutoring is not an easy task because students can easily develop a feeling of isolation. Yet, in my classes, many students wrote positive words, such as fun, helpful, and encouraging. 
+Over the past years, I have been accessed by more than 2500 students from over 150 teaching evaluation reports at HKUST. I regard all the evaluation scores and comments as valuable assets to further improve my tutoring and mentoring skills. 
 """
 
 [office]
