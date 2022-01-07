@@ -1,7 +1,8 @@
 # Ignore system/lib related files
 
 .DS_Store
-yarn.lock
+*.lock
+
 
 # npm libaries
 node_modules/

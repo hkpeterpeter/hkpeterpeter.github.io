@@ -1,4 +1,13 @@
 [[comments]]
+content = """Peter seems to be extremely passionate towards teaching. His explanations are clear and clears up a lot of confusion towards some
+of the more complicated concepts. Also does ACTUAL demo instead of only reading the slides, which is a rare trait. They say it is
+way easier to look at the bad than the good. I tried my best to write as many good things that I spotted. Thank you Peter!!!!"""
+course = "COMP3511"
+section = "LA1"
+semester = "Fall 21/22"
+report = "COMP3511_LA1_Fall2122.pdf"
+
+[[comments]]
 content = """The TA is very enthusiastic and he is able to explain concepts in lessons very well. He also gave very clear instructions for the programming assignments. In particular, he wrote a simple website for PA1 that included a code editor together with videos to explain the code, which is very impressive. I think it's rare to find TAs with such passion in HKUST."""
 course = "COMP3511"
 section = "LA4"

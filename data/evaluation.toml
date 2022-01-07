@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "973,915,499,84,36"
+rating = "1128,992,526,85,37"
 
 # === COMP1001
 
@@ -35,7 +35,7 @@ bad_comments = ["Present how some of the lab activities can be useful in real li
 
 [[course]]
 id = "COMP1021"
-rating = "263,121,36,2,0"
+rating = "373,184,58,3,1"
 title = "Introduction to Computer Science"
 reports = [
   "COMP1021_LA01_Fall2021.pdf",
@@ -57,6 +57,11 @@ reports = [
   "COMP1021_LA6_Spring2021.pdf",
   "COMP1021_LA7_Spring2021.pdf",
   "COMP1021_LA8_Spring2021.pdf",
+  "COMP1021_LA1_Fall2122.pdf",
+  "COMP1021_LA2_Fall2122.pdf",
+  "COMP1021_LA3_Fall2122.pdf",
+  "COMP1021_LA4_Fall2122.pdf",
+  "COMP1021_LA5_Fall2122.pdf",
 
 ]
 tags = ["COMP1021"]
@@ -510,7 +515,7 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "134,78,41,13,5"
+rating = "179,92,46,13,5"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
@@ -538,10 +543,16 @@ reports = [
 "COMP3511_LA2_Spring2021.pdf",
 "COMP3511_LA3_Spring2021.pdf",
 "COMP3511_LA4_Spring2021.pdf",
+"COMP3511_LA1_Fall2122.pdf",
+"COMP3511_LA2_Fall2122.pdf",
+"COMP3511_LA3_Fall2122.pdf",
 
 
 ]
 good_comments = [
+"""Peter seems to be extremely passionate towards teaching. His explanations are clear and clears up a lot of confusion towards some
+of the more complicated concepts. Also does ACTUAL demo instead of only reading the slides, which is a rare trait. They say it is
+way easier to look at the bad than the good. I tried my best to write as many good things that I spotted. Thank you Peter!!!!""",
 """The TA is very enthusiastic and he is able to explain concepts in lessons very well. He also gave very clear instructions for the programming assignments. In particular, he wrote a simple website for PA1 that included a code editor together with videos to explain the code, which is very impressive. I think it's rare to find TAs with such passion in HKUST.""",
 """Mr Chung will prepare extra project materials in order to provide more help to all the students. The materials are very useful and
 well organized. Thanks to Peter, I have a better understanding to my project assignment and he saves me a lot time!""",
@@ -576,6 +587,7 @@ understanding among us students.
 "Give detailed explanation on PA material",
 ]
 bad_comments = [
+
   "A perfect TA does not need any improvement :)",
   "Overall is excellent already.",
 "I think his talking speed can be a bit faster because I watch his lab sessions in 1.5x speed on Zoom.",
@@ -584,6 +596,8 @@ bad_comments = [
 "English pronunciation",
 "Both project assignments should be improved",
 "Peter designed the project to be TOOOOO EASY! Cannot learn anything from doing the project",
+  "English pronunciation can be improved",
+  'Constant mispronunciation of the word "orphan" (in orphan process) as "OH-fuhn"',
 ]
 
 # === COMP4511
