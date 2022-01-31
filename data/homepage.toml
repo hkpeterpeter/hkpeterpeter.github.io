@@ -13,7 +13,7 @@ url = "https://pathadvisor.ust.hk/search/nearest/lift/from/ROOM%202532;BNHn-iJYT
 ext = true
 
 [[tags]]
-name = "Hackathon Expert"
+name = "Hackathon"
 desc = """ He partnered with 10+ companies/ organizations to organize various Hackathon competitions in Hong Kong. He served as Organizer, Consultant, Judge, Speaker, Emcee, and Mentor. In addition, he participated several Hackathon competitions and won a few Hackathon competitions. In particular, he used to turn a Hackathon prototype to a startup project at Cyberport in 2016-17
 """
 
@@ -24,12 +24,18 @@ desc = """He co-founded HabHub, an award-winning HealthTech startup project at C
 
 [[tags]]
 name = "Alumni"
-desc = """He co-founded Computer Science and Engineering Alumni Association, HKUST (CSEAA) in 2013. He also served as an Executive Sub-Committee Member in MedTech, Cyberport Startup Alumni Association (CSAA)"""
+desc = """He co-founded Computer Science and Engineering Alumni Association, HKUST (CSEAA) in 2013. He also served as an Executive Sub-Committee Member in MedTech, Cyberport Startup Alumni Association (CSAA) 
+"""
+
+[[tags]]
+name = "Advisor"
+desc = """Starting from 2022, he serves as Advisor for Direct Entry Students, Department of CSE, HKUST. In the past, he served as Advisor in various student interest groups.
+"""
 
 [[tags]]
 name = "Teacher"
 desc = """Since 2008, he serves as Teaching Associate in the Department of Computer Science and Engineering, HKUST. Since 2017, he serves as a STEM Course Instructor
-at Academy of Bright Future Young Engineers (ABFYE), School of Engineering, HKUST. He served as Advisor at Student Innovation for Global Health Technology (SIGHT), HKUST in 2015-16. 
+at Academy of Bright Future Young Engineers (ABFYE), School of Engineering, HKUST. 
 """
 
 # url and ext are not used - not good for the mobile web UI

@@ -3,6 +3,12 @@ academic_title = "Academic Qualifications"
 award_title = "Teaching Awards"
 
 [[educator]]
+title = "Advisor for Direct Entry Students"
+group = "Department of CSE, HKUST"
+year = "2022-"
+url = "https://cse.hkust.edu.hk/ug/advising/"
+
+[[educator]]
 title = "Advisor"
 group = "HKUST Tech Club"
 year = "Spring 2018"
