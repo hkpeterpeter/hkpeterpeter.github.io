@@ -83,7 +83,16 @@
                         <span class="ms-1">{{.email}}</span>
                     </a>
                 {{ end }}
+
+                {{ with .Site.Data.homepage.office }}
+                <p class="small">
+                    {{.job}} <br>
+                    <a {{if .ext}}target="_blank"{{end}} href="{{.url}}">
+                        {{ .room }} <em>{{.sub}}</em></a></p>
+                {{ end }}
             </div>
+
+     
 
         </div>
 
