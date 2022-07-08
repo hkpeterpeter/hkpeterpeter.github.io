@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "1128,992,526,85,37"
+rating = "1209,1042,542,87,37"
 
 # === COMP1001
 
@@ -35,7 +35,7 @@ bad_comments = ["Present how some of the lab activities can be useful in real li
 
 [[course]]
 id = "COMP1021"
-rating = "373,184,58,3,1"
+rating = "421,225,72,5,1"
 title = "Introduction to Computer Science"
 reports = [
   "COMP1021_LA01_Fall2021.pdf",
@@ -62,6 +62,8 @@ reports = [
   "COMP1021_LA3_Fall2122.pdf",
   "COMP1021_LA4_Fall2122.pdf",
   "COMP1021_LA5_Fall2122.pdf",
+  "COMP1021_LA1_Spring2122.pdf",
+  "COMP1021_LA2_Spring2122.pdf",
 
 ]
 tags = ["COMP1021"]
@@ -515,7 +517,7 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "179,92,46,13,5"
+rating = "212,101,48,13,5"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
@@ -546,10 +548,16 @@ reports = [
 "COMP3511_LA1_Fall2122.pdf",
 "COMP3511_LA2_Fall2122.pdf",
 "COMP3511_LA3_Fall2122.pdf",
+"COMP3511_LA1_Spring2122.pdf",
+"COMP3511_LA2_Spring2122.pdf",
+"COMP3511_LA3_Spring2122.pdf",
 
 
 ]
 good_comments = [
+"""Peter teaches very well in tutorial sessions and is able to explain lots of difficult and confusing concepts in simple words or
+metaphors. He also explain the rationale behind various programming assignments very detailed so that I found it meaningful and
+enjoyable. He is one of the best TA I have seen in UST.""",
 """Peter seems to be extremely passionate towards teaching. His explanations are clear and clears up a lot of confusion towards some
 of the more complicated concepts. Also does ACTUAL demo instead of only reading the slides, which is a rare trait. They say it is
 way easier to look at the bad than the good. I tried my best to write as many good things that I spotted. Thank you Peter!!!!""",

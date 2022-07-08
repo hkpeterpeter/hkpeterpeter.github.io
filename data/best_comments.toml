@@ -1,4 +1,13 @@
 [[comments]]
+content = """Peter teaches very well in tutorial sessions and is able to explain lots of difficult and confusing concepts in simple words or
+metaphors. He also explain the rationale behind various programming assignments very detailed so that I found it meaningful and
+enjoyable. He is one of the best TA I have seen in UST."""
+course = "COMP3511" 
+section = "LA2"
+semester = "Spring 21/22"
+report = "COMP1021_LA2_Spring2122.pdf"
+
+[[comments]]
 content = """Peter seems to be extremely passionate towards teaching. His explanations are clear and clears up a lot of confusion towards some
 of the more complicated concepts. Also does ACTUAL demo instead of only reading the slides, which is a rare trait. They say it is
 way easier to look at the bad than the good. I tried my best to write as many good things that I spotted. Thank you Peter!!!!"""
