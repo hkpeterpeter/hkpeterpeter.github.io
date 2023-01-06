@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "1210,1043,542,87,37"
+rating = "1236,1092,549,87,37"
 
 # === COMP1001
 
@@ -322,7 +322,7 @@ bad_comments = [
 # === COMP2011
 [[course]]
 id = "COMP2011"
-rating = "147,202,128,13,10"
+rating = "153,214,131,13,10"
 title = "Introduction to Object-oriented Programming"
 tags = ["COMP2011","COMP102", "COMP104","COMP1004"]
 reports = [
@@ -349,9 +349,11 @@ reports = [
 "COMP104_T1C_Fall1011.pdf",
 "COMP1004_LA1A_Fall1112.pdf",
 "COMP1004_LA1B_Fall1112.pdf",
+"COMP2011_LA01_Fall2223.pdf",
 ]
 good_comments = [
-"Peter is very devoted into his work that he is always approachable even on Sundays"
+"TA made the lab funny, such as lots of interesting examples, anime element, funny programme demostration."
+,"Peter is very devoted into his work that he is always approachable even on Sundays"
 ,"Explain things in an organised and detailed way"
 ,"He was good because he actually explained what was taught in lectures, step by step, instead of just doing examples on computer"
 ,"Can explain things well and help me understand difficult concept"
@@ -474,7 +476,8 @@ reports = [
 "COMP3111_LA3_Spring1718.pdf",
 ]
 good_comments = [
-  
+
+
 """Peter is one of the best persons I have met in my life. Very friendly TA with solid background
 of his field. Very interesting way of teaching with clear accent.""",
 "Probably the best TA in HKUST with good knowledge and great passion towards teaching",
@@ -518,7 +521,7 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "212,101,48,13,5"
+rating = "232,138,52,13,5"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
@@ -552,10 +555,16 @@ reports = [
 "COMP3511_LA1_Spring2122.pdf",
 "COMP3511_LA2_Spring2122.pdf",
 "COMP3511_LA3_Spring2122.pdf",
-
+"COMP3511_LA1_Fall2223.pdf",
+"COMP3511_LA2_Fall2223.pdf",
+"COMP3511_LA3_Fall2223.pdf",
+"COMP3511_LA4_Fall2223.pdf",
 
 ]
 good_comments = [
+"""Peter is very clear and fun to hear from. His lab sessions are the sessions that i looked most forward to. To the extent that I picked
+up the courage to do this survey only to upvote him. I can tell that he really wants to explain for the purpose of delivering actual
+knowledge to students. Other TAs, not so much.""",  
 """Peter teaches very well in tutorial sessions and is able to explain lots of difficult and confusing concepts in simple words or
 metaphors. He also explain the rationale behind various programming assignments very detailed so that I found it meaningful and
 enjoyable. He is one of the best TA I have seen in UST.""",
