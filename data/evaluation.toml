@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "1236,1092,549,87,37"
+rating = "1237,1093,550,87,37"
 
 # === COMP1001
 
@@ -291,7 +291,7 @@ bad_comments = [
 # === COMP1029P
 [[course_bridging]]
 id = "COMP1029P"
-rating = "33,24,10,3,1"
+rating = "34,25,11,3,1"
 tags = ["COMP1029P"]
 title = "Python Programming Bridging Course"
 reports = [
@@ -303,6 +303,7 @@ reports = [
 "COMP1029P_LA1_Summer1920.pdf",
 "COMP1029P_LA1_Summer2021.pdf",
 "COMP1029P_LA1_Summer2122.pdf",
+"COMP1029P_LA1_Winter2223.pdf",
 ]
 good_comments = [
 "He tried his best to help me"
