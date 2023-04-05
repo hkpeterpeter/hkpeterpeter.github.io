@@ -1,8 +1,8 @@
 profile_url = "/images/profile-peter.jpg"
-description = """Mr Chung has more than 10 years of experience in the higher education sector. He has solid experience in software engineering, system and kernel programming in Linux, web and mobile app development, entrepreneurship, e-learning, STEM education, student advising, and alumni engagement. Besides from his teaching duties at HKUST, he is an experienced Hackathon organizer in Hong Kong. He is also a Hong Kong Cyberport startup alumnus and maintains close connections with the Hong Kong startup community.
+description = """With over a decade of experience in the higher education sector, Mr. Chung possesses a wealth of knowledge and expertise. He has a solid background in various areas, including software engineering, system and kernel programming in Linux, web and mobile app development, entrepreneurship, e-learning, STEM education, student advising, and alumni engagement. In addition to his teaching responsibilities at HKUST, Mr. Chung is also a seasoned Hackathon organizer in Hong Kong. He is further recognized as an alumnus of the Hong Kong Cyberport startup community and maintains close ties with the local startup ecosystem.
 """
 email = "cspeter@cse.ust.hk"
-homepage_text = """Over the past years, I have been accessed by more than 3000 students at HKUST. The evaluation scores and comments are valuable assets to further improve my tutoring and mentoring skills. In 2021, I received 2 teaching awards, demonstrating that both students and colleagues appreciated my work. 
+homepage_text = """Over the years, I have been accessed by over 3000 students at HKUST. Their evaluation scores and feedback have been invaluable in enhancing my tutoring and mentoring abilities. In 2021, I was honored to receive two teaching awards, which serve as a testament to the recognition and appreciation of my efforts by both my students and colleagues. 
 """
 
 [office]
@@ -14,28 +14,27 @@ ext = true
 
 [[tags]]
 name = "Hackathon"
-desc = """ He partnered with 10+ companies/ organizations to organize various Hackathon competitions in Hong Kong. He served as Organizer, Consultant, Judge, Speaker, Emcee, and Mentor. In addition, he participated several Hackathon competitions and won a few Hackathon competitions. In particular, he used to turn a Hackathon prototype to a startup project at Cyberport in 2016-17
+desc = """He has collaborated with over 10 companies and organizations to host a variety of Hackathon competitions in Hong Kong. He has played multiple roles in these events, including Organizer, Consultant, Judge, Speaker, Emcee, and Mentor. Additionally, he has taken part in several Hackathon competitions and emerged as a winner in some of them. Notably, in 2016-17, he transformed a Hackathon prototype into a startup project at Cyberport.
 """
 
 [[tags]]
 name = "Entrepreneur"
-desc = """He co-founded HabHub, an award-winning HealthTech startup project at Cyberport, Hong Kong in 2016. In addition, he is an alumnus in Entrepreneur First (EF), Hong Kong."""
+desc = """As a co-founder and CEO of HabHub, an award-winning HealthTech startup supported by Cyberport Creative Micro Fund and HKUST Entrepreneurship Acceleration Fund, he has achieved notable success. HabHub was recognized with the AIA Award at Hack-O-Life Hong Kong 2016 and emerged as a finalist in Dreamcatchers MedTech Hackathon 2016. The startup's accomplishments were also covered by various news outlets, including Headline Daily. Moreover, he was selected as a Founder In Residence in the inaugural cohort of Entrepreneur First, Hong Kong (EFHK1), which is a highly competitive program that accepts only 50 talented individuals from all Hong Kong applicants."""
 
 
 [[tags]]
 name = "Alumni"
-desc = """He co-founded Computer Science and Engineering Alumni Association, HKUST (CSEAA) in 2013. He also served as an Executive Sub-Committee Member in MedTech, Cyberport Startup Alumni Association (CSAA) 
+desc = """Beyond academia, he is an active member of the alumni community, having served as the Founding President and Executive Committee Member of the Computer Science and Engineering Alumni Association at HKUST, as well as an Executive Sub-Committee Member of the MedTech Cyberport Startup Alumni Association. 
 """
 
 [[tags]]
 name = "Advisor"
-desc = """Starting from 2022, he serves as Advisor for Direct Entry Students, Department of CSE, HKUST. In the past, he served as Advisor in various student interest groups.
+desc = """Beginning in 2022, he assumed the role of Advisor for Direct Entry Students in the Department of Computer Science and Engineering at HKUST. In the past, he has served as an Advisor for numerous student interest groups.
 """
 
 [[tags]]
 name = "Teacher"
-desc = """Since 2008, he serves as Teaching Associate in the Department of Computer Science and Engineering, HKUST. Since 2017, he serves as a STEM Course Instructor
-at Academy of Bright Future Young Engineers (ABFYE), School of Engineering, HKUST. 
+desc = """He has over a decade of experience as a Teaching Associate in the Department of Computer Science and Engineering at HKUST, where he also served as an Instructor in the Department of Computer Science at the Hong Kong Baptist University. Throughout his tenure, He has taken on various advisory roles and has been serving as a STEM Course Instructor at the Academy of Bright Future Young Engineers (ABFYE) within the School of Engineering at HKUST. 
 """
 
 # url and ext are not used - not good for the mobile web UI
