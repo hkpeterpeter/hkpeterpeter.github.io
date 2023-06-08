@@ -1,18 +1,28 @@
 [[comments]]
+content = """The TAs are all very nice and helpful, especially TA Peter, he always explains concepts very clearly with animations in the tutorials.
+He also made a website for each students to check their assignment scores, and he is often patient and kind to answering student's
+questions through emails"""
+course = "COMP3511"
+section = "LA1"
+semester = "Spring 22/23"
+report = "COMP3511_LA1_Spring2223.pdf#page=3"
+
+
+[[comments]]
 content = """Peter is very clear and fun to hear from. His lab sessions are the sessions that i looked most forward to. To the extent that I picked
 up the courage to do this survey only to upvote him. I can tell that he really wants to explain for the purpose of delivering actual
 knowledge to students. Other TAs, not so much."""  
 course = "COMP3511"
 section = "LA1"
 semester = "Fall 22/23"
-report = "COMP3511_LA1_Fall2223.pdf"
+report = "COMP3511_LA1_Fall2223.pdf#page=3"
 
 [[comments]]
 content = """TA made the lab funny, such as lots of interesting examples, anime element, funny programme demostration."""
 course = "COMP2011"
 section = "LA01"
 semester = "Fall 22/23"
-report = "COMP2011_LA01_Fall2223.pdf"
+report = "COMP2011_LA01_Fall2223.pdf#page=3"
 
 [[comments]]
 content = """Peter teaches very well in tutorial sessions and is able to explain lots of difficult and confusing concepts in simple words or

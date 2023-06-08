@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "1237,1093,550,87,37"
+rating = "1285,1118,557,87,39"
 
 # === COMP1001
 
@@ -323,7 +323,7 @@ bad_comments = [
 # === COMP2011
 [[course]]
 id = "COMP2011"
-rating = "153,214,131,13,10"
+rating = "168,225,135,13,11"
 title = "Introduction to Object-oriented Programming"
 tags = ["COMP2011","COMP102", "COMP104","COMP1004"]
 reports = [
@@ -351,8 +351,10 @@ reports = [
 "COMP1004_LA1A_Fall1112.pdf",
 "COMP1004_LA1B_Fall1112.pdf",
 "COMP2011_LA01_Fall2223.pdf",
+"COMP2011_LA2_Spring2223.pdf",
 ]
 good_comments = [
+"The TAs were helpful and responded timely, made sure the lab session went smoothly",
 "TA made the lab funny, such as lots of interesting examples, anime element, funny programme demostration."
 ,"Peter is very devoted into his work that he is always approachable even on Sundays"
 ,"Explain things in an organised and detailed way"
@@ -367,6 +369,7 @@ good_comments = [
 ,"Good knowledge in programming"
 ]
 bad_comments = [
+"The labs could be more effective, if it takes so much time anyway it might well have a physical lab session",
 "Please write larger when using the whiteboards, and please use darker pens",
 "More tricky questions should be given",
 "Be more helpful about exams",
@@ -522,7 +525,7 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "232,138,52,13,5"
+rating = "265,152,55,13,6"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
@@ -560,9 +563,16 @@ reports = [
 "COMP3511_LA2_Fall2223.pdf",
 "COMP3511_LA3_Fall2223.pdf",
 "COMP3511_LA4_Fall2223.pdf",
-
+"COMP3511_LA1_Spring2223.pdf",
+"COMP3511_LA2_Spring2223.pdf",
+"COMP3511_LA3_Spring2223.pdf",
 ]
 good_comments = [
+"""The TAs are all very nice and helpful, especially TA Peter, he always explains concepts very clearly with animations in the tutorials.
+He also made a website for each students to check their assignment scores, and he is often patient and kind to answering student's
+questions through emails""",
+"""I really appreciate Peter for putting extra effort in the lab session such that students can understand the topic better. The animations
+and examples indeed help me a lot in understanding how the things work.""",
 """Peter is very clear and fun to hear from. His lab sessions are the sessions that i looked most forward to. To the extent that I picked
 up the courage to do this survey only to upvote him. I can tell that he really wants to explain for the purpose of delivering actual
 knowledge to students. Other TAs, not so much.""",  
