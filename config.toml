@@ -12,9 +12,6 @@ keywords = "Hackathon, hackUST, Hackathon@HKUST, Datathon, Alumni, HKUST, CSE, E
 [minify]
 minifyOutput = true
 
-
-
-
-
-
+[minify.tdewolff.html]
+keepQuotes = true
 
