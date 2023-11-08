@@ -194,3 +194,13 @@ name = "CSE Departmental Merit Salary Review Committee"
 title = "HKUST CSE Departmental Review 2021"
 tags = ["Teaching", "HKUST"]
 abstract = """Great improvement from last year! Peter is a runner-up of the 2021 “Instructor’s Choice” Award... He was also a runner-up in the 2021 “Students’ Choice” Award..."""
+
+[[item]]
+name = "Prof. Luisa Mok"
+title = "Senior Lecturer, Division of Emerging Interdisciplinary Areas, HKUST"
+date = "Nov 2023"
+tags = ["HKUST", "Design Thinking", "Generative AI"]
+abstract = """
+A note received after delivering a guest lecture in a design thinking course:
+You are excellent in leading the class and motivating students. I am very much inspired, too!
+"""
