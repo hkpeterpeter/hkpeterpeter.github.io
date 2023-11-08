@@ -3,6 +3,11 @@ academic_title = "Academic Qualifications"
 award_title = "Teaching Awards"
 
 [[educator]]
+title = "Guest Lecturer"
+group = "EMIA2020 Cross-disciplinary Design Thinking, HKUST"
+year = "Fall 2023"
+
+[[educator]]
 title = "Advisor for Direct Entry Students"
 group = "Department of CSE, HKUST"
 year = "2022-"
@@ -72,6 +77,11 @@ degree = "Computer Science (Information Engineering)"
 university = "Hong Kong University of Science and Technology (HKUST)"
 special = "First Class Honors"
 year = "2006"
+
+[[awards]]
+title = "One-off Performance-based Top-up"
+group = "HKUST"
+year = 2023
 
 [[awards]]
 title = "One-off Merit Salary Top-up for academic and teaching staff members"

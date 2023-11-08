@@ -34,7 +34,7 @@ desc = """Beginning in 2022, he assumed the role of Advisor for Direct Entry Stu
 
 [[tags]]
 name = "Teacher"
-desc = """He has over a decade of experience as a Teaching Associate in the Department of Computer Science and Engineering at HKUST, where he also served as an Instructor in the Department of Computer Science at the Hong Kong Baptist University. Throughout his tenure, He has taken on various advisory roles and has been serving as a STEM Course Instructor at the Academy of Bright Future Young Engineers (ABFYE) within the School of Engineering at HKUST. 
+desc = """He has over a decade of experience as a Teaching Associate in the Department of Computer Science and Engineering at HKUST, where he also served as an Instructor in the Department of Computer Science at the Hong Kong Baptist University. Throughout his tenure, He has taken on various advisory roles and has been serving as a STEM Course Instructor at the Academy of Bright Future Young Engineers (ABFYE) within the School of Engineering at HKUST. In Fall 2023, he served as a guest lecturer in EMIA2020 Cross-disciplinary Design Thinking, HKUST. The guest lecture aims at guiding students to adopt latest AI image generation tools in the design thinking process. 
 """
 
 # url and ext are not used - not good for the mobile web UI
