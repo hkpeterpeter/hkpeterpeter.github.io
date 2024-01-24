@@ -1,4 +1,12 @@
 [[comments]]
+content = """Peter provided quick and effective response in replying emails. He also conducted interactive and "non-boring" tutorials like
+interesting ways to memorise some concepts."""
+course = "COMP3511"
+section = "LA2"
+semester = "Fall 23/24"
+report = "COMP3511_LA2_Fall2324.pdf#page=3"
+
+[[comments]]
 content = """The TAs are all very nice and helpful, especially TA Peter, he always explains concepts very clearly with animations in the tutorials.
 He also made a website for each students to check their assignment scores, and he is often patient and kind to answering student's
 questions through emails"""

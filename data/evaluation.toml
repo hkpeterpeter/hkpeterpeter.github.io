@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "1285,1118,557,87,39"
+rating = "1321,1138,559,87,39"
 
 # === COMP1001
 
@@ -526,7 +526,7 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "265,152,55,13,6"
+rating = "301,172,57,13,6"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
@@ -567,8 +567,14 @@ reports = [
 "COMP3511_LA1_Spring2223.pdf",
 "COMP3511_LA2_Spring2223.pdf",
 "COMP3511_LA3_Spring2223.pdf",
+"COMP3511_LA1_Fall2324.pdf",
+"COMP3511_LA2_Fall2324.pdf",
+"COMP3511_LA3_Fall2324.pdf",
 ]
 good_comments = [
+"""Peter provided quick and effective response in replying emails. He also conducted interactive and "non-boring" tutorials like
+interesting ways to memorise some concepts.
+""",
 """The TAs are all very nice and helpful, especially TA Peter, he always explains concepts very clearly with animations in the tutorials.
 He also made a website for each students to check their assignment scores, and he is often patient and kind to answering student's
 questions through emails""",
