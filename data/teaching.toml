@@ -21,13 +21,19 @@ year = "Spring 2018"
 [[educator]]
 title = "Instructor"
 group = "Academy For Bright Future Young Engineers, HKUST"
-url = "http://abfye.ust.hk/"
-year = "2017-"
+url = "https://abfye.ust.hk/"
+year = "2017"
+
+[[educator]]
+title = "Teacher"
+group = "ICT Exploration Day, HKUST"
+url = "https://abfye.hkust.edu.hk/news/ict-exploration-day-13-april-2017"
+year = "April 2017"
 
 [[educator]]
 title = "Advisor"
-group = "Student Innovation for Global Health Technology, HKUST"
-url = "//sight.ust.hk/"
+group = "Student Innovation for Global Health Technology (SIGHT), HKUST"
+url = "https://sight.ust.hk/"
 year = "2015-16"
 
 [[educator]]
@@ -53,7 +59,7 @@ year = "2013-14"
 [[educator]]
 title = "Teaching Associate"
 group = "Department of CSE, HKUST"
-url = "http://www.cse.ust.hk/"
+url = "https://www.cse.ust.hk/"
 year = "2008-"
 
 
