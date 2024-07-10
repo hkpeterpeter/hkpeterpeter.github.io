@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "1321,1138,559,87,39"
+rating = "1405,1199,575,92,46"
 
 # === COMP1001
 
@@ -353,6 +353,12 @@ reports = [
 "COMP1004_LA1B_Fall1112.pdf",
 "COMP2011_LA01_Fall2223.pdf",
 "COMP2011_LA2_Spring2223.pdf",
+"COMP2011_LA1_Spring2324.pdf",
+"COMP2011_LA2_Spring2324.pdf",
+"COMP2011_LA3_Spring2324.pdf",
+"COMP2011_LA4_Spring2324.pdf",
+"COMP2011_LA5_Spring2324.pdf",
+"COMP2011_LA6_Spring2324.pdf",
 ]
 good_comments = [
 "The TAs were helpful and responded timely, made sure the lab session went smoothly",
@@ -526,10 +532,12 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "301,172,57,13,6"
+rating = "320,185,57,13,6"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
+"COMP3511_LA1_Spring2324.pdf",
+"COMP3511_LA2_Spring2324.pdf",
 "COMP3511_LA1_Fall1718.pdf",
 "COMP3511_LA2_Fall1718.pdf",
 "COMP3511_LA3_Fall1718.pdf",
