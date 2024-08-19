@@ -1,4 +1,9 @@
 [[slide]]
+title = "CSE Graduation Dinner 2024"
+url = "slideshow/CSE_Grad_Dinner_2024.jpg"
+tags = ["Teaching", "Alumni"]
+
+[[slide]]
 title = "Use Interactive Generative AI to draw a Christmas Tree"
 url = "slideshow/interactive_gen_ai_christmas_tree_2023.gif"
 tags = ["Teaching", "Generative AI"]
