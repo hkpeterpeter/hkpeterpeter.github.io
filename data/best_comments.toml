@@ -1,4 +1,11 @@
 [[comments]]
+content = """The way Peter breaks down complicated ideas into smaller, more understandable parts is truly impressive. Difficult theories were made simple through Peter's structured teaching and the use of real-life examples"""
+course = "COMP3511"
+section = "LA3"
+semester = "Fall 24/25"
+report = "COMP3511_LA3_Fall2425.pdf#page=3"
+
+[[comments]]
 content = """The tutorials offer instant anonymous feedback platform for students to ask questions, in which I think it's good to those students
 who are shy to raise up questions in class."""
 course = "COMP2011"

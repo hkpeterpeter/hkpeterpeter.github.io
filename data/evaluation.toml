@@ -2,7 +2,7 @@
 # 5 values, commas separated
 # from "Very well" ... "Poorly"
 
-rating = "1405,1199,575,92,46"
+rating = "1472,1227,576,94,50"
 
 # === COMP1001
 
@@ -324,7 +324,7 @@ bad_comments = [
 # === COMP2011
 [[course]]
 id = "COMP2011"
-rating = "168,225,135,13,11"
+rating = "256,285,152,20,18"
 title = "Introduction to Object-oriented Programming"
 tags = ["COMP2011","COMP102", "COMP104","COMP1004"]
 reports = [
@@ -359,6 +359,7 @@ reports = [
 "COMP2011_LA4_Spring2324.pdf",
 "COMP2011_LA5_Spring2324.pdf",
 "COMP2011_LA6_Spring2324.pdf",
+"COMP2011_LA1_Fall2425.pdf",
 ]
 good_comments = [
 "The TAs were helpful and responded timely, made sure the lab session went smoothly",
@@ -532,12 +533,11 @@ which may seem interacting with students to him, but distracting and annoying to
 # === COMP3511
 [[course]]
 id = "COMP3511"
-rating = "320,185,57,13,6"
+rating = "364,201,57,13,10"
 tags = ["COMP3511"]
 title = "Operating Systems"
 reports = [
-"COMP3511_LA1_Spring2324.pdf",
-"COMP3511_LA2_Spring2324.pdf",
+
 "COMP3511_LA1_Fall1718.pdf",
 "COMP3511_LA2_Fall1718.pdf",
 "COMP3511_LA3_Fall1718.pdf",
@@ -580,6 +580,9 @@ reports = [
 "COMP3511_LA3_Fall2324.pdf",
 "COMP3511_LA1_Spring2324.pdf",
 "COMP3511_LA2_Spring2324.pdf",
+"COMP3511_LA1_Fall2425.pdf",
+"COMP3511_LA2_Fall2425.pdf",
+"COMP3511_LA3_Fall2425.pdf",
 ]
 good_comments = [
 """Peter provided quick and effective response in replying emails. He also conducted interactive and "non-boring" tutorials like
