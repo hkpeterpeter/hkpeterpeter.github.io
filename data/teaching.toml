@@ -62,7 +62,11 @@ group = "Department of CSE, HKUST"
 url = "https://www.cse.ust.hk/"
 year = "2008-"
 
-
+[[academic]]
+level = "Certificate"
+degree = "Mental Health First Aid Standard Course for Staff"
+university = "Hong Kong University of Science and Technology (HKUST)"
+year = "2013"
 
 [[academic]]
 level = "Msc"
