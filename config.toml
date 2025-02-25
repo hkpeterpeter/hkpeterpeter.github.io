@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "Peter's website"
 # disqusShortname = "peters-website"  # disqus setting
 # googleAnalytics = "UA-115752671-1"  # GA setting
-paginate = 3  # Define the number of posts per page
+# paginate = 3  # Define the number of posts per page
+pagination.pagerSize = 3
 
 [params]
 author = "Peter Chung"

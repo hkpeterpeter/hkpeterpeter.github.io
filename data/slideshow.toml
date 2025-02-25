@@ -1,4 +1,9 @@
 [[slide]]
+title = "Animating My AI Generated Robotic Cat using Kling AI"
+url = "slideshow/gen_ai_cat_2024_kling.gif"
+tags = ["Generative AI"]
+
+[[slide]]
 title = "GenAI Image Guessing Game 2024"
 url = "slideshow/gen_ai_image_guessing_game_2024.png"
 tags = ["Teaching"]
