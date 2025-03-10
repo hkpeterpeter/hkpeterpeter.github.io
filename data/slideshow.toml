@@ -4,6 +4,11 @@ url = "slideshow/AMC_File_Festival_2025.webp"
 tags = ["Generative AI", "Teaching"]
 
 [[slide]]
+title = "Foodpanda eats Deliveroo in Hong Kong, 2025"
+url = "slideshow/Foodpanda_Eating_Deliveroo_2025.webp"
+tags = ["Generative AI"]
+
+[[slide]]
 title = "Animating My AI Generated Robotic Cat using Kling AI"
 url = "slideshow/gen_ai_cat_2024.webp"
 tags = ["Generative AI"]
