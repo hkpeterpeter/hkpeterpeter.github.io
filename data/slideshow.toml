@@ -4,6 +4,11 @@ url = "slideshow/AMC_File_Festival_2025.webp"
 tags = ["Generative AI", "Teaching"]
 
 [[slide]]
+title = "Using Local LLM Gemma3 27b Q4"
+url = "slideshow/genai_gemma3_27b_Q4.webp"
+tags = ["GenerativeAI"]
+
+[[slide]]
 title = "Foodpanda eats Deliveroo in Hong Kong, 2025"
 url = "slideshow/Foodpanda_Eating_Deliveroo_2025.webp"
 tags = ["Generative AI"]
