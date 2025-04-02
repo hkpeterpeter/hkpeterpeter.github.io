@@ -111,7 +111,7 @@
                 {{ range .awards }}
                 <li><span class="badge rounded-pill bg-warning">{{.year}}</span>
                     <span class="badge rounded-pill bg-info">{{.title}}</span>
-                    {{.group}}
+                    {{ if .url }}<a target="_blank" href="{{.url}}">{{.group}}</a>{{ else }} {{ .group }} {{ end }}
                 </li>
                 {{ end }}
             </ul>

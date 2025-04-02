@@ -1,6 +1,6 @@
 educator_title = "Teaching Roles"
 academic_title = "Academic Qualifications"
-award_title = "Teaching Awards"
+award_title = "Teaching-related Awards"
 
 [[educator]]
 title = "Guest Lecturer"
@@ -89,9 +89,16 @@ special = "First Class Honors"
 year = "2006"
 
 [[awards]]
-title = "Finalist"
-group = "AMC AI Film Festival 2025 at HKUST"
+title = "Recipient"
+group = "HKUST SENtastic Staff Award"
 year = 2025
+url = "https://sen.hkust.edu.hk/event.php?cate=25"
+
+[[awards]]
+title = "Finalist"
+group = "HKUST AMC AI Film Festival"
+year = 2025
+url = "https://cveu.github.io/event/hkustfilm2025.html"
 
 [[awards]]
 title = "One-off Performance-based Top-up"
