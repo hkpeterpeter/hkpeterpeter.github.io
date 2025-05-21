@@ -28,12 +28,12 @@
                 {% for item in alumni_timeline %}
           
 
-                    <div class="timeline-container {% if loop.index % 2 == 0 %}timeline-left{% else %}timeline-right{% endif %}">
+                    <div class="timeline-container {% if loop.index0 % 2 == 0 %}timeline-left{% else %}timeline-right{% endif %}">
                         <div class="timeline-content">
                  
                             {% if item.url %}<img src="{{item.url}}" class="img-fluid img-thumbnail">{% endif %}
                     
-                            <h5> <span class="badge bg-dark text-white my-2">{{ loop.index }}</span> {{item.title}}</h5>
+                            <h5> <span class="badge bg-dark text-white my-2">{{ alumni_timeline_length - loop.index0 }}</span> {{item.title}}</h5>
                           
                             {% if item.role %}<p><i class="fas fa-users"></i>&nbsp;{{item.role}}&nbsp;</p>{% endif %}
                             {% if item.date %}<p><i class="far fa-calendar-alt"></i>&nbsp;{{item.date}}</p>{% endif %}

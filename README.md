@@ -4,7 +4,12 @@ Demo: [https://hkpeterpeter.github.io](https://hkpeterpeter.github.io)
 
 ## Build steps
 ```sh
-python gen.py # generate the website and place files to /docs folder
+python gen.py      # generate the website and place files to /docs folder
+```
+
+## Local debug (Change the baseURL)
+```sh
+http-server docs/   # test the website locally
 ```
 
 ## Reference
