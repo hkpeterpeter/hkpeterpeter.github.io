@@ -1,0 +1,176 @@
+{% extends "layout/base.html" %}
+{% block title %}Teaching{% endblock %}
+
+{% block main %}
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="/evaluation/evaluation_chart.js"></script>
+
+<div class="container mt-3">
+    <div class="row mb-3">
+        <div class="col-12">
+            <div class="col-12">
+                <p class="bg-light p-3 text-center">
+                    <span class="h2"><i class="fas fa-book"></i>
+                        <strong>
+                            <span class="ms-2">{{count_evaluation_reports + count_evaluation_bridging_reports}}</span>
+                        </strong> Teaching Evaluation Reports</span>
+                    <br>
+                    <span class="small"> 
+                        All reports (in PDF <i class="far fa-file-pdf"></i> 
+                        <span class="ms-1">format</span>) can be downloaded via the links below</span>
+                </p>
+            </div>
+
+            <h5><i class="fa fa-list-alt" ></i>
+                <span class="ms-2">Overall Rating</span>
+            </h5>
+           
+            <div class="col-12 col-md-9 col-lg-6 offset-lg-3 p-3">
+
+                    <svg id="chart_summary"></svg>
+                    <script>evalulation_chart("#chart_summary", "{{overall_evaluation_rating}}");</script>
+                    <br>
+                    <span class="small text-muted">
+                            NA (Not Applicable) ratings are excluded
+                            <br>
+                            Suitable mappings are applied on the ratings prior to Fall 2008
+                    </span>
+              
+              
+                
+            </div>
+
+            
+
+            <h5><i class="fas fa-comments"></i>&nbsp;Selected Feedback</h5>
+           
+
+             <ul class="nav nav-pills" role="tablist">
+           
+
+                {% for item in best_comments %}
+                <li class="nav-item">
+                    <a class="nav-link {%if loop.index0 == 0 %}active{% endif %}" id="selected-comments-{{loop.index0}}-tab"
+                       data-bs-toggle="pill" href="#selected-comments-{{loop.index0}}" role="tab"
+                       aria-controls="selected-comments-{{loop.index0}}" aria-selected="true">{{item.semester}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            <div class="tab-content">
+            
+                {% for item in best_comments %}
+                <div class="tab-pane fade show {%if loop.index0 == 0 %}active{% endif %}" id="selected-comments-{{loop.index0}}" role="tabpanel"
+                     aria-labelledby="selected-comments-{{loop.index0}}-tab">
+                     <div class="card p-3">
+                         <p>{{item.content}}</p> 
+                        
+                            <span class="small">
+                                <i class="far fa-thumbs-up"></i> 
+                                quoted from a student in 
+                                <a href="evaluation/{{item.report}}" target="_blank">
+                                    <i class="far fa-file-pdf"></i>
+                                    <span class="ms-1">{{item.course}} {{item.section}} {{item.semester}}</span>
+                                </a>
+                            </span>
+                    </div> 
+                    
+                </div>
+                {% endfor %}
+            
+            </div>
+
+            <br>
+
+  <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation Reports
+    <span class="small">
+        from {{count_evaluation_reports}} regular courses</span></h5>
+
+    <ul class="nav nav-pills" role="tablist">
+
+        {% for item in evaluation %}
+        {% if item.id %}
+        <li class="nav-item">
+            <a class="nav-link {%if loop.index0 == 0 %}active{% endif %}" id="pills-{{item.id}}-tab"
+            data-bs-toggle="pill" href="#pills-{{item.id}}" role="tab"
+            aria-controls="pills-{{item.id}}" aria-selected="true">{{item.id}}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+
+
+    </ul>
+
+
+    <div class="tab-content">
+
+        {% for item in evaluation %}
+        <div class="tab-pane fade show {%if loop.index0 == 0 %}active{% endif %}" id="pills-{{item.id}}" role="tabpanel"
+             aria-labelledby="pills-{{item.id}}-tab">
+             {% include 'partials/tab_content.html' with context %}
+        </div>
+        {% endfor %}
+      
+    </div>
+
+
+    <h5><i class="fas fa-tachometer-alt"></i>&nbsp;Teaching Evaluation Reports
+        <span class="small">
+            from {{count_evaluation_bridging_courses}} bridging courses</span></h5>
+    
+        <ul class="nav nav-pills" role="tablist">
+    
+            {% for item in evaluation_bridging %}
+            {% if item.id %}
+            <li class="nav-item">
+                <a class="nav-link {%if loop.index0 == 0 %}active{% endif %}" id="pills-{{item.id}}-tab"
+                data-bs-toggle="pill" href="#pills-{{item.id}}" role="tab"
+                aria-controls="pills-{{item.id}}" aria-selected="true">{{item.id}}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+    
+    
+        </ul>
+    
+    
+        <div class="tab-content">
+    
+            {% for item in evaluation_bridging %}
+            <div class="tab-pane fade show {%if loop.index0 == 0 %}active{% endif %}" id="pills-{{item.id}}" role="tabpanel"
+                 aria-labelledby="pills-{{item.id}}-tab">
+                 {% include 'partials/tab_content.html' with context %}
+            </div>
+            {% endfor %}
+          
+        </div>
+
+
+    
+
+
+
+
+    
+
+
+</div>
+
+
+
+
+
+ 
+            
+
+
+          
+
+
+
+    </div>
+
+</div>
+
+{% endblock %}
+

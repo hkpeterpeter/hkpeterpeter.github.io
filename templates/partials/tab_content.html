@@ -1,0 +1,110 @@
+
+    <div class="card p-3">
+        <h5>{{item.id}} - {{item.title}}
+        </h5>
+
+        <div class="row">
+            <div class="col-12 col-md-9 col-lg-6 offset-lg-3 p-3">
+           
+                {%if item.rating %}
+                   <svg id="chart_{{item.id}}"></svg>
+                    <script>evalulation_chart("#chart_{{item.id}}", "{{item.rating}}");</script>
+                    <br>
+                    <span class="small text-muted">
+                        NA (Not Applicable) ratings are excluded
+                        <br>
+                        Suitable mappings are applied on the ratings prior to Fall 2008
+                    </span>
+                 {% endif %}
+               
+      
+               
+            </div>
+        </div>
+
+        <div class="row justify-content-lg-center">
+
+            <div class="col-12 col-lg-6  mb-2 p-2" >
+
+
+                    <p class="text-success"><i class="far fa-thumbs-up"></i> 
+                        <span class="ms-1">What was good about Peter?</span></p>
+                    {% if item.good_comments %}
+                    <ol class="small">
+                        {% for c in item.good_comments %}
+                        <li>{{c}}</li>
+                        {% endfor %}
+                    </ol>
+                    {% else %}
+                        <p>N/A</p>
+                    {% endif %}
+
+
+
+            </div>
+
+            <div class="col-12 col-lg-6  mb-2 p-2">
+
+                    <p class="text-danger"> <i class="far fa-thumbs-down"></i> 
+                        <span class="ms-1">How might Peter be improved?</span> </p>
+                        {% if item.bad_comments %}
+                        <ol class="small">
+                            {% for c in item.bad_comments %}
+                            <li>{{c}}</li>
+                            {% endfor %}
+                        </ol>
+                        {% else %}
+                            <p>N/A</p>
+                        {% endif %}
+
+
+            </div>
+
+
+        </div>
+
+
+        {% if item.reports %}
+        <p>
+           <span class="badge bg-info mb-2 p-2">
+            
+                 {{ item.reports | length }} evaluation report(s)
+            </span>
+            <br>
+
+          
+
+            {% for report in item.reports %}
+                {% set fname = report.split('.')[0] %}
+                {% set display = ' '.join(fname.split('_')[1:]) %}
+                    <a target="_blank" href="evaluation/{{report}}">
+                        <button type="button" class="btn btn-outline-dark btn-sm mb-2">
+                            <i class="far fa-file-pdf"></i>
+                            <span class="ms-1">{{display}}</span>
+                        </button>
+                    </a>
+            {% endfor %}
+
+            
+
+         </p>
+        {% endif %}
+
+
+        {% if item.tags %}
+            <p>
+        
+            {% for t in item.tags %}
+            <span class="badge rounded-pill bg-warning">{{t}}</span>
+            {% endfor %}
+            
+            {% if item.tags | length > 1 %}
+            <br>
+            <span class="small">old course codes and honour course codes are mapped to the most relevant existing course code</span>
+            </p>
+            {% endif %}
+        {% endif %}
+
+
+
+</div>

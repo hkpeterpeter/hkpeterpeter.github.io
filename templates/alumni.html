@@ -1,0 +1,55 @@
+{% extends "layout/base.html" %}
+{% block title %}Alumni{% endblock %}
+
+{% block page_css %}
+<link rel="stylesheet" href="css/timeline.css">
+{% endblock %}
+
+{% block main %}
+
+<div class="container mt-3">
+
+    <div class="row mb-3 h-100">
+
+        <div class="col-12">
+
+            <div class="col-12">
+                <p class="bg-light p-3 text-center">
+                    <span class="h2"><i class="far fa-calendar-alt"></i>
+                        <strong>
+                            <span class="ms-2">{{ alumni_timeline_length }}</span>
+
+                        </strong> Alumni Events</span>
+                    <br>
+                <span class="small">in a reverse chronological order</span> </p>
+            </div>
+
+            <div class="timeline" id="timeline-wrapper">
+                {% for item in alumni_timeline %}
+          
+
+                    <div class="timeline-container {% if loop.index % 2 == 0 %}timeline-left{% else %}timeline-right{% endif %}">
+                        <div class="timeline-content">
+                 
+                            {% if item.url %}<img src="{{item.url}}" class="img-fluid img-thumbnail">{% endif %}
+                    
+                            <h5> <span class="badge bg-dark text-white my-2">{{ loop.index }}</span> {{item.title}}</h5>
+                          
+                            {% if item.role %}<p><i class="fas fa-users"></i>&nbsp;{{item.role}}&nbsp;</p>{% endif %}
+                            {% if item.date %}<p><i class="far fa-calendar-alt"></i>&nbsp;{{item.date}}</p>{% endif %}
+                            {% if item.desc %}<p class="timeline-content-description">{{item.desc}}</p>{% endif %}
+                            {% if item.album %}<a href="{{item.album}}" target="_blank"><i class="far fa-image"></i><span class="ms-1">Photo Album</span></a>{% endif %}
+                        </div>
+                  </div>
+
+                {% endfor %}
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+{% endblock %}

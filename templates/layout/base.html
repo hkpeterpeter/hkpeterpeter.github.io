@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <base href="{{baseURL}}" >
+    {% include 'partials/meta.html' %}
+    {% include 'partials/favicon.html' %}
+    <title>{% block title %}{% endblock %}</title>
+    {% include 'partials/shared_css.html' %}
+    {% block page_css %}{% endblock %}
+</head>
+<body>
+
+    {% include 'partials/navbar.html' %}
+    {% block main %}{% endblock %}
+
+    {% include 'partials/footer.html' %}
+
+    {% include 'partials/shared_js.html' %}
+    {% block page_js %}{% endblock %}
+</body>
+</html>

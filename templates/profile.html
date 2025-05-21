@@ -1,0 +1,253 @@
+{% extends "layout/base.html" %}
+{% block title %}Profile{% endblock %}
+{% block page_css %}
+
+<style>
+    #profile-image {
+        width: auto;
+        height: auto !important;
+    }
+    .profile-background {
+        background-image: url("css/pattern.png");
+        background-repeat: repeat;
+    }
+</style>
+
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-3 p-2 text-center">
+            <div class="profile-background py-2 rounded-3">
+                <div class="my-2">
+
+                    <img id="profile-image" class="rounded-circle img-thumbnail my-2"
+                         src="{{profile_url}}" alt="Profile Image">
+ 
+                </div>
+
+                <div class="my-2">
+                    <h4>{{author}}</h4>
+
+                    
+                    <p class="small">
+                        {{job_title}} <br>
+                        <a target="_blank" href="{{office_url}}">
+                            {{ office_room }} <em>{{office_sub}}</em></a></p>
+                   
+                </div>
+
+                <div class="my-2">
+                 
+                        <a href="mailto:{{email}}"><i class="fas fa-envelope region-hover"></i>
+                            <span class="ms-1">{{email}}</span>
+                        </a>
+                  
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-9 text-left mb-2 p-3">
+            <h5 class="my-2">
+                <span class="badge bg-danger">HEAT</span>
+                <span >=</span>
+                <span class="badge bg-success">Hackathon</span>
+                <span >+</span>
+                <span class="badge bg-success">Entrepreneur</span>
+                <span >+</span>
+                <span class="badge bg-success">Alumni / Advisor</span>
+                <span >+</span>
+                <span class="badge bg-success">Teacher</span>
+            </h5>
+
+            <p class="small text-justify">
+               
+                {{profile_description}}
+      
+            </p>
+
+           
+                {% for item in profile_roles %}
+               <p >
+                <span class="badge bg-success">{{item.name}}</span>
+                   <span class="small"> {{item.desc}} </span> 
+                </p>
+                {% endfor %}
+
+          
+
+        </div>
+    </div>
+
+    <div class="row my-2">
+        <div class="col-12 col-lg-6 p-2">
+
+            <h5>
+                <i class="fas fa-users"></i>
+                <span class="ms-2">{{educator_length}} {{educator_title}}</span>
+            </h5>
+            <ul class="list-unstyled">
+                {% for item in educator %}
+                <li>{% if item.year %}<span class="badge rounded-pill bg-warning">{{item.year}}</span>{% endif %}
+                    <span class="badge rounded-pill bg-info">{{item.title}}</span>
+                    {% if item.url %}<a target="_blank" href="{{item.url}}">{{item.group}}</a>{% else %}{{item.group}}{% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+     
+
+
+
+        </div>
+
+        <div class="col-12 col-lg-6 p-2">
+
+          
+            <h5>
+                <i class="fas fa-trophy"></i>
+                <span class="ms-2">{{teaching_awards_length}} {{teaching_awards_title}} </span>
+            </h5>
+            <ul class="list-unstyled">
+               
+                {% for item in teaching_awards %}
+                <li><span class="badge rounded-pill bg-warning">{{item.year}}</span>
+                    <span class="badge rounded-pill bg-info">{{item.title}}</span>
+                    {% if item.url %}<a target="_blank" href="{{item.url}}">{{item.group}}</a>{% else %} {{item.group}} {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+          
+
+        
+            <h5>
+                <i class="fas fa-certificate"></i>
+                <span class="ms-2">{{academic_length}} {{academic_title}}</span>
+            </h5>
+            <ul class="list-unstyled">
+                
+                {% for item in academic %}
+                <li><span class="badge rounded-pill bg-warning">{{item.year}}</span>
+                    <span class="badge rounded-pill bg-info">{{item.level}}</span>
+                    <span class="badge rounded-pill bg-info">{{item.degree}}</span>
+                    <br>
+                    {{item.university}} {% if item.special %}
+                    <small> ({{item.special}})</small>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+           
+
+           
+        </div>
+
+
+        <div class="col-12 col-lg-6 p-2">
+      
+            <h5>
+                <i class="fas fa-lightbulb"></i>
+                <span class="ms-2">{{hackathon_roles_length}} {{hackathon_roles_title}} </span>
+            </h5>
+            <ul class="list-unstyled">
+                {% for item in hackathon_roles %}
+              
+                <li>
+                    {%if item.year %}<span class="badge rounded-pill bg-warning">{{item.year}}</span>{% endif %}
+                    <span class="badge rounded-pill bg-info">{{item.keyword}}</span>
+
+                    {% if item.url %}
+                    <a href="{{item.url}}" target="_blank">{{item.description}}</a>
+                    {% else %}
+                    {{item.description}}
+                    {% endif %}
+
+                </li>
+                {% endfor %}
+            </ul>
+      
+
+        </div>
+
+        <div class="col-12 col-lg-6 p-2">
+        
+            <h5>
+                <i class="fas fa-trophy"></i>
+                <span class="ms-2">{{hackathon_awards_length}} {{hackathon_awards_title}}</span>
+            </h5>
+            <ul class="list-unstyled">
+                {% for item in hackathon_awards %}
+               
+                <li>{%if item.year %}<span class="badge rounded-pill bg-warning">{{item.year}}</span>{% endif %}
+                    <span class="badge rounded-pill bg-info">{{item.keyword}}</span>
+
+                    {% if item.url %}
+                    <a href="{{item.url}}" target="_blank">{{item.description}}</a>
+                    {% else %}
+                    {{item.description}}
+                    {% endif %}
+
+                </li>
+                {% endfor %}
+            </ul>
+         
+        </div>
+
+
+
+        <div class="col-12 col-lg-6 p-2">
+
+           
+            <h5>
+                <i class="fas fa-handshake"></i>
+                <span class="ms-2">{{volunteer_roles_length}} {{volunteer_roles_title}}</span>
+            </h5>
+            <ul class="list-unstyled">
+  
+                {% for item in volunteer_roles %}
+                <li>{% if item.year %}<span class="badge rounded-pill bg-warning">{{item.year}}</span>{% endif %}
+                    <span class="badge rounded-pill bg-info">{{item.title}}</span>
+                    {{item.event}}</li>
+                {% endfor %}
+
+            </ul>
+          
+
+        </div>
+
+        <div class="col-12 col-lg-6">
+          
+            <h5>
+                <i class="fas fa-graduation-cap"></i>
+                <span class="ms-2">{{cyberport_alum_title}}</span>
+            </h5>
+            <ul class="list-unstyled">
+               
+                {% for item in cyberport_alum_roles %}
+                <li>{% if item.year %}<span class="badge rounded-pill bg-warning">{{item.year}}</span>{% endif %}
+                    <span class="badge rounded-pill bg-info">{{item.title}}</span></li>
+                {% endfor %}
+
+            </ul>
+        
+
+           
+            <h5>
+                <i class="fas fa-graduation-cap"></i>
+                <span class="ms-2">{{cse_alum_title}}</span>
+            </h5>
+            <ul class="list-unstyled">
+                {% for item in cse_alum_roles %}
+                <li>{% if item.year %}<span class="badge rounded-pill bg-warning">{{item.year}}</span>{% endif %}
+                    <span class="badge rounded-pill bg-info">{{item.title}}</span></li>
+                {% endfor %}
+
+            </ul>
+           
+
+        </div>
+
+    </div>
+</div>
+{% endblock %}

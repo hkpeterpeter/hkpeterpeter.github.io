@@ -1,0 +1,41 @@
+<!-- // Bootstrap 5 carosel -->
+
+<div id="carouselSlideShow" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        {% for element in slideshow %}
+        <div class="carousel-item {% if loop.index0 == 0 %} active {% endif %}">
+            <img class="d-block w-100" src="{{element.url}}" alt="slide {{loop.index}}">
+
+            <div class="carousel-caption d-none d-md-block" style="background-color:rgba(0, 0, 0, 0.5);">
+
+                <h5>{{element.title}} </h5>
+                <p>
+                    {{element.subtitle}}
+                </p>
+                
+                <p>
+                
+
+                    {% for tag in element.tags %}
+                        <span class="badge bg-warning text-dark"> {{tag}}</span>
+                    {% endfor %}
+
+                
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselSlideShow" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselSlideShow" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+</div>
+<!-- // Bootstrap 5 carosel -->

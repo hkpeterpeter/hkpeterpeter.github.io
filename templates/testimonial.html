@@ -1,0 +1,64 @@
+{% extends "layout/base.html" %}
+{% block title %}Testimonial{% endblock %}
+
+{% block main %}
+
+<div class="container mt-3">
+    <div class="row mb-3 h-100">
+
+        <div class="col-12">
+
+            <p class="bg-light p-3 text-center">
+                <span class="h2"><i class="far fa-comments"></i>
+                 <strong> 
+                    <span class="ms-2">{{testimonial_length}} </span>
+
+                 </strong>Selected Testimonials</span>
+                <br>
+                <span class="small">in a chronological order</span> </p>
+
+
+            </p>
+
+        </div>
+
+       
+        {% for item in testimonial %}
+        <div class="col-12 p-5 mb-3 card">
+
+
+                <blockquote class="blockquote">
+                    <p class="small text-justify">{{item.abstract}}</p>
+                    <br>
+                    <footer class="blockquote-footer"><strong>{{item.name}}</strong>
+                    <br> 
+                    <cite title="{{item.title}}">{{item.title}}</cite>
+                    <br>
+                    <span class="badge rounded-pill bg-warning">Received on <i class="far fa-calendar-alt"></i>&nbsp;{{item.date}}</span>
+                    </footer>
+                </blockquote>
+
+                <div>
+
+                    
+                    {% for tag in item.tags %}
+                    <span class="badge rounded-pill bg-info">{{tag}}</span>
+                    {% endfor %}
+                    
+
+                    {% if item.ref_url %}
+                    <br><br>
+                    <a href="{{item.ref_url}}" target="_blank"><i class="fas fa-link"></i>
+                        <span class="ms-1">{{item.ref_url_name}}</span></a>
+                    {% endif %}
+                </div>
+        </div>
+       
+        {% endfor %}
+
+
+
+    </div>
+</div>
+
+{% endblock %}
