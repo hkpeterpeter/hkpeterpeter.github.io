@@ -4,6 +4,11 @@ slideshow = [
         "url"   : "slideshow/hkust_sentastic_award_2025.jpg",
         "tags"  : ["Teaching", "SEN", "Advising"]
     },
+    {
+        "title" : "CSE Graduation Dinner 2025",
+        "url": "slideshow/cse_farewell_dinner_2025.jpg",
+        "tags" : ["Teaching"]
+    },
 
 {
 "title" : "Finalist, AMC AI Film Festival 2025 at HKUST",
