@@ -18,16 +18,16 @@ from .evaluation_comp1029p import comp1029p
 overall_evaluation_rating = "1472,1227,576,94,50"
 
 evaluation = [
-    comp1001,
-    comp1021,
-    comp1022p,
-    comp1022q,
-    comp2011,
-    comp2012,
-    comp2611,
-    comp3111,
     comp3511,
+    comp2011,
+    comp1021,
+    comp1022q,
     comp4511,
+    comp3111,
+    comp2611,
+    comp1001,
+    comp2012,
+    comp1022p,
 ]
 
 count_evaluation_courses = len(evaluation)
@@ -39,9 +39,9 @@ for item in evaluation:
 
 
 evaluation_bridging = [
+    comp1029p,
     comp1029c,
     comp1029j,
-    comp1029p,
 ]
 
 count_evaluation_bridging_courses = len(evaluation_bridging)
