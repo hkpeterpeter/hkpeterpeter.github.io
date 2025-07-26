@@ -15,7 +15,7 @@ from .evaluation_comp1029c import comp1029c
 from .evaluation_comp1029j import comp1029j
 from .evaluation_comp1029p import comp1029p
 
-overall_evaluation_rating = "1472,1227,576,94,50"
+overall_evaluation_rating = "1536,1281,586,96,52"
 
 evaluation = [
     comp3511,

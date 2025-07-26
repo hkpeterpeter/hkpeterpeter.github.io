@@ -3,7 +3,7 @@
 comp3511 = {
 
 "id" : "COMP3511",
-"rating" : "364,201,57,13,10",
+"rating" : "391,217,61,13,10",
 "tags" : ["COMP3511"],
 "title" : "Operating Systems",
 "reports" : [
@@ -53,6 +53,8 @@ comp3511 = {
 "COMP3511_LA1_Fall2425.pdf",
 "COMP3511_LA2_Fall2425.pdf",
 "COMP3511_LA3_Fall2425.pdf",
+"COMP3511_LA1_Spring2425.pdf",
+"COMP3511_LA2_Spring2425.pdf",
 ],
 "good_comments" : [
 """Peter provided quick and effective response in replying emails. He also conducted interactive and "non-boring" tutorials like

@@ -1,5 +1,18 @@
 best_comments = [
-
+{
+"content": "Best explanation of concepts that are clearer than the lectures",
+"course" : "COMP3511",
+"section" : "LA1",
+"semester" : "Spring 24/25",
+"report" : "COMP3511_LA1_Spring2425.pdf#page=3",
+},
+{
+"content": "One of the best TSS in HKUST. He is very very enthusiastic and humorous. Actually I don't like coding, but his lab let me feel C++ is not a burden",
+"course" : "COMP2011",
+"section" : "LA4",
+"semester" : "Spring 24/25",
+"report" : "COMP2011_LA4_Spring2425.pdf#page=3",
+},
 {
 "content" : "The way Peter breaks down complicated ideas into smaller, more understandable parts is truly impressive. Difficult theories were made simple through Peter's structured teaching and the use of real-life examples",
 "course" : "COMP3511",

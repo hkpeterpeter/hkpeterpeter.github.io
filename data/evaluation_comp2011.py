@@ -2,7 +2,7 @@
 
 comp2011 = {
 "id" : "COMP2011",
-"rating" : "256,285,152,20,18",
+"rating" : "293,323,158,22,20",
 "title" : "Introduction to Object-oriented Programming",
 "tags" : ["COMP2011","COMP102", "COMP104","COMP1004"],
 "reports" : [
@@ -38,6 +38,10 @@ comp2011 = {
 "COMP2011_LA5_Spring2324.pdf",
 "COMP2011_LA6_Spring2324.pdf",
 "COMP2011_LA1_Fall2425.pdf",
+"COMP2011_LA1_Spring2425.pdf",
+"COMP2011_LA3_Spring2425.pdf",
+"COMP2011_LA4_Spring2425.pdf",
+"COMP2011_LA5_Spring2425.pdf",
 ],
 "good_comments" : [
 "The TAs were helpful and responded timely, made sure the lab session went smoothly",
