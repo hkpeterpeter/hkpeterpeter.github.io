@@ -16,6 +16,8 @@ comp1029p = {
 "COMP1029P_LA1_Summer2122.pdf",
 "COMP1029P_LA1_Winter2223.pdf",
 "COMP1029P_LA1_Summer2223.pdf",
+"COMP1029P_LA1_Summer2324.pdf",
+"COMP1029P_LA1_Summer2425.pdf",
 ],
 "good_comments" : [
 "He tried his best to help me"
