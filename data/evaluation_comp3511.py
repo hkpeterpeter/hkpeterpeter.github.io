@@ -3,7 +3,7 @@
 comp3511 = {
 
 "id" : "COMP3511",
-"rating" : "391,217,61,13,10",
+"rating" : "418,234,64,13,11",
 "tags" : ["COMP3511"],
 "title" : "Operating Systems",
 "reports" : [
@@ -55,8 +55,16 @@ comp3511 = {
 "COMP3511_LA3_Fall2425.pdf",
 "COMP3511_LA1_Spring2425.pdf",
 "COMP3511_LA2_Spring2425.pdf",
+"COMP3511_LA1_Fall2526.pdf",
+"COMP3511_LA2_Fall2526.pdf",
+"COMP3511_LA3_Fall2526.pdf",
 ],
 "good_comments" : [
+"""Peter is very good. I remember when he teach us the process scheduling algorithm. He teach us
+extremely useful skills on how to draw the graph against different scheduling algorithm which
+make me very confident at that topic. Also, during the lab, Peter will taking past paper as example
+to teach us, remind us what common mistaked the student made
+""",
 """Peter provided quick and effective response in replying emails. He also conducted interactive and "non-boring" tutorials like
 interesting ways to memorise some concepts.
 """,

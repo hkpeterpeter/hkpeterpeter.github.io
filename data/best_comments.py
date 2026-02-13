@@ -1,5 +1,19 @@
 best_comments = [
 {
+"content": "Peter is very good. I remember when he teach us the process scheduling algorithm. He teach us extremely useful skills on how to draw the graph against different scheduling algorithm which make me very confident at that topic. Also, during the lab, Peter will taking past paper as example to teach us, remind us what common mistaked the student made",
+"course": "COMP3511",
+"section": "LA1",
+"semester": "Fall 25/26",
+"report": "COMP3511_LA1_Fall2526.pdf#page=3",
+},
+{
+"content": "Good and funny teaching! Very interaction and engaging",
+"course": "COMP2011",
+"section": "LA1",
+"semester": "Fall 25/26",
+"report": "COMP2011_LA1_Fall2526.pdf#page=3",
+},
+{
 "content": "Best explanation of concepts that are clearer than the lectures",
 "course" : "COMP3511",
 "section" : "LA1",

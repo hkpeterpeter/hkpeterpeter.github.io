@@ -2,7 +2,7 @@
 
 comp2011 = {
 "id" : "COMP2011",
-"rating" : "293,323,158,22,20",
+"rating" : "311,334,166,22,20",
 "title" : "Introduction to Object-oriented Programming",
 "tags" : ["COMP2011","COMP102", "COMP104","COMP1004"],
 "reports" : [
@@ -42,8 +42,10 @@ comp2011 = {
 "COMP2011_LA3_Spring2425.pdf",
 "COMP2011_LA4_Spring2425.pdf",
 "COMP2011_LA5_Spring2425.pdf",
+"COMP2011_LA1_Fall2526.pdf",
 ],
 "good_comments" : [
+"Peter is a really good TA! He never make the class boring",
 "The TAs were helpful and responded timely, made sure the lab session went smoothly",
 "TA made the lab funny, such as lots of interesting examples, anime element, funny programme demostration."
 ,"Peter is very devoted into his work that he is always approachable even on Sundays"
@@ -59,6 +61,7 @@ comp2011 = {
 ,"Good knowledge in programming"
 ],
 "bad_comments" : [
+"Peter is funny in class, but other side class, he is not always providing good answers to students questions, as most of the time he misunderstood what the students are really asking about",
 "The labs could be more effective, if it takes so much time anyway it might well have a physical lab session",
 "Please write larger when using the whiteboards, and please use darker pens",
 "More tricky questions should be given",
