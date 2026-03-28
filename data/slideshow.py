@@ -1,4 +1,16 @@
 slideshow = [
+
+{
+    "title" : "GenAI Hackathon 2026: Competition on a Putonghua Web Tool",
+    "url" : "slideshow/GenAI_Hackathon_2026.jpg",
+    "tags" : ["Generative AI", "Hackathon"]
+},
+
+{
+    "title" : "CSE Annual Gathering 2026",
+    "url" : "slideshow/CSE_Annual_Gathering_2026.jpg",
+    "tags" : ["Teaching"]
+},
     {
         "title" : "Received HKUST SENtastic Staff Award 2025",
         "url"   : "slideshow/hkust_sentastic_award_2025.jpg",

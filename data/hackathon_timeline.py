@@ -1,6 +1,15 @@
 hackathon_timeline = [
 
 {
+"title" : "GenAI Hackathon: Competition on a Putonghua Web Tool",
+"date" : "Mar 2026",
+"url" : "hack_timeline/genai_hack_putonghua_2026.png",
+"role" : "Consultant and Judge",
+"desc" : """
+Are you ready to revolutionize language learning with AI? The Center for Language Education and Department of Computer Science and Engineering proudly invite all HKUST UG & PG students to participate in the GenAI Hackathon: Competition on a Putonghua Web Tool 普通話學習編程比賽. 
+"""
+},
+{
 "title" : "Hack Viral",
 "date" : "Aug 2020",
 "url" : "hack_timeline/hack_viral_2020.png",

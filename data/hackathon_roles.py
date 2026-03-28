@@ -2,6 +2,12 @@ hackathon_roles_title = "Hackathon Roles"
 hackathon_roles = [
 
 {
+"keyword" : "Consultant and Judge",
+"description": "GenAI Hackathon: Competition on a Putonghua Web Tool",
+"year" : "2026",
+},
+
+{
 "keyword" : "Mentor",
 "description" : "Hack Viral",
 "year" : "2020",
