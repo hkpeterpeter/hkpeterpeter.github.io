@@ -1,5 +1,10 @@
 hackathon_roles_title = "Hackathon Roles"
 hackathon_roles = [
+{
+"keyword" : "Judge",
+"description": "Google Developer Group on Campus (GDGoC) Hackathon at HKUST",
+"year": "2026",
+},
 
 {
 "keyword" : "Consultant and Judge",

@@ -1,5 +1,14 @@
 hackathon_timeline = [
-
+{
+"title": "Google Developer Group on Campus (GDGoC) Hackathon at HKUST",
+"date" : "Apr 2026",
+"url" : "hack_timeline/gdgoc_hackathon_2026.png",
+"role" : "Judge",
+"desc" : """
+Participants are invited to develop a solution for one of the 4 challenge questions released
+at the beginning of the competition. A total of 8 teams will be shortlisted for the final pitching stage.
+"""
+},
 {
 "title" : "GenAI Hackathon: Competition on a Putonghua Web Tool",
 "date" : "Mar 2026",
