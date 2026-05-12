@@ -1,5 +1,9 @@
 slideshow = [
-
+{
+    "title" : "CSE Farewell Dinner 2026",
+    "url" : "slideshow/cse_farewell_dinner_2026.jpg",
+    "tags" : ["Teaching"]
+},
 {
     "title" : "GenAI Hackathon 2026: Competition on a Putonghua Web Tool",
     "url" : "slideshow/GenAI_Hackathon_2026.jpg",
