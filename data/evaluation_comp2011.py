@@ -2,7 +2,7 @@
 
 comp2011 = {
 "id" : "COMP2011",
-"rating" : "311,334,166,22,20",
+"rating" : "383,365,179,24,25",
 "title" : "Introduction to Object-oriented Programming",
 "tags" : ["COMP2011","COMP102", "COMP104","COMP1004"],
 "reports" : [
@@ -43,6 +43,9 @@ comp2011 = {
 "COMP2011_LA4_Spring2425.pdf",
 "COMP2011_LA5_Spring2425.pdf",
 "COMP2011_LA1_Fall2526.pdf",
+"COMP2011_LA1_Spring2526.pdf",
+"COMP2011_LA2_Spring2526.pdf",
+"COMP2011_LA3_Spring2526.pdf",
 ],
 "good_comments" : [
 "Peter is a really good TA! He never make the class boring",

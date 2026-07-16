@@ -3,7 +3,7 @@
 comp3511 = {
 
 "id" : "COMP3511",
-"rating" : "418,234,64,13,11",
+"rating" : "440,248,70,13,12",
 "tags" : ["COMP3511"],
 "title" : "Operating Systems",
 "reports" : [
@@ -58,6 +58,8 @@ comp3511 = {
 "COMP3511_LA1_Fall2526.pdf",
 "COMP3511_LA2_Fall2526.pdf",
 "COMP3511_LA3_Fall2526.pdf",
+"COMP3511_LA1_Spring2526.pdf",
+"COMP3511_LA2_Spring2526.pdf",
 ],
 "good_comments" : [
 """Peter is very good. I remember when he teach us the process scheduling algorithm. He teach us

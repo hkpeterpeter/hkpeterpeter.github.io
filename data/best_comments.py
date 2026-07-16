@@ -1,5 +1,19 @@
 best_comments = [
 {
+    "content": "He is very good at making the lectures from boring to fun by adding in song guessing games etc. These song guessing games are also linked with course's learning outcome",
+    "course": "COMP2011",
+    "section": "LA3",
+    "semester": "Spring 25/26",
+    "report": "COMP2011_LA3_Spring2526.pdf#page=3",
+},
+{
+    "content": "Very good guy. Clear explanation on lab materials.",
+    "course": "COMP3511",
+    "section": "LA2",
+    "semester": "Spring 25/26",
+    "report": "COMP3511_LA2_Spring2526.pdf#page=2",
+},
+{
 "content": "Peter is very good. I remember when he teach us the process scheduling algorithm. He teach us extremely useful skills on how to draw the graph against different scheduling algorithm which make me very confident at that topic. Also, during the lab, Peter will taking past paper as example to teach us, remind us what common mistaked the student made",
 "course": "COMP3511",
 "section": "LA1",
