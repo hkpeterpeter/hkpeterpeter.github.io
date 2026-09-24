@@ -2,10 +2,13 @@
 
 comp1029j = {
 "id" : "COMP1029J",
-"rating" : "7,9,5,0,0",
+"rating" : "8,9,5,0,0",
 "tags" : ["COMP1029J"],
 "title" : "Java Programming Bridging Course",
-"reports" : ["COMP1029J_LA1_Winter1617.pdf", "COMP1029J_LA1_Winter2526.pdf"],
+"reports" : [
+    "COMP1029J_LA1_Winter1617.pdf", 
+    "COMP1029J_LA1_Winter2526.pdf",
+    "COMP1029J_LA1_Summer2526.pdf",],
 "good_comments" : [
 "The TA finished grading my work within a day after I submitted it, showing their diligence.",
 "Explain things clearly",

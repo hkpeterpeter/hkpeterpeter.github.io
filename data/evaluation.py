@@ -7,6 +7,7 @@ from .evaluation_comp2011 import comp2011
 from .evaluation_comp2012 import comp2012
 from .evaluation_comp2611 import comp2611
 from .evaluation_comp3111 import comp3111
+from .evaluation_comp3311 import comp3311
 from .evaluation_comp3511 import comp3511
 from .evaluation_comp4511 import comp4511
 
@@ -15,11 +16,12 @@ from .evaluation_comp1029c import comp1029c
 from .evaluation_comp1029j import comp1029j
 from .evaluation_comp1029p import comp1029p
 
-overall_evaluation_rating = "1680,1359,620,98,59"
+overall_evaluation_rating = "1686,1364,621,98,59"
 
 evaluation = [
     comp3511,
     comp2011,
+    comp3311,
     comp1021,
     comp1022q,
     comp4511,
